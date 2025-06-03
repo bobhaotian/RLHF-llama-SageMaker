@@ -1,73 +1,40 @@
 [
     {
-        "TitleText": "Evaluating lim 𝑛→∞ 1 𝑛 ∫ 𝑛 0 max({𝑥},{ 2 ‾ √ 𝑥},{ 3 ‾ √ 𝑥})𝑑𝑥 , where {𝑥} is the fractional part of 𝑥",
-        "TitleLaTeX": "\\lim_{n\\to \\infty} \\frac{1}{n}\\int_0^n \\max(\\{x\\},\\{\\sqrt{2}x\\},\\{\\sqrt{3}x\\})dx",
-        "Tags": [
-            "calculus",
-            "probability",
-            "limits"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Second order ODE solution approach",
-        "TitleLaTeX": "y=e^{rx}",
-        "Tags": [
-            "calculus",
-            "ordinary-differential-equations"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "How to integrate ∫ 𝑥 2 +7( 𝑥 𝑚 √ 𝑚 )+6 𝑥 𝑚 √ 𝑚 +1 𝑑𝑥 ?",
-        "TitleLaTeX": "\\int \\frac{x^{2}+7(\\sqrt[m]{x^{m}})+6}{\\sqrt[m]{x^{m}}+1}dx",
-        "Tags": [
-            "calculus",
-            "integration",
-            "indefinite-integrals"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "How to Evaluate the Integral ∫ 𝜋 2 0 1+sin(𝑦) √ ln(sin(𝑦)) cos(𝑦) 𝑑𝑦?",
-        "TitleLaTeX": "\\int_{0}^{\\frac{\\pi}{2}}\\frac{\\sqrt{1+\\sin(y)}\\ln(\\sin(y))}{\\cos(y)}dy?",
+        "Title": "How to Evaluate the Integral \\int_{0}^{\\frac{\\pi}{2}}\\frac{\\sqrt{1+\\sin(y)}\\ln(\\sin(y))}{\\cos(y)}dy?",
         "Tags": [
             "calculus",
             "integration",
             "definite-integrals",
             "closed-form"
         ],
-        "Question": "",
-        "Answer": ""
+        "QuestionLink": "https://math.stackexchange.com/questions/4919126/how-to-evaluate-the-integral-int-0-frac-pi2-frac-sqrt1-siny-ln",
+        "Question": "Question: How to Evaluate the Integral \\int_{0}^{\\frac{\\pi}{2}}\\frac{\\sqrt{1+\\sin(y)}\\ln(\\sin(y))}{\\cos(y)}dy?\n\nI'm looking for a method to evaluate it. I've attempted a substitution to simplify the expression, but I'm not sure how to proceed further. Here’s what I've done so far:\n\nI used the substitution \\sqrt{1+\\sin(y)} \\rightarrow x.\nThis transforms the integral into:\n\n-2\\int_{1}^{\\sqrt{2}}\\frac{\\ln(x^{2}-1)}{x^{2}-2}dx.\n\nI further decomposed the logarithm:\n\n-2\\int_{1}^{\\sqrt{2}}\\frac{\\ln(x+1)+\\ln(x-1)}{(x-\\sqrt{2})(x+\\sqrt{2})}dx.\n\nI'm stuck at this point.\n\nEdit;The integral was given by our professor, who mentioned it has a very beautiful closed form. I have already emailed our professor, who gave the integral to my friends and me. If I receive any updates, I'll let you know.",
+        "Answer": "You are almost at the solution. Continue with partial fraction decomposition and tou have\n\nI\\, \\sqrt 2=-\\frac{\\log (x-1)}{x-\\sqrt{2}}+\\frac{\\log(x-1)}{x+\\sqrt{2}}-\\frac{\\log\n   (x+1)}{x-\\sqrt{2}}+\\frac{\\log(x+1)}{x+\\sqrt{2}}\n\\int\\frac{\\log (x+a)}{x+b}\\,dx=\\text{Li}_2\\left(\\frac{a+x}{a-b}\\right)+\n   \\log (a+x) \\log\\left(\\frac{b+x}{b-a}\\right)"
     },
     {
-        "TitleText": "Can we say that 1 ∞ is indeterminate because we can't classify ∞ as even or odd?",
-        "TitleLaTeX": "1^\\infty",
+        "Title": "Can we say that 1^\\infty is indeterminate because we can't classify \\infty as even or odd?",
         "Tags": [
             "calculus",
             "limits",
             "infinity",
             "indeterminate-forms"
         ],
-        "Question": "",
-        "Answer": ""
+        "QuestionLink": "https://math.stackexchange.com/questions/4919114/can-we-say-that-1-infty-is-indeterminate-because-we-cant-classify-infty-a",
+        "Question": "While studying indeterminate forms I like many others had used this post to understand why 1^\\infty is indeterminate. Today I thought of a new and perhaps simpler argument to explain why this is so but I couldn't find it among the answers in the post.\nMy argument is that we can write 1^x = (-1)^{2.x}\nNow if x = \\infty, then 1^\\infty = (-1)^{\\infty},\nWhich is only true if we can say infinity is even or odd which we can't say.\nSo, am I correct, or I have made some mistakes in my assumptions.",
+        "Answer": "No, your argument is not correct. The issue of 1^\\infty being an indeterminate form has nothing to do with integer exponents per se; one is instead interested in real valued exponents approaching \\infty. It also has nothing to do with changing the base to -1, which on the infinitesmal scale of limits is far, far away from 1; one is instead interested in real valued bases approaching 1.\n\nI suggest simply reading the accepted answer of the post you linked to. In brief summary, what matters are the values of the expression b^x as one lets the base b approach 1 and the exponent x approach \\infty: the limiting value is not well defined. That's what makes the expression 1^\\infty an indeterminate form."
     },
     {
-        "TitleText": "𝐶 1 function 𝑓>0 on ℝ satisfies 𝑓 ′ (𝑥)=𝑓(𝑥−1) .",
-        "TitleLaTeX": "C^1",
+        "Title": "C^1 function f>0 on \\Bbb R satisfies f ^ { \\prime } ( x ) = f ( x - 1 ) .",
         "Tags": [
             "calculus",
             "functions"
         ],
-        "Question": "",
-        "Answer": ""
+        "QuestionLink": "https://math.stackexchange.com/questions/4919035/c1-function-f0-on-bbb-r-satisfies-f-prime-x-f-x-1",
+        "Question": "C^1 function f>0 on \\Bbb R satisfies f ^ { \\prime } ( x ) = f ( x - 1 ). How to find f?\n\nIt is easy to deduce that f(-\\infty)=0, f(+\\infty)=+\\infty. Then...\n\nIf f'(x)=f(1-x), then f''(x)=-f'(1-x)=f(x). It is easy. But here f'(x)=f(x-1)...",
+        "Answer": "This answer is about the existence of solutions in a more or less explicit form, not about proving that those solutions are the full set.\n\nTry f(x)=C\\exp(\\lambda x) then f is a solution if and only if \\lambda=\\exp(-\\lambda), which has exactly one real solution for \\lambda. The constant C>0 can be chosen arbitrarily.\n\nAn appropriate combination of conjugate complex solutions could also work. If \\lambda=a+bi then the condition becomes a=\\exp(-a)\\cos(b), b=-\\exp(-a)\\sin(b). However, while such solutions might satisfy the delayed differential equation, they are unlikely to be positive."
     },
     {
-        "TitleText": "summation of cos𝑥+cos2𝑥+cos3𝑥 and so on is − 1 2",
-        "TitleLaTeX": "\\cos{x} + \\cos{2x} + \\cos{3x}",
+        "Title": "summation of \\cos{x} + \\cos{2x} + \\cos{3x} and so on is -\\frac{1}{2}",
         "Tags": [
             "calculus",
             "sequences-and-series",
@@ -75,487 +42,28 @@
             "trigonometry",
             "trigonometric-series"
         ],
-        "Question": "",
-        "Answer": ""
+        "QuestionLink": "https://math.stackexchange.com/questions/4919026/summation-of-cosx-cos2x-cos3x-and-so-on-is-frac12",
+        "Question": "\\cos{x} + \\cos{2x} + \\cos{3x} \\ldots = y\n2\\cos{x} + 2\\cos{2x} + 2\\cos{3x} \\ldots = 2y\nBy grouping every alternate term by \\cos{A} + \\cos{B} = 2\\cos(\\frac{A+B}{2})\\cos(\\frac{A-B}{2})\n\\cos{x} + \\cos{2x} + 2\\cos{x}\\left(\\cos{2x} + \\cos{3x} + \\cos{4x} \\ldots\\right) = 2y\n\\cos{x} - 1 + 2\\cos{x}\\left(\\cos{x} + \\cos{2x} + \\cos{3x} \\ldots\\right) = 2y\n\\cos{x} - 1 + 2\\cos{x}\\cdot y = 2y\ny = -\\frac{1}{2}\n\nMe and my friend are confused right now. We don't see anything mathematically wrong but still by logic, it doesn't seem right. Please explain us our errors . We are high school students with basic knowledge of limits and calculus. If possible, please elaborate on the solution.",
+        "Answer": "Let :\n\nC_n=\\cos(x)+\\cos(2x)+\\cos(3x)+...\\cos(nx)\n\nS_n=\\sin(x)+\\sin(2x)+\\sin(3x)+...\\sin(nx)\n\nTherefore,\nC_n+iS_n=\\cos(x)+i\\sin(x)+\\cos(2x)+i\\sin(2x)+....\n=e^{ix}+e^{2ix}+e^{3ix}+...e^{nix}\n\n=\\frac{e^{ix}(1-e^{nix})}{1-e^{ix}}= \\frac{e^{ix}(1-e^{nix})(1-e^{-ix})}{(1-e^{ix})(1-e^{-ix})}=\\frac{e^{ix}-e^{(n+1)ix}-1+e^{nix}}{2-2\\cos(x)} Then , C_n=Re(C_n+iS_n)= \\frac{\\cos(x)-\\cos((n+1)x)-1+\\cos(nx)}{2-2\\cos(x)}. lim_{n\\rightarrow \\infty}C_n does not exist. So the infinite sum diverges."
     },
     {
-        "TitleText": "Let 𝑓: ℝ 𝑛 →ℝ be a 𝐶 1 function, if |∇𝑓|=1, is it true that 𝑓 is surjective?",
-        "TitleLaTeX": "f:\\mathbb{R}^n\\to \\mathbb{R}",
+        "Title": "Let f:\\mathbb{R}^n\\to \\mathbb{R} be a C^1 function, if |\\nabla f|=1, is it true that f is surjective?",
         "Tags": [
             "real-analysis",
             "calculus"
         ],
-        "Question": "",
-        "Answer": ""
+        "QuestionLink": "https://math.stackexchange.com/questions/4919012/let-f-mathbbrn-to-mathbbr-be-a-c1-function-if-nabla-f-1-is-it",
+        "Question": "Suppose f:\\mathbb{R}^n\\to\\mathbb{R} is a C^1 function, I wonder whether or not f is surjective provided that |\\nabla f(x)|=1 for any x\\in\\mathbb{R}^n ?\n\nWhen n=1, the condition |f^\\prime|=1 implies that f is a non-degenerate linear function, so clearly f(\\mathbb{R})=\\mathbb{R}. In general dimension, I wish to show that f(\\mathbb{R}^n) is both open and closed in \\mathbb{R}. Using rank theorem, we obtain that f(\\mathbb{R}^n) is an open set in \\mathbb{R}, but now I have no idea to show that f(\\mathbb{R}^n) is closed. Can someone help me?",
+        "Answer": "If f is only C^1 then its gradient field X will be only continuous, and therefore one cannot apply the usual existence-and-uniqueness theorem for the integral curve of the field.  However, there is a theorem asserting the existence only of a solution, called Peano's existence theorem, and even a global version thereof under hypotheses that would be satisfied if the field is of unit length at each point.  Therefore taking an integral curve of the field, we obtain a curve along which the function increases with unit speed and therefore must take all real values."
     },
     {
-        "TitleText": "What is ∫ ∞ 0 ln𝑥 (1−𝑥+ 𝑥 2 ) 2 dx ?",
-        "TitleLaTeX": "\\int_{0}^{\\infty} \\frac {\\ln x}{{({1-x+x^2})}^2} \\rm{d}x",
+        "Title": "What is \\int_{0}^{\\infty} \\frac {\\ln x}{{({1-x+x^2})}^2} \\rm{d}x ?",
         "Tags": [
             "calculus",
             "integration"
         ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "What is ∫ ∞ 0 sin(𝑎𝑥)cos(𝑏𝑥)𝑑𝑥 ? where 𝑎 and 𝑏 are constant. [closed]",
-        "TitleLaTeX": "\\int_0^{\\infty}\\sin(ax)\\cos(bx)dx",
-        "Tags": [
-            "calculus",
-            "integration",
-            "complex-analysis"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Definition of a hyperbola [closed]",
-        "TitleLaTeX": "P",
-        "Tags": [
-            "calculus",
-            "geometry",
-            "euclidean-geometry"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "are there 2 or more irrational numbers between any 2 rationals?",
-        "TitleLaTeX": null,
-        "Tags": [
-            "calculus",
-            "real-numbers",
-            "irrational-numbers",
-            "rational-numbers",
-            "piecewise-continuity"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Could someone check my work? (1st order ODEs)",
-        "TitleLaTeX": "r(x) = 1+x^2",
-        "Tags": [
-            "calculus",
-            "ordinary-differential-equations"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Finding area using green's theorem",
-        "TitleLaTeX": "10",
-        "Tags": [
-            "calculus",
-            "geometry",
-            "multivariable-calculus",
-            "parametric",
-            "greens-theorem"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "I want to find the volume of a noncircular cylinder that lies inside r=1+ 𝑐𝑜𝑠(𝜃) and outside the circle r=1,and top of the cylinder lies on x=z.",
-        "TitleLaTeX": "cos(\\theta)",
-        "Tags": [
-            "calculus",
-            "polar-coordinates"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Where is the error in evaluating this series? ∑ ∞ 𝑛=1 1 𝑛(4 𝑛 2 −1 ) 2",
-        "TitleLaTeX": "\\sum_{n=1}^{\\infty}\\frac{1}{n(4n^2-1)^2}",
-        "Tags": [
-            "calculus",
-            "sequences-and-series",
-            "power-series"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "What's the value of ∫ 𝑓 ″ (𝑥) 𝑓(𝑥) 𝑑𝑥 ?",
-        "TitleLaTeX": "\\int \\frac{f''(x)}{f(x)} dx",
-        "Tags": [
-            "calculus",
-            "integration",
-            "indefinite-integrals"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Finding constant for asymptotic equality",
-        "TitleLaTeX": "n \\to \\infty",
-        "Tags": [
-            "calculus",
-            "asymptotics"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Is it possible to integrate ∫ 𝑥 2 −2𝑥+3 𝑥 4 − 𝑥 3 + 𝑥 2 −𝑥+1 𝑑𝑥 using methods typical of undergraduate calculus?",
-        "TitleLaTeX": "\\int \\frac{x^2 - 2x + 3}{x^4 - x^3 + x^2 - x + 1} \\ dx",
-        "Tags": [
-            "calculus",
-            "integration",
-            "indefinite-integrals",
-            "rational-functions"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Evaluate lim 𝑥→∞ 𝑥[2𝑥− ( 𝑥 3 + 𝑥 2 +𝑥) 1 3 − ( 𝑥 3 − 𝑥 2 +𝑥) 1 3 ] [closed]",
-        "TitleLaTeX": "\\lim\\limits_{x\\to\\infty}x\\!\\left[2x\\!-\\!\\left(x^3\\!+\\!x^2\\!+\\!x\\right)^{\\!\\frac13}\\!\\!-\\!\\left(x^3\\!-\\!x^2\\!+\\!x\\right)^{\\!\\frac13}\\right]",
-        "Tags": [
-            "calculus",
-            "limits",
-            "indeterminate-forms"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "When would you take the derivative of a definite integral?",
-        "TitleLaTeX": null,
-        "Tags": [
-            "calculus",
-            "definite-integrals"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "A question about sum with reciprocal quartic",
-        "TitleLaTeX": "\\pi\\coth(\\pi) - \\dfrac{5}{8}",
-        "Tags": [
-            "calculus",
-            "sequences-and-series",
-            "closed-form"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Biot-Savart Law Application Simplification Issues [closed]",
-        "TitleLaTeX": null,
-        "Tags": [
-            "calculus",
-            "linear-algebra",
-            "integration"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Clarke regularity of piecewise linear functions",
-        "TitleLaTeX": "f:X\\rightarrow\\mathbb{R}",
-        "Tags": [
-            "calculus",
-            "convex-analysis",
-            "differential",
-            "subgradient"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Alternative proof 𝑔(𝑢)=6+5sin𝑢+sin(2𝑢)−cos𝑢−cos(2𝑢)≥0 for 𝑢∈[− 𝜋 2 , 𝜋 2 ]",
-        "TitleLaTeX": "g(u)=6 + 5 \\sin u + \\sin(2 u)- \\cos u - \\cos(2 u) \\ge 0",
-        "Tags": [
-            "real-analysis",
-            "calculus",
-            "inequality",
-            "trigonometry",
-            "alternative-proof"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Show 𝑓(𝑋)= 𝑋 𝑛 +𝑎𝑋+𝑏 has 𝑓 ′ ( 𝛼 𝑖 )= −𝑛(𝑎 𝛼 𝑖 +𝑏)+𝑎 𝛼 𝑖 𝛼 𝑖 .",
-        "TitleLaTeX": "f(X) = X^n + aX + b",
-        "Tags": [
-            "calculus",
-            "algebra-precalculus"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Can you define exp(𝑥) , sin(𝑥) or other functions through their Taylor series?",
-        "TitleLaTeX": "\\exp(x)",
-        "Tags": [
-            "calculus",
-            "taylor-expansion"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Prove that ∫ Ω ‖∇𝑢 ‖ 2 −6𝐹(𝑢)𝑑𝑥=− ∫ ∂Ω ‖∇𝑢 ‖ 2 𝑥⋅ 𝑛 ⃗ 𝑑𝜎",
-        "TitleLaTeX": "\\int_{\\Omega} \\Vert \\nabla u\\Vert^2 -6F(u)dx=-\\int_{\\partial \\Omega} \\Vert \\nabla u\\Vert^2 x\\cdot \\vec{n}d\\sigma",
-        "Tags": [
-            "calculus",
-            "integration",
-            "analysis",
-            "multivariable-calculus",
-            "partial-differential-equations"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Taking the derivative with respect to a function of x but slightly more complicated",
-        "TitleLaTeX": "f(x)",
-        "Tags": [
-            "calculus",
-            "derivatives"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Pulling out a new variable inside an integral",
-        "TitleLaTeX": "c",
-        "Tags": [
-            "real-analysis",
-            "calculus",
-            "integration",
-            "inequality",
-            "definite-integrals"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Compute 𝐹 ∗ 𝜔 on a smooth manifold",
-        "TitleLaTeX": "F^*\\omega",
-        "Tags": [
-            "calculus",
-            "differential-geometry",
-            "smooth-manifolds",
-            "differential-forms"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Composition of the norm with an absolutely continuous function is absolutely continuous",
-        "TitleLaTeX": "f:[a,b]\\to \\mathbb{R}^n",
-        "Tags": [
-            "calculus",
-            "derivatives",
-            "absolute-continuity"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "When integrating, what does it mean to integrate with respect to something?",
-        "TitleLaTeX": null,
-        "Tags": [
-            "calculus",
-            "integration"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "A partial sum formula [duplicate]",
-        "TitleLaTeX": null,
-        "Tags": [
-            "calculus",
-            "sequences-and-series",
-            "summation"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Arc length of a polar curve 𝑟=−8cos(𝑡)",
-        "TitleLaTeX": "r = -8\\cos(t)",
-        "Tags": [
-            "calculus",
-            "algebra-precalculus",
-            "definite-integrals",
-            "curves",
-            "polar-coordinates"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "finding the limit of a function composed with itself [closed]",
-        "TitleLaTeX": "f",
-        "Tags": [
-            "calculus"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Find the 54 th derivative of a function at the point 𝑥=0 . Write the result in the form of multiplication. [closed]",
-        "TitleLaTeX": "54",
-        "Tags": [
-            "calculus",
-            "analysis",
-            "derivatives",
-            "taylor-expansion"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Derivation of Continuity Equation for an Incompressible flow",
-        "TitleLaTeX": null,
-        "Tags": [
-            "calculus",
-            "derivatives",
-            "vectors",
-            "vector-fields",
-            "fluid-dynamics"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Outward pointing normal Tetrahedron",
-        "TitleLaTeX": null,
-        "Tags": [
-            "calculus",
-            "geometry",
-            "analysis",
-            "multivariable-calculus",
-            "vector-spaces"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Solving an ODE with a primitive",
-        "TitleLaTeX": null,
-        "Tags": [
-            "calculus",
-            "ordinary-differential-equations"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Middle School Narrative Math Textbook",
-        "TitleLaTeX": null,
-        "Tags": [
-            "calculus",
-            "trigonometry",
-            "reference-request",
-            "book-recommendation"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "How can I calculate ∫ 𝑅 2 exp(− 𝑥 2 −𝑥𝑦− 𝑦 2 )𝑑𝑥𝑑𝑦 this Riemann Integral. [closed]",
-        "TitleLaTeX": "\\int_{R^2}\\; \\exp (-x^2-xy-y^2)\\,dxdy",
-        "Tags": [
-            "calculus",
-            "integration",
-            "riemann-integration"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "The limit of 𝑎 𝑛 (1+𝑎)(1+ 𝑎 2 )…(1+ 𝑎 𝑛 ) 𝑎>0",
-        "TitleLaTeX": "\\frac{a^n}{(1+a)(1+a^2) \\ldots (1+a^n)}",
-        "Tags": [
-            "calculus",
-            "sequences-and-series",
-            "limits"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "The integration of 1 [(1− 𝑥 2 ) 1/4 + 𝑥 √ ] 9 (1− 𝑥 2 ) 1/4",
-        "TitleLaTeX": "\\frac1{[(1-x^2)^{1/4}+\\sqrt x]^9 (1-x^2)^{1/4}}",
-        "Tags": [
-            "calculus",
-            "integration",
-            "definite-integrals"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "AP Calculus BC 2024 - Taylor's Inequality/Series Estimation",
-        "TitleLaTeX": null,
-        "Tags": [
-            "calculus",
-            "solution-verification",
-            "taylor-expansion"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Sufficient condition of local extremum",
-        "TitleLaTeX": "z=x³+y²",
-        "Tags": [
-            "calculus",
-            "maxima-minima"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "How can I prove that if 𝑓:[0,+∞)→[0,1] is continuous and increasing, then it is uniformly continuous? [closed]",
-        "TitleLaTeX": "f:[0,+\\infty)\\to[0,1]",
-        "Tags": [
-            "real-analysis",
-            "calculus",
-            "analysis",
-            "continuity",
-            "uniform-continuity"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Continuous function supported in [2−𝛿,2] , satisfying integral of 𝑓(𝑥) 4− 𝑥 2 ‾ ‾ ‾ ‾ ‾ ‾ √ equals 1 .",
-        "TitleLaTeX": "[2-\\delta,2]",
-        "Tags": [
-            "real-analysis",
-            "calculus",
-            "integration",
-            "functional-analysis"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "lim 𝑥→0 arcsin( arccos(𝑥) 𝜋 + arccos( 𝑥 2 ) 𝜋 )",
-        "TitleLaTeX": "\\lim_{x\\to 0}\\arcsin\\left(\\frac{\\arccos\\left(x\\right)}{\\pi}+\\frac{\\arccos\\left(x^{2}\\right)}{\\pi}\\right)",
-        "Tags": [
-            "calculus",
-            "limits"
-        ],
-        "Question": "",
-        "Answer": ""
-    },
-    {
-        "TitleText": "Exercise with fundamental theorem of calculus: 𝑑 2 𝑑 𝑥 2 ∫ 𝑥 0 ( ∫ 𝑠𝑖𝑛(𝑡) 1 1+ 𝑢 4 ‾ ‾ ‾ ‾ ‾ ‾ √ 𝑑𝑢)𝑑𝑡=?",
-        "TitleLaTeX": "\\frac{d^2}{dx^2} \\int_0^x \\left( \\int_1^{sin(t)} \\sqrt{1 + u^4} du \\right) dt = ?",
-        "Tags": [
-            "calculus"
-        ],
-        "Question": "",
-        "Answer": ""
+        "QuestionLink": "https://math.stackexchange.com/questions/4918972/what-is-int-0-infty-frac-ln-x1-xx22-rmdx",
+        "Question": "What is \\int_{0}^{\\infty} \\frac {\\ln x}{{({1-x+x^2})}^2} \\rm{d}x ?\n\nI m not getting any idea for this one . Expecting from the community to share some interesting substitution ideas / tricks .\n\nMy try :\n\nLet I = \\int_{0}^{\\infty} \\frac {\\ln x}{{({1-x+x^2})}^2} \\rm{d}x .\n\nPutting x = \\frac {1}{u}, I becomes\n\n\\int_{0}^{\\infty} \\frac {-u^2\\ln u}{{({1-u+u^2})}^2} \\rm{d}u which is equivalent to \\int_{0}^{\\infty} \\frac {-x^2\\ln x}{{({1-x+x^2})}^2} \\rm{d}x which on further manipulating the two forms of it wasn't any much helpful . Also trying x = e^t substitution didn't work . So any better ideas ?",
+        "Answer": "Let x\\to 1/x\n\\begin{align}\n&\\int_{0}^{\\infty} \\frac {\\ln x}{{({1-x+x^2})}^2} dx\\\\\n=&-\\int_{0}^{\\infty} \\frac {x^2\\ln x}{{({1-x+x^2})}^2} dx\n= \\frac12\\int_{0}^{\\infty} \\frac {(1-x^2)\\ln x}{{({1-x+x^2})}^2} dx\\\\\n=&\\ \\frac12\\int_{0}^{\\infty}\\ln x \\ d\\bigg( \\frac { x}{{{1-x+x^2}}} \\bigg)\n= -\\frac12\\int_{0}^{\\infty}\\frac { 1}{{{1-x+x^2}}} dx =-\\frac{2\\pi}{3\\sqrt3}\\\\\n\\end{align}"
     }
 ]
