@@ -1,0 +1,69 @@
+[
+    {
+        "Title": "How to Evaluate the Integral \\int_{0}^{\\frac{\\pi}{2}}\\frac{\\sqrt{1+\\sin(y)}\\ln(\\sin(y))}{\\cos(y)}dy?",
+        "Tags": [
+            "calculus",
+            "integration",
+            "definite-integrals",
+            "closed-form"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4919126/how-to-evaluate-the-integral-int-0-frac-pi2-frac-sqrt1-siny-ln",
+        "Question": "Question: How to Evaluate the Integral \\int_{0}^{\\frac{\\pi}{2}}\\frac{\\sqrt{1+\\sin(y)}\\ln(\\sin(y))}{\\cos(y)}dy?\n\nI'm looking for a method to evaluate it. I've attempted a substitution to simplify the expression, but I'm not sure how to proceed further. Here’s what I've done so far:\n\nI used the substitution \\sqrt{1+\\sin(y)} \\rightarrow x.\nThis transforms the integral into:\n\n-2\\int_{1}^{\\sqrt{2}}\\frac{\\ln(x^{2}-1)}{x^{2}-2}dx.\n\nI further decomposed the logarithm:\n\n-2\\int_{1}^{\\sqrt{2}}\\frac{\\ln(x+1)+\\ln(x-1)}{(x-\\sqrt{2})(x+\\sqrt{2})}dx.\n\nI'm stuck at this point.\n\nEdit;The integral was given by our professor, who mentioned it has a very beautiful closed form. I have already emailed our professor, who gave the integral to my friends and me. If I receive any updates, I'll let you know.",
+        "Answer": "You are almost at the solution. Continue with partial fraction decomposition and tou have\n\nI\\, \\sqrt 2=-\\frac{\\log (x-1)}{x-\\sqrt{2}}+\\frac{\\log(x-1)}{x+\\sqrt{2}}-\\frac{\\log\n   (x+1)}{x-\\sqrt{2}}+\\frac{\\log(x+1)}{x+\\sqrt{2}}\n\\int\\frac{\\log (x+a)}{x+b}\\,dx=\\text{Li}_2\\left(\\frac{a+x}{a-b}\\right)+\n   \\log (a+x) \\log\\left(\\frac{b+x}{b-a}\\right)"
+    },
+    {
+        "Title": "Can we say that 1^\\infty is indeterminate because we can't classify \\infty as even or odd?",
+        "Tags": [
+            "calculus",
+            "limits",
+            "infinity",
+            "indeterminate-forms"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4919114/can-we-say-that-1-infty-is-indeterminate-because-we-cant-classify-infty-a",
+        "Question": "While studying indeterminate forms I like many others had used this post to understand why 1^\\infty is indeterminate. Today I thought of a new and perhaps simpler argument to explain why this is so but I couldn't find it among the answers in the post.\nMy argument is that we can write 1^x = (-1)^{2.x}\nNow if x = \\infty, then 1^\\infty = (-1)^{\\infty},\nWhich is only true if we can say infinity is even or odd which we can't say.\nSo, am I correct, or I have made some mistakes in my assumptions.",
+        "Answer": "No, your argument is not correct. The issue of 1^\\infty being an indeterminate form has nothing to do with integer exponents per se; one is instead interested in real valued exponents approaching \\infty. It also has nothing to do with changing the base to -1, which on the infinitesmal scale of limits is far, far away from 1; one is instead interested in real valued bases approaching 1.\n\nI suggest simply reading the accepted answer of the post you linked to. In brief summary, what matters are the values of the expression b^x as one lets the base b approach 1 and the exponent x approach \\infty: the limiting value is not well defined. That's what makes the expression 1^\\infty an indeterminate form."
+    },
+    {
+        "Title": "C^1 function f>0 on \\Bbb R satisfies f ^ { \\prime } ( x ) = f ( x - 1 ) .",
+        "Tags": [
+            "calculus",
+            "functions"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4919035/c1-function-f0-on-bbb-r-satisfies-f-prime-x-f-x-1",
+        "Question": "C^1 function f>0 on \\Bbb R satisfies f ^ { \\prime } ( x ) = f ( x - 1 ). How to find f?\n\nIt is easy to deduce that f(-\\infty)=0, f(+\\infty)=+\\infty. Then...\n\nIf f'(x)=f(1-x), then f''(x)=-f'(1-x)=f(x). It is easy. But here f'(x)=f(x-1)...",
+        "Answer": "This answer is about the existence of solutions in a more or less explicit form, not about proving that those solutions are the full set.\n\nTry f(x)=C\\exp(\\lambda x) then f is a solution if and only if \\lambda=\\exp(-\\lambda), which has exactly one real solution for \\lambda. The constant C>0 can be chosen arbitrarily.\n\nAn appropriate combination of conjugate complex solutions could also work. If \\lambda=a+bi then the condition becomes a=\\exp(-a)\\cos(b), b=-\\exp(-a)\\sin(b). However, while such solutions might satisfy the delayed differential equation, they are unlikely to be positive."
+    },
+    {
+        "Title": "summation of \\cos{x} + \\cos{2x} + \\cos{3x} and so on is -\\frac{1}{2}",
+        "Tags": [
+            "calculus",
+            "sequences-and-series",
+            "algebra-precalculus",
+            "trigonometry",
+            "trigonometric-series"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4919026/summation-of-cosx-cos2x-cos3x-and-so-on-is-frac12",
+        "Question": "\\cos{x} + \\cos{2x} + \\cos{3x} \\ldots = y\n2\\cos{x} + 2\\cos{2x} + 2\\cos{3x} \\ldots = 2y\nBy grouping every alternate term by \\cos{A} + \\cos{B} = 2\\cos(\\frac{A+B}{2})\\cos(\\frac{A-B}{2})\n\\cos{x} + \\cos{2x} + 2\\cos{x}\\left(\\cos{2x} + \\cos{3x} + \\cos{4x} \\ldots\\right) = 2y\n\\cos{x} - 1 + 2\\cos{x}\\left(\\cos{x} + \\cos{2x} + \\cos{3x} \\ldots\\right) = 2y\n\\cos{x} - 1 + 2\\cos{x}\\cdot y = 2y\ny = -\\frac{1}{2}\n\nMe and my friend are confused right now. We don't see anything mathematically wrong but still by logic, it doesn't seem right. Please explain us our errors . We are high school students with basic knowledge of limits and calculus. If possible, please elaborate on the solution.",
+        "Answer": "Let :\n\nC_n=\\cos(x)+\\cos(2x)+\\cos(3x)+...\\cos(nx)\n\nS_n=\\sin(x)+\\sin(2x)+\\sin(3x)+...\\sin(nx)\n\nTherefore,\nC_n+iS_n=\\cos(x)+i\\sin(x)+\\cos(2x)+i\\sin(2x)+....\n=e^{ix}+e^{2ix}+e^{3ix}+...e^{nix}\n\n=\\frac{e^{ix}(1-e^{nix})}{1-e^{ix}}= \\frac{e^{ix}(1-e^{nix})(1-e^{-ix})}{(1-e^{ix})(1-e^{-ix})}=\\frac{e^{ix}-e^{(n+1)ix}-1+e^{nix}}{2-2\\cos(x)} Then , C_n=Re(C_n+iS_n)= \\frac{\\cos(x)-\\cos((n+1)x)-1+\\cos(nx)}{2-2\\cos(x)}. lim_{n\\rightarrow \\infty}C_n does not exist. So the infinite sum diverges."
+    },
+    {
+        "Title": "Let f:\\mathbb{R}^n\\to \\mathbb{R} be a C^1 function, if |\\nabla f|=1, is it true that f is surjective?",
+        "Tags": [
+            "real-analysis",
+            "calculus"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4919012/let-f-mathbbrn-to-mathbbr-be-a-c1-function-if-nabla-f-1-is-it",
+        "Question": "Suppose f:\\mathbb{R}^n\\to\\mathbb{R} is a C^1 function, I wonder whether or not f is surjective provided that |\\nabla f(x)|=1 for any x\\in\\mathbb{R}^n ?\n\nWhen n=1, the condition |f^\\prime|=1 implies that f is a non-degenerate linear function, so clearly f(\\mathbb{R})=\\mathbb{R}. In general dimension, I wish to show that f(\\mathbb{R}^n) is both open and closed in \\mathbb{R}. Using rank theorem, we obtain that f(\\mathbb{R}^n) is an open set in \\mathbb{R}, but now I have no idea to show that f(\\mathbb{R}^n) is closed. Can someone help me?",
+        "Answer": "If f is only C^1 then its gradient field X will be only continuous, and therefore one cannot apply the usual existence-and-uniqueness theorem for the integral curve of the field.  However, there is a theorem asserting the existence only of a solution, called Peano's existence theorem, and even a global version thereof under hypotheses that would be satisfied if the field is of unit length at each point.  Therefore taking an integral curve of the field, we obtain a curve along which the function increases with unit speed and therefore must take all real values."
+    },
+    {
+        "Title": "What is \\int_{0}^{\\infty} \\frac {\\ln x}{{({1-x+x^2})}^2} \\rm{d}x ?",
+        "Tags": [
+            "calculus",
+            "integration"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4918972/what-is-int-0-infty-frac-ln-x1-xx22-rmdx",
+        "Question": "What is \\int_{0}^{\\infty} \\frac {\\ln x}{{({1-x+x^2})}^2} \\rm{d}x ?\n\nI m not getting any idea for this one . Expecting from the community to share some interesting substitution ideas / tricks .\n\nMy try :\n\nLet I = \\int_{0}^{\\infty} \\frac {\\ln x}{{({1-x+x^2})}^2} \\rm{d}x .\n\nPutting x = \\frac {1}{u}, I becomes\n\n\\int_{0}^{\\infty} \\frac {-u^2\\ln u}{{({1-u+u^2})}^2} \\rm{d}u which is equivalent to \\int_{0}^{\\infty} \\frac {-x^2\\ln x}{{({1-x+x^2})}^2} \\rm{d}x which on further manipulating the two forms of it wasn't any much helpful . Also trying x = e^t substitution didn't work . So any better ideas ?",
+        "Answer": "Let x\\to 1/x\n\\begin{align}\n&\\int_{0}^{\\infty} \\frac {\\ln x}{{({1-x+x^2})}^2} dx\\\\\n=&-\\int_{0}^{\\infty} \\frac {x^2\\ln x}{{({1-x+x^2})}^2} dx\n= \\frac12\\int_{0}^{\\infty} \\frac {(1-x^2)\\ln x}{{({1-x+x^2})}^2} dx\\\\\n=&\\ \\frac12\\int_{0}^{\\infty}\\ln x \\ d\\bigg( \\frac { x}{{{1-x+x^2}}} \\bigg)\n= -\\frac12\\int_{0}^{\\infty}\\frac { 1}{{{1-x+x^2}}} dx =-\\frac{2\\pi}{3\\sqrt3}\\\\\n\\end{align}"
+    }
+]
