@@ -1,5 +1,36 @@
 [
     {
+        "Title": "Second order ODE solution approach",
+        "Tags": [
+            "calculus",
+            "ordinary-differential-equations"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4919239/second-order-ode-solution-approach",
+        "Question": "Find a solution for the following second order ODE\n\nx''(t)+(x'(t))^2+\\sin(x(t))=0, \\; x(0)=\\pi,\\;x'(0)=0.\n\nI am familiar with the characteristics equations method or assuming y=e^{rx}, however both approaches seem unavailable for this equation.\n\nI tried simplifying the equation by assuming that we only seek a solution around the point x(0)=\\pi and therefore \\sin(x)\\approx-x, which reduces the problem to\nx''+(x')^2-x=0.\n\nFrom here I still don't see how to work around (x')^2",
+        "Answer": "The problem asks for a solution. Find one easiest, simplest solution.\n\nIf x''(t)=0 and x'(t)=0 then the equation becomes:\n\n\\sin(x(t))=0, \\; x(0)=\\pi\n\nOne solution is x(t) = \\pi. My apologies for not being very mathy, but trivial solutions aren't wrong."
+    },
+    {
+        "Title": "Second order ODE solution approach",
+        "Tags": [
+            "calculus",
+            "ordinary-differential-equations"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4919239/second-order-ode-solution-approach",
+        "Question": "Find a solution for the following second order ODE\n\nx''(t)+(x'(t))^2+\\sin(x(t))=0, \\; x(0)=\\pi,\\;x'(0)=0.\n\nI am familiar with the characteristics equations method or assuming y=e^{rx}, however both approaches seem unavailable for this equation.\n\nI tried simplifying the equation by assuming that we only seek a solution around the point x(0)=\\pi and therefore \\sin(x)\\approx-x, which reduces the problem to\nx''+(x')^2-x=0.\n\nFrom here I still don't see how to work around (x')^2",
+        "Answer": "The problem asks for a solution. Find one easiest, simplest solution.\n\nIf x''(t)=0 and x'(t)=0 then the equation becomes:\n\n\\sin(x(t))=0, \\; x(0)=\\pi\n\nOne solution is x(t) = \\pi. My apologies for not being very mathy, but trivial solutions aren't wrong."
+    },
+    {
+        "Title": "How to integrate \\int \\frac{x^{2}+7(\\sqrt[m]{x^{m}})+6}{\\sqrt[m]{x^{m}}+1}dx ?",
+        "Tags": [
+            "calculus",
+            "integration",
+            "indefinite-integrals"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4919230/how-to-integrate-int-fracx27-sqrtmxm6-sqrtmxm1dx",
+        "Question": "Q)How to integrate \\int \\frac{x^{2}+7(\\sqrt[m]{x^{m}})+6}{\\sqrt[m]{x^{m}}+1}dx ? m=2nn=\n\nFirst of all my approach:\n\nLet I=\\int \\frac{x^{2}+7(\\sqrt[m]{x^{m}})+6}{\\sqrt[m]{x^{m}}+1}dx\n\n1) \\sqrt[m]{x^{m}}=|x|=+x, then:\n\nI=\\int\\frac{x^{2}+7x+6}{x+1}dx\n\n\\implies I=\\int\\frac{(x+6)(x+1)}{(x+1)}dx\n\n\\implies I=\\int(x+6)dx\n\n\\implies I=\\frac{x^{2}}{2}+6x+C\n\n2) \\sqrt[m]{x^{m}}=|x|=-x, then:\n\nI=\\int\\frac{x^{2}-7x+6}{(1-x)}dx\n\n\\implies I=\\int\\frac{(x-6)(x-1)}{(1-x)}dx\n\n\\implies I=\\int(6-x)dx\n\n\\implies I=6x-\\frac{x^{2}}{2}+C_1\n\nBut my doubt is how to solve the integral in a single case by taking both the cases together? I am facing problem in solving this integral by taking both the cases together in a single case and then integrating.\n\n\\sqrt[m]{x^{m}}=|x|=+x2^{nd}\\sqrt[m]{x^{m}}=|x|=-x",
+        "Answer": "It's not entirely clear what is meant by \\sqrt[m]{x^m}.  This notation is unusual because if the intent is that \\sqrt[m]{x^m} = |x|, presumably, the question should have simply used the absolute value notation.  If the intent is that \\sqrt[m]{x^m} = x, again, the question should have been written that way.\n\nIf we assume the former--i.e. the intent is \\sqrt[m]{x^m} = |x|--then we may write for all real x\n\\frac{x^2 + 7|x| + 6}{|x| + 1} = \\frac{|x|^2 + 7|x| + 6}{|x| + 1} = \\frac{(|x| + 1)(|x| + 6)}{|x| + 1} = |x| + 6.  Cancellation is allowed because |x| + 1 > 0.\nThen integration proceeds as usual:\n\\int |x| + 6 \\, dx = \\frac{x|x|}{2} + 6x + C = x\\left(\\frac{|x|}{2} + 6 \\right) + C."
+    },
+    {
         "Title": "How to Evaluate the Integral \\int_{0}^{\\frac{\\pi}{2}}\\frac{\\sqrt{1+\\sin(y)}\\ln(\\sin(y))}{\\cos(y)}dy?",
         "Tags": [
             "calculus",
@@ -24,46 +55,227 @@
         "Answer": "No, your argument is not correct. The issue of 1^\\infty being an indeterminate form has nothing to do with integer exponents per se; one is instead interested in real valued exponents approaching \\infty. It also has nothing to do with changing the base to -1, which on the infinitesmal scale of limits is far, far away from 1; one is instead interested in real valued bases approaching 1.\n\nI suggest simply reading the accepted answer of the post you linked to. In brief summary, what matters are the values of the expression b^x as one lets the base b approach 1 and the exponent x approach \\infty: the limiting value is not well defined. That's what makes the expression 1^\\infty an indeterminate form."
     },
     {
-        "Title": "C^1 function f>0 on \\Bbb R satisfies f ^ { \\prime } ( x ) = f ( x - 1 ) .",
+        "Title": "how to evaluate this integral \\int_0^1 \\frac{\\ln x \\, \\text{Li}_2(1-x)}{2+x} \\, dx",
         "Tags": [
             "calculus",
-            "functions"
+            "integration",
+            "definite-integrals",
+            "logarithms",
+            "closed-form"
         ],
-        "QuestionLink": "https://math.stackexchange.com/questions/4919035/c1-function-f0-on-bbb-r-satisfies-f-prime-x-f-x-1",
-        "Question": "C^1 function f>0 on \\Bbb R satisfies f ^ { \\prime } ( x ) = f ( x - 1 ). How to find f?\n\nIt is easy to deduce that f(-\\infty)=0, f(+\\infty)=+\\infty. Then...\n\nIf f'(x)=f(1-x), then f''(x)=-f'(1-x)=f(x). It is easy. But here f'(x)=f(x-1)...",
-        "Answer": "This answer is about the existence of solutions in a more or less explicit form, not about proving that those solutions are the full set.\n\nTry f(x)=C\\exp(\\lambda x) then f is a solution if and only if \\lambda=\\exp(-\\lambda), which has exactly one real solution for \\lambda. The constant C>0 can be chosen arbitrarily.\n\nAn appropriate combination of conjugate complex solutions could also work. If \\lambda=a+bi then the condition becomes a=\\exp(-a)\\cos(b), b=-\\exp(-a)\\sin(b). However, while such solutions might satisfy the delayed differential equation, they are unlikely to be positive."
+        "QuestionLink": "https://math.stackexchange.com/questions/4917014/how-to-evaluate-this-integral-int-01-frac-ln-x-textli-21-x2x",
+        "Question": "Question statement: how to evaluate this integral \\int_0^1 \\frac{\\ln x \\, \\text{Li}_2(1-x)}{2+x} \\, dx\n\nI don't know if there is a closed form for this integral or not.\n\n\\begin{align*}\n\\Omega &= \\int_0^1 \\frac{\\ln x \\, \\text{Li}_2(1-x)}{2+x} \\, dx \\\\\n&= \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\int_0^1 \\frac{(1-x)^n \\ln x}{2+x} \\, dx \\\\\n&= \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\sum_{k=0}^{n} \\binom{n}{k} (-1)^k \\int_0^1 \\frac{x^k \\ln x}{2+x} \\, dx \\\\\n&= \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\sum_{k=0}^{n} \\binom{n}{k} (-1)^k \\sum_{j=k+1}^{\\infty} \\frac{(-1)^j}{2^j j^2} \\\\\n&= \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\sum_{k=0}^{n} \\binom{n}{k} \\sum_{j=k+1}^{\\infty} \\frac{(-1)^j}{2^j j^2} \\\\\n&= \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\sum_{k=0}^{n} \\binom{n}{k} 2^k f(k) \\\\\n&= \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\sum_{k=1}^{n} \\binom{n}{k} 2^k f(k) + \\text{Li}_2 \\left(-\\frac{1}{2}\\right) \\frac{\\pi^2}{6}\n\\end{align*}\n\nI don't know how to proceed. Is this a possible way to evaluate the integral? I'm not sure if it will work.",
+        "Answer": "Too long for a comment:\n\nCombine the Dilogarithm function reflection formula, \\operatorname{Li}_2(x)+\\operatorname{Li}_2(1-x)=\\zeta(2)-\\log(x)\\log(1-x)\nand\n\\int_0^1 \\frac{\\displaystyle \\log(x)\\operatorname{Li}_2(x) }{1-a x}\\textrm{d}x=\\frac{1}{2}\\frac{(\\operatorname{Li}_2(a))^2}{a}-2\\zeta(2)\\frac{\\operatorname{Li}_2(a)}{a}+3\\frac{\\operatorname{Li}_4(a)}{a}, |a|\\le 1, \\ a\\neq0.\n\npresented in More (Almost) Impossible Integrals, Sums, and Series: A New Collection of Fiendish Problems and Surprising Solutions (2023), page 61.\n\nEnd of story {here is a small note: given the questions you ask, I might think that expecting from you to derive and exploit the related generating functions (you need) constructed on the skeleton of the integral identity, \\displaystyle \\int_{0}^{1}x^{n-1}\\log(x)\\log^2(1-x)\\textrm{d}x=2\\zeta(3)\\frac{1}{n}+\\frac{\\pi^2}{3}\\frac{H_n}{n}-\\frac{H_n^2}{n^2}-\\frac{H_n^{(2)}}{n^2}-2\\frac{H_n^{(3)}}{n}-2\\frac{H_n H_n^{(2)}}{n} is not a difficulty for you - the identity is found on page 33 of the same book}"
     },
     {
-        "Title": "summation of \\cos{x} + \\cos{2x} + \\cos{3x} and so on is -\\frac{1}{2}",
+        "Title": "Can there be more than one global maximums of a function?",
         "Tags": [
             "calculus",
-            "sequences-and-series",
+            "maxima-minima"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4916993/can-there-be-more-than-one-global-maximums-of-a-function",
+        "Question": "The definition(wiki): A real-valued function f defined on a domain X has a global (or absolute) maximum point at x∗, if f(x∗) \\geq f(x) for all x in X.\n\nMy question is can there be more than one global maximum(or minimum) of a function?\n\nThe definition does not suggest that there is only 1 global maximum(or minimum). Example: let f(x) = x^2 on the domain X = [-2,2], thus the global maximum is f(-2) = 4 = f(2) as by definition f(-2)  = f(2) \\geq f(x) \\ \\forall x\\in X, thus we have 2 global maiximums.\n\nI tried to confirm this but there are so many sorces saying that there can only be one:\nExample1, Example2.\n\nAm I misunderstanding something? I would appreciate any insight you can offer.",
+        "Answer": "The term \"maximum\" applies to the y-coordinate or output of the function.  In your case, 4 is the sole largest y-coordinate, though it appears twice.  So the location of the maximum y need not be unique, but the y-value will be unique.\n\nNote that in your definition, you have a \"maximum point at x^*.\"  This does not say that x^* is the maximum. (And it's not, that would be f(x^*).)"
+    },
+    {
+        "Title": "Solving a differential equation using separation of variables vs Integrating Factor. Difference in answer.",
+        "Tags": [
+            "calculus",
+            "ordinary-differential-equations",
+            "integrating-factor"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4916938/solving-a-differential-equation-using-separation-of-variables-vs-integrating-fac",
+        "Question": "Solving as a variable separable equation:\n\ny'+16xy=6x \\rightarrow y'=x(6-16y) \\rightarrow \\frac{1}{6-16y}dy=x\n\nintegrating we obtain (using u=6-16y, dy=du/-16):\n\n\\frac{-1}{16}\\ln(6-16y)=\\frac{x^2}{2}+C \\rightarrow \\ln(6-16y)=-8x^2-16C\n\nand so the solution is:\ny=\\frac{3}{8}-\\frac{1}{16}e^{-8x^2-16C}\n\nBut using an integrating factor we have: y'+16xy=6x \\rightarrow e^{8x^2}y'+e^{8x^2}16xy=e^{8x^2}6x \\rightarrow [e^{8x^2}y]'=e^{8x^2}6x.\n\nNow integrating we have (using u=8x^2,dx=du/16x):\n\ne^{8x^2}y=\\frac{3}{8}e^{8x^2}+C\n\nand the I.F. solution is:\ny=\\frac38+Ce^{-8x^2}\n\nMy answer using the variable separable method has been marked wrong, am I missing something? Does a comparison of the solutions from the two methods not simply imply that C is negative?",
+        "Answer": "Note ... D:=-\\frac{1}{16} e^{-16C} is a constant.  And\n\\frac{3}{8}-\\frac{1}{16}e^{-8x^2-16C} = \\frac38+De^{-8x^2}\nThe only difference in the two solutions is that C can have any sign, but D<0.  \"Any sign\" is the correct solution.  When you integrate to get a logarithm, two signs are possible: \\log(6-16y) and \\log(16y-6)."
+    },
+    {
+        "Title": "A generalization of integration by parts",
+        "Tags": [
+            "calculus",
+            "integration",
+            "functional-analysis",
+            "formal-power-series"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4916911/a-generalization-of-integration-by-parts",
+        "Question": "Many years ago, I came up with a short generalization of integration by parts that was definitely known, but I could never find a reference for it. I was considering throwing it on arxiv, but before I do, is anyone aware of it?\n\nFor k a positive integer, let f^{(k)}(x) denote the kth derivative and f^{(-k)} denote a choice of kth antiderivative.\n\nBy iterating the product rule, we see that for positive k:\n\n(fg)^{(k)}=\\sum\\limits_{r\\ge 0} \\binom{k}{r} f^{(k-r)}g^{(r)}.\n\n(Since k is positive, \\binom{k}{r}=0 when r>k)\n\nThe generalization is simply that this holds for negative k as well, under certain conditions that allow the sum to converge nicely. For example, for k=-1, this gives the ``tabular\" method of integration by parts:\n\n(fg)^{(-1)}=\\sum\\limits_{r\\ge 0} (-1)^r f^{(-1-r)}g^{(r)}\n\nOne can obtain a short proof of the generalization by comparing this to multiplying a certain formal power series expansion of (x+y)^{-k} by\n(x+y)^k.\n\nAn easy set of conditions where this applies is when g(x) is a polynomial. A more non-trivial set of conditions where the above formula seems to hold is when g(x) is analytic for some |x-a|<r, the effective supremum of f is bounded on this interval (or on all finite intervals if r=\\infty), and we choose our anti-derivatives such that\n\nf^{(-k)}(x)=\\int\\limits_a^x f^{(-k+1)}(s)ds",
+        "Answer": ""
+    },
+    {
+        "Title": "Taylor Expansion of exp(exp(x))",
+        "Tags": [
+            "calculus",
+            "derivatives",
+            "taylor-expansion",
+            "exponential-function"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4915153/taylor-expansion-of-expexpx",
+        "Question": "I can think of two ways to work out the taylor expansion of exp(exp(x)) about x=0.\n\nf'(x) = exp(x)exp(exp(x))\nso f'(0) = e\n\nf''(x) = exp(x)exp(exp(x)) + exp(2x)exp(exp(x))\nso f''(0) = e + e = 2e\n\nAnd so you get the taylor expansion:\n\nf(x) = e + ex + 2ex^2/2! + ...\n\nBut if you work out 1 + (1 + x + x^2/2! + ... ) + (1 + x + x^2/2! + ... )^2/2! + ...\nyou get a different taylor expansion to the one above.\n\nCan someone please help me understand what's going on.",
+        "Answer": "Since\n\ne^z=\\sum_{n=0}^{\\infty} \\frac{z^n}{n!}\n\nSubstitute z=e^x\n\ne^{(e^x)}=\\sum_{n=0}^{\\infty} \\frac{(e^x)^n}{n!}=\\sum_{n=0}^{\\infty} \\frac{e^{nx}}{n!}\n\nAnother way would be to find the Maclaurin series using the definition (like you tried)\n\nLet f(x)=e^{(e^X)}\n\nf(0)=e \\\\ f'(0)=e \\\\ f''(0)=2e\\\\ f^{(3)}(0)=5e\\\\.\\\\.\\\\.\n\nAnd we get that\n\ne^{(e^x)}=e+ex+\\frac{2e}{2!}x^2+\\frac{5e}{3!}x^3 +\\dots = e+ex+ex^2+\\frac{5e}{3!}x^3+ \\dots"
+    },
+    {
+        "Title": "Prove or disprove that the limit of subsequence infima equals the limit of sequence",
+        "Tags": [
+            "calculus",
+            "sequences-and-series"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4915134/prove-or-disprove-that-the-limit-of-subsequence-infima-equals-the-limit-of-seque",
+        "Question": "Consider some convergent bounded sequence (a_n)_{n\\in\\mathbb{N}} in \\mathbb{R}. Define the sequence (b_n)_{n\\in\\mathbb{N}} by b_n=\\inf\\{a_n,a_{n+1},a_{n+2},\\cdots\\}. Assume this infimum exists. Prove or disprove that \\lim_{n\\to\\infty}a_n = \\lim_{n\\to\\infty}b_n.\n\nI have proven that the sequence (b_n)_{n\\in\\mathbb{N}} is increasing and bounded above, meaning that it must have a limit at its supremum. I have also proven that the limits are the same in the case where (a_n)_{n\\in\\mathbb{N}} is increasing, but I do not know how to prove this in the general case, especially where (a_n)_{n\\in\\mathbb{N}} is convergent but not monotone. How should I continue my proof?",
+        "Answer": "Yes. We have that \\lim_{n}a_{n}=\\lim_{n}b_{n}, provided\nthat \\lim_{n}a_{n} exists. Let l=\\lim_{n}a_{n}. Here, we consider\nthe case l\\in\\mathbb{R} only. (acutally, the equality continues\nto hold if l=+\\infty or l=-\\infty)\n\nLet \\varepsilon>0 be arbitrary, then there exists N such that\na_{n}\\in(l-\\varepsilon,l+\\varepsilon) whenever n\\geq N. For\nn\\geq N, a_{n}\\geq l-\\varepsilon implies that b_{n}=\\inf\\{a_{n},a_{n+1},\\ldots\\}\\geq l-\\varepsilon.\nMoreover, for n\\geq N, b_{n}=\\inf\\{a_{n},a_{n+1},\\ldots\\}\\leq a_{n}\\leq l+\\varepsilon.\nThis shows that l-\\varepsilon\\leq b_{n}\\leq l+\\varepsilon. As (b_{n})\nis monotonic increasing and bounded above by l+\\varepsilon, \\lim_{n}b_{n}\nexists. Letting n\\rightarrow\\infty, we obtain l-\\varepsilon\\leq\\lim_{n}b_{n}\\leq l+\\varepsilon.\nThat is, |\\lim_{n}b_{n}-l|\\leq\\varepsilon. Since \\varepsilon>0\nis arbitrary, we conclude that |\\lim_{n}b_{n}-l|=0, i.e., \\lim_{n}a_{n}=\\lim_{n}b_{n}."
+    },
+    {
+        "Title": "Change of variable in gamma function",
+        "Tags": [
+            "calculus",
+            "integration",
+            "change-of-variable"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4915092/change-of-variable-in-gamma-function",
+        "Question": "This is a continuation of my question here\n\nThis one is about calculus and change of variables. Instead of continuing the discussion in comments I decided to ask a new question.\n\nBefore the change of variables we have this expression for Gamma:\n\n\\Pi(s-1) = \\int_0^{\\infty} e^{-x} x^{s-1} dx\n\nFor s=5 this integral evaluates to 4!=24\n\nAfter the change of variables we have\n\n\\Pi(s-1) = \\int_0^{\\infty} e^{-nx} (nx)^{s-1} d(nx)\n\nfor s>0 and n=1,2,3,\\ldots\n\nFor n=1 we have the original integral.\n\nFor n=2 and s=5 we have\n\n\\Pi(5-1) = \\int_0^{\\infty} e^{-2x} (2x)^{5-1} d(2x)\n\nBut, WolframAlpha cannot evaluate this integral. Is this even a meaningful integral?\n\nWhat confuses me is that we equate both integrals to gamma:\n\n\\Pi(s-1) = \\int_0^{\\infty} e^{-x} x^{s-1} d(x) =  \\int_0^{\\infty} e^{-nx} (2x)^{s-1} d(nx)\n\nBut the integral with change of variables cannot be evaluated.\n\nWhat am I missing?",
+        "Answer": ""
+    },
+    {
+        "Title": "Partial fractions with a repeated factor [duplicate]",
+        "Tags": [
+            "calculus",
             "algebra-precalculus",
-            "trigonometry",
-            "trigonometric-series"
+            "fractions",
+            "partial-fractions"
         ],
-        "QuestionLink": "https://math.stackexchange.com/questions/4919026/summation-of-cosx-cos2x-cos3x-and-so-on-is-frac12",
-        "Question": "\\cos{x} + \\cos{2x} + \\cos{3x} \\ldots = y\n2\\cos{x} + 2\\cos{2x} + 2\\cos{3x} \\ldots = 2y\nBy grouping every alternate term by \\cos{A} + \\cos{B} = 2\\cos(\\frac{A+B}{2})\\cos(\\frac{A-B}{2})\n\\cos{x} + \\cos{2x} + 2\\cos{x}\\left(\\cos{2x} + \\cos{3x} + \\cos{4x} \\ldots\\right) = 2y\n\\cos{x} - 1 + 2\\cos{x}\\left(\\cos{x} + \\cos{2x} + \\cos{3x} \\ldots\\right) = 2y\n\\cos{x} - 1 + 2\\cos{x}\\cdot y = 2y\ny = -\\frac{1}{2}\n\nMe and my friend are confused right now. We don't see anything mathematically wrong but still by logic, it doesn't seem right. Please explain us our errors . We are high school students with basic knowledge of limits and calculus. If possible, please elaborate on the solution.",
-        "Answer": "Let :\n\nC_n=\\cos(x)+\\cos(2x)+\\cos(3x)+...\\cos(nx)\n\nS_n=\\sin(x)+\\sin(2x)+\\sin(3x)+...\\sin(nx)\n\nTherefore,\nC_n+iS_n=\\cos(x)+i\\sin(x)+\\cos(2x)+i\\sin(2x)+....\n=e^{ix}+e^{2ix}+e^{3ix}+...e^{nix}\n\n=\\frac{e^{ix}(1-e^{nix})}{1-e^{ix}}= \\frac{e^{ix}(1-e^{nix})(1-e^{-ix})}{(1-e^{ix})(1-e^{-ix})}=\\frac{e^{ix}-e^{(n+1)ix}-1+e^{nix}}{2-2\\cos(x)} Then , C_n=Re(C_n+iS_n)= \\frac{\\cos(x)-\\cos((n+1)x)-1+\\cos(nx)}{2-2\\cos(x)}. lim_{n\\rightarrow \\infty}C_n does not exist. So the infinite sum diverges."
+        "QuestionLink": "https://math.stackexchange.com/questions/4915012/partial-fractions-with-a-repeated-factor",
+        "Question": "I'm learning about partial fractions, and I've been told of 3 types or \"forms\" that they can take\n\n(1) If the denominator of the fraction has linear factors:\n\n5(x−2)(x+3)≡Ax−2+Bx+3{5 \\over {(x - 2)(x + 3)}} \\equiv {A \\over {x - 2}} + {B \\over {x + 3}}\n\n(2) If the denominator of the fraction has quadratic factors that don't factorise:\n\n2x+3(x−1)(x2+4)≡Ax−1+Bx+Cx2+4{{2x + 3} \\over {(x - 1)({x^2} + 4)}} \\equiv {A \\over {x - 1}} + {{Bx + C} \\over {{x^2} + 4}}\n\n(3) If the denominator has a factor that repeats:\n\n5x+3(x−2)(x+3)2≡Ax−2+Bx+3+C(x+3)2{{5x + 3} \\over {(x - 2){{(x + 3)}^2}}} \\equiv {A \\over {x - 2}} + {B \\over {x + 3}} + {C \\over {{{(x + 3)}^2}}}\n\nI'd appreciate it if someone could explain to me how these equivalence relationships are derived, essentially how do they take the forms that they do? I sort of understand the first one, but the other two I don't.\n\nThank you",
+        "Answer": "Your first and second cases are equivalent. You need to understand complex numbers to be able to see that. The complex numbers, written C\\mathbb{C} are of the form x+iyx+iy where xx and yy are real numbers that you already know and ii is a special number with i2=−1i^2 = -1. Usually, we have i=√−1i = \\sqrt{-1}. To see that the second case is the same as the first, notice that:\n\n2x+3(x−1)(x2+4)≡Ax−1+Bx−2i+Cx+2i\\frac{2x+3}{(x-1)(x^2+4)} \\equiv \\frac{A}{x-1}+\\frac{B}{x-2i}+\\frac{C}{x+2i}\n\nwhere A=1A=1, B=−12−i14B=-\\frac{1}{2}-i\\frac{1}{4} and C=−12+i14C=-\\frac{1}{2}+i\\frac{1}{4}. The only reason you are taught the second form is that you don't know about x±2ix\\pm 2i and they recombine them:\n\nBx−2i+Cx+2i≡1−xx2+4\\frac{B}{x-2i} + \\frac{C}{x+2i} \\equiv \\frac{1-x}{x^2+4}\n\nThe third case isn't quite the same. But notice that the denominator is a cubic. When you multiply it out, you'll have an x3x^3 and lower powers. We couldn't get away with just two fraction because\n\nAx−a+Bx−b≡A(x−b)+B(x−a)(x−a)(x−b)\\frac{A}{x-a}+\\frac{B}{x-b} \\equiv \\frac{A(x-b)+B(x-a)}{(x-a)(x-b)}\n\nand this only has a quadratic expression as the denominator."
     },
     {
-        "Title": "Let f:\\mathbb{R}^n\\to \\mathbb{R} be a C^1 function, if |\\nabla f|=1, is it true that f is surjective?",
+        "Title": "Fitting a parabola through two points, minimizing the error in the derivative in those two points.",
         "Tags": [
-            "real-analysis",
+            "calculus",
+            "geometry",
+            "ordinary-differential-equations"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4913175/fitting-a-parabola-through-two-points-minimizing-the-error-in-the-derivative-in",
+        "Question": "Let f(x) be a parabola and f'(x) its derivative.\nGiven are the known points (p, q) and (r, s):\nq = f(p) and s = f(r).\n\nAlso given are the values of the desired derivatives\nin p and r. Lets say t and u.\n\nIn the ideal case, we want to find an f such that\nf'(p) = t and f'(r) = u. However, that might not be possible\nif no such quadratic polynomial exists for f.\n\nHow to find a parabola f(x) such that f(p) = q, f(r) = s\nand f'(p) and f'(r) are such that the error in both is\nequal?\n\nOne way to define this error is by looking at the\nangle the tangents make; aka a vertical line deviates the same amount from y=x as a horizontal line; even though the derivatives are infinity, 1 and 0 respectively. But I'm happy with other definitions as well if that makes the equations easier. For example, just looking at the difference between the values of the derivatives: |f'(r) - u| = |f'(p) - u|.\n\nEDIT:\n\nMy attempt was as follows:\n\nLet f(x) = a x^2 + b x + c, with derivative f'(x) = 2a x + b.\n\nThis gives, with regard to the derivative constraints:\n\n2p a + b = t\\\\\n2r a + b = u\n\nor\n\n\\begin{bmatrix}\n2p & 1 \\\\\n2r & 1\n\\end{bmatrix}\n\\begin{bmatrix}\na \\\\\nb\n\\end{bmatrix} =\n\\begin{bmatrix}\nt \\\\\nu\n\\end{bmatrix}\n\nFor which we can solve\n\n\\begin{bmatrix}\na \\\\\nb\n\\end{bmatrix} =\n\\frac{1}{2(p-r)}\n\\begin{bmatrix}\nt - u \\\\\n2pu - 2rt\n\\end{bmatrix}\n\nNow we can calculate\n\nf(p) - f(r) = a (p^2 - r^2) + b (p - r)\n\nRealizing that this difference really should have been q - s, the function can be corrected by adding a linear function to it. In other words, adjusting b by adding \\frac{q - s - (a (p^2 - r^2) + b (p - r))}{p - r} to it.\n\nThis then leads to:\n\na = \\frac{t - u}{2(p - r)} \\\\\nb = \\frac{pu−rt}{p - r} + \\frac{q - s - (\\frac{t - u}{2(p - r)} (p^2 - r^2) + \\frac{pu−rt}{p - r} (p - r))}{p - r} =\n\\frac{pu−rt+q-s+\\frac{(u-t)(p+r)}{2}+rt-pu}{p - r}=\n\\frac{2q-2s+(u-t)(p+r)}{2(p-r)}\n\nFrom which c trivially follows.\n\nStrangely enough this is not equal to what xpaul did get...\n\nEdit2\n\nI was forced to reformulate my question, which is now posted here: Fitting a parabola through two points in which the derivatives are known with the aim of finding a minimum.",
+        "Answer": "A parabolic function has the equation\n\nf(x) = a x^2 + b x + c\n\nIt is fully determined by three parameters which are a,b,c.\n\nThe given conditions in the problem lead to the fully overdetermined linear system in a,b,c:\n\na p^2 + b p + c = q\n\na r^2 + b r + c = s\n\n2 a p + b = t\n\n2 a r + b = u\n\nSince you want the first two equations to be satisfied by (a,b,c), then you have to solve the smaller underdetermined system\n\na p^2 + b p + c = q\n\na r^2 + b r + c = s\n\nThis is a rank 2 system, and its solution will be of the form\n\n[a,b,c]^T = X_0 + \\lambda X_1\n\nwhere X_0, X_1 are known 3-vectors, and \\lambda is a free parameter, \\lambda \\in \\mathbb{R}.\n\nNow we want the error in f'(p) and f'(r) to be equal, i.e. we want\n\n2 a p + b - t = 2 a r + b - u\n\nThis simplifies to\n\n2 a (p - q) = t - u\n\nSince a linearly depends on X_{01} and X_{11} , then this condition can always be satisfied.\n\nCan you take it from here?"
+    },
+    {
+        "Title": "How can I change the extremes of a modular function in a double integral?",
+        "Tags": [
+            "calculus",
+            "multivariable-calculus"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4913144/how-can-i-change-the-extremes-of-a-modular-function-in-a-double-integral",
+        "Question": "So I have to find \\iint_R|y-x^2|\\,dy \\,dx, where R = [0,1] \\times [0,1].\n\nI know we are going to have two cases\n\nf(x,y) = \\begin{cases} y-x^2, y-x^2 \\geq 0 \\\\ x^2-y, y-x^2 < 0 &\\end{cases}\n\nBut I'm struggling on how we are going \"split\" into two double integral and analyze the new extremes of it.",
+        "Answer": "We can split this into two integrals. Both integrals will be from x=0 to x=1. However, one integral will be from y=0 to y=x^2 and the other will be from y=x^2 to y=1. We can see the first integral is where y<x^2 so we should have x^2-y as our integrand. Similarly, our second integral represents the region where y > x^2 so our integrand will be y-x^2. We can now write this out and it becomes much simpler to solve:\n\\int\\int_R |y-x^2| dydx = \\int_0^1\\int_0^{x^2} (x^2-y) dydx + \\int_0^1\\int_{x^2}^1 (y-x^2)dydx\n= \\int_0^1 \\left(x^2y - \\frac{y^2}{2}\\right)^{y=x^2}_{y=0} dx + \\int_0^1\\left(\\frac{y^2}{2} - x^2y\\right)_{y=x^2}^{y=1} dx\n= \\int_0^1  \\left(x^4-\\frac{x^4}{2}\\right) dx + \\int_0^1 \\left(\\frac{1}{2} - x^2 - \\frac{x^4}{2} + x^4 \\right) dx\nBecause these integrals are over the same region, with respect to the same variable we can combine them and get:\n= \\int_0^1 x^4 - x^2 + \\frac{1}{2}\n= \\left( \\frac{x^5}{5} - \\frac{x^3}{3} + \\frac{x}{2} \\right)_{x=0}^{x=1}\n= \\frac{1}{5} - \\frac{1}{3} + \\frac{1}{2} = \\frac{11}{30}"
+    },
+    {
+        "Title": "Is there a recursive identity for the derivative of the gamma function \\Gamma'(x) [closed]",
+        "Tags": [
+            "calculus",
+            "derivatives",
+            "special-functions",
+            "gamma-function"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4913092/is-there-a-recursive-identity-for-the-derivative-of-the-gamma-function-gamma",
+        "Question": "Please provide additional context, which ideally explains why the question is relevant to you and our  community. Some forms of context include: background and motivation, relevant definitions, source, possible strategies, your current progress, why the question is interesting or important, etc.\n\nClosed last year.\n\nFor the normal gamma we have:\n\n\\Gamma(x) = (x-1)\\Gamma(x-1)\n\nFor the digamma we have:\n\n\\Psi(x) = \\Psi(x-1) + \\frac{1}{x-1}\n\nIs there something similar for \\Gamma'(x) = f(x-1)?",
+        "Answer": ""
+    },
+    {
+        "Title": "Changing variables in double integral.",
+        "Tags": [
+            "calculus",
+            "definite-integrals",
+            "change-of-variable"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4913080/changing-variables-in-double-integral",
+        "Question": "To evaluate the integral\n\\int_{0}^{1}\\int_{0}^{1-x}(y-x)\\sqrt{x+y}dydx\nI have to change the variables to u=y-x and v=x+y.\n\nI know that\nx=-\\frac{u}{2}+\\frac{v}{2},\\qquad y=\\frac{u}{2}+\\frac{v}{2}\nHence\ndydx=\\frac{1}{2}dudv\n\nI have some doubts about the new range of integration.\n\nSince 0\\leq x\\leq1, then\n0\\leq-\\frac{u}{2}+\\frac{v}{2}\\leq1\\Rightarrow u\\leq v\\leq2+u\n\nHowever, from 0\\leq y\\leq1-x, I just got\n0\\leq u+v\\leq2+u-v\n\nSo, u and v are both dependent on each other.\nI am not getting the new range of integration.",
+        "Answer": "We can see that the Original Area is the Shaded Part.\n\nEvery Purple line is x+y=c , where c is a Constant.\nNaturally c varies independently from 0 (line though the Origin) to 1 (line matching the triangle)\nv=x+y=cv=0v=1\n\nEvery Green line is y-x=k where k is a Constant.\nWe see that k varies with v=x+y=c from Starting Point (c,0) for a Purple line to Ending Point (0,c) for that Purple line\nThat gives us the limits from k=y-x=0-c=-c=-v to k=y-x=c-0=+v\nu=y-x=ku=-vu=+v\n\nConsider the Middle Purple line : Starting from (0.5,0) & Ending at (0,0.5) , it will have v=0.5\nIt will the Green line limits from u=0-0.5=-0.5=-v to u=0.5-0=+0.5=+v\n\nWith the Image , we can see that we can easily change order from dxdy to dydx [[ Due to Symmetry ]]\n\nMore-over the Image gives us the limits for order change from dudv to dvdu via the Blue line making 2 half triangles :\n\nUpper half triangle :\nVariable u will go from u=-1 to u=0\nWhile variable v will go from v=+u to v=1\n\nLower half triangle :\nVariable u will go from u=0 to u=+1\nWhile variable v will go from v=-u to v=1"
+    },
+    {
+        "Title": "How to solve ODE, \\frac{dv}{dt} = \\frac{-(v^2-4900)}{500}",
+        "Tags": [
+            "calculus",
+            "integration",
+            "ordinary-differential-equations",
+            "limits"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4910883/how-to-solve-ode-fracdvdt-frac-v2-4900500",
+        "Question": "Solve the following ODE, expressing v in terms of t. It is given that when t = 0, v = 0;\n\n\\frac{dv}{dt} = \\frac{-(v^2-4900)}{500}\nI have tried manipulating the fraction, which resulted in t = -500∫\\frac{1}{(v-70)(v+70)}dv\nHowever, if I try to solve this integral, it would result in\nt =500(\\frac{1}{140}\\ln \\left|v-70\\right|-\\frac{1}{140}\\ln \\left|v+70\\right|+C)\nThis would make it difficult to isolate v, which is needed as the second part of the question requires me to find\n\\lim_{t \\to ∞} v\n\nAny help would be appreciated",
+        "Answer": "The expression for t should be (possibly a mistake in the partial fraction decomposition) t =\\frac{500}{140}\\ln \\left|v+70\\right|-\\frac{500}{140}\\ln \\left|v-70\\right|+C\n\nUsing that \\ln(x)-\\ln(y)=\\ln(x/y) we get t-C=\\dfrac{500}{140}\\ln\\left(\\dfrac{|v+70|}{|v-70|}\\right)\\implies e^{\\frac{140}{500}(t-C)}=\\dfrac{|v+70|}{|v-70|}\n\nFrom the initial condition t=0, v=0 we find C=0.\n\nAs v=0 in some neighbourhood \\dfrac{|v+70|}{|v-70|}=\\dfrac{70+v}{70-v}. We can now express v in terms of t:\n\ne^{\\frac{140}{500}t}=\\dfrac{70+v}{70-v}\\implies v(e^{\\frac{140}{500}t}+1)=70(e^{\\frac{140}{500}t}-1)\\implies v=\\dfrac{70(e^{\\frac{140}{500}t}-1)}{1+e^{\\frac{140}{500}t}}=\\dfrac{70(e^{\\frac{7}{25}t}-1)}{1+e^{\\frac{7}{25}t}}\n\nIt is now obvious that \\displaystyle\\lim_{t\\to\\infty} v(t)=70."
+    },
+    {
+        "Title": "Trying to understand coordinate transformations",
+        "Tags": [
+            "differential-geometry",
+            "coordinate-systems",
+            "derivatives",
             "calculus"
         ],
-        "QuestionLink": "https://math.stackexchange.com/questions/4919012/let-f-mathbbrn-to-mathbbr-be-a-c1-function-if-nabla-f-1-is-it",
-        "Question": "Suppose f:\\mathbb{R}^n\\to\\mathbb{R} is a C^1 function, I wonder whether or not f is surjective provided that |\\nabla f(x)|=1 for any x\\in\\mathbb{R}^n ?\n\nWhen n=1, the condition |f^\\prime|=1 implies that f is a non-degenerate linear function, so clearly f(\\mathbb{R})=\\mathbb{R}. In general dimension, I wish to show that f(\\mathbb{R}^n) is both open and closed in \\mathbb{R}. Using rank theorem, we obtain that f(\\mathbb{R}^n) is an open set in \\mathbb{R}, but now I have no idea to show that f(\\mathbb{R}^n) is closed. Can someone help me?",
-        "Answer": "If f is only C^1 then its gradient field X will be only continuous, and therefore one cannot apply the usual existence-and-uniqueness theorem for the integral curve of the field.  However, there is a theorem asserting the existence only of a solution, called Peano's existence theorem, and even a global version thereof under hypotheses that would be satisfied if the field is of unit length at each point.  Therefore taking an integral curve of the field, we obtain a curve along which the function increases with unit speed and therefore must take all real values."
+        "QuestionLink": "https://math.stackexchange.com/questions/4910910/trying-to-understand-coordinate-transformations",
+        "Question": "So, I don't really understand why \\mathrm{d}x or generally any differential is equal to the sum of this differential over each one of the corresponding spherical coordinates times each spherical coordinate. Where is the following derived from?\n\\mathrm{d}x = \\frac{\\partial x}{\\partial r}\\mathrm{d}r + \\frac{\\partial x}{\\partial \\theta}\\mathrm{d}\\theta + \\frac{\\partial x}{\\partial \\phi}\\mathrm{d}\\phi\nor in general,\n\\mathrm{d}x_\\nu = \\sum_{\\sigma=1}^3\\frac{\\partial x_\\nu}{\\partial x'_\\sigma}\\mathrm{d}x'_\\sigma",
+        "Answer": "It looks like you are trying to state the chain rule, one of the fundamental laws of calculus, which relates total d and partial \\partial derivatives. For a function f(x_1,x_2,...,x_n)\n\ndf=\\frac{\\partial f}{\\partial x_1}dx_1 + \\frac{\\partial f}{\\partial x_2}dx_2+...+\\frac{\\partial f}{\\partial x_n}dx_n\n\nThis can be understood heuristically as follows: let us say that f(x,y)\nis the height f of a surface at any coordinate point (x,y).  As an example, let us try to find the change in vertical height f between two points on this oddly sloped table.\n\nIt is sloped in both the x and y directions shown, and those slopes are different, but they are constant in each direction.\n\nGoing from points f_0 to f_1, if we travel first a distance dy, the change in height over that distance is f_y~dy, where f_y is the slope in the y direction.  We then move a distance dx in the x direction, with our height changing by a further  f_x~dx, where f_x is the slope in the x direction.  (Note, red dotted lines are lines of constant height, parallel to the floor).\n\nThe total height change from f_0 to f_1 is the sum of the solid red lines:\n\ndf=f_x~dx + f_y~dy\n\nAnd the slopes f_x and f_y are nothing but the partial derivatives \\frac{\\partial f}{\\partial x} and \\frac{\\partial f}{\\partial y}.\n\nTherefore:\n\ndf=\\frac{\\partial f}{\\partial x}dx + \\frac{\\partial f}{\\partial y}dy\n\nwhich is the chain rule.  This can be extended to any number of independent (i.e. orthogonal) variables.\n\nBecause we are considering small (infinitesimal) changes, a surface or function of arbitrary overall shape will take the form of a plane like the table shown, with a constant linear slope in the direction of each variable – in the same way that in \\rm 1D calculus, any smooth curve becomes a straight line if you zoom in to an infinitesimal distance.  So this analysis applies to any smooth surface or function (i.e. with no holes or other exotic features).\n\nSIDE NOTE: In general relativity or curved spaces in general (per the original question), the chain rule and the product rule are the same, but when differentiating vectors you have to account for both the vector magnitude and the unit vector itself changing with location, i.e.\n\n\\frac{\\partial}{\\partial x_i}\\vec{\\bf v}~=~\\frac{\\partial}{\\partial x_i}\\left(v_j\\bf{\\vec{e}_j}\\right)~=~\\frac{\\partial v_j}{\\partial x_i}\\boldsymbol{\\vec{e}_j}+v_j\\frac{\\partial  \\boldsymbol{\\vec{e}_j}}{\\partial x_i}"
     },
     {
-        "Title": "What is \\int_{0}^{\\infty} \\frac {\\ln x}{{({1-x+x^2})}^2} \\rm{d}x ?",
+        "Title": "if f,g are differentiable s.t. f(x)=g(x)+o(x^n) , then is \\frac{df(x)}{dx} = \\frac{dg(x)}{dx}+o(x^{n-1}) ? [closed]",
+        "Tags": [
+            "calculus",
+            "taylor-expansion"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4910803/if-f-g-are-differentiable-s-t-fx-gxoxn-then-is-fracdfxdx",
+        "Question": "Please provide additional context, which ideally explains why the question is relevant to you and our  community. Some forms of context include: background and motivation, relevant definitions, source, possible strategies, your current progress, why the question is interesting or important, etc.\n\nClosed last year.\n\nThe community reviewed whether to reopen this question last year and left it closed:\n\nOriginal close reason(s) were not resolved\n\nTo illustrate my question, consider the following:\n\n-\\ln\\lvert \\cos(x)\\rvert\\ +c =\\int\\tan(x) \\mathrm{d}x\n\n(c=0, \\tan (0)= 0) than is it possible to evaluate the MacLaurin expansion of \\ln\\lvert\\cos(x)\\rvert til a certain term and then evaluate its derivative to get the the expansion of \\tan(x)? d/dx (o(x^n) )\n\n\\begin{align*}\n-\\ln(\\cos x)=\n&=-\\ln\\left(1-\\frac{x^2}{2}+\\frac{x^4}{24}-\\frac{x^6}{6!}+o(x^6)\\right) \\\\\n&=-\\left[\\left(-\\frac{x^2}{2}+\\frac{x^4}{24}-\\frac{x^6}{6!}\\right)-\\frac{1}{2}\\left(-\\frac{x^2}{2}+\\frac{x^4}{24}\\right)^2+\\frac{1}{3}\\left(-\\frac{x^2}{2}\\right)^3+o(x^6)\\right] \\\\\n&=\\frac{x^2}{2}+\\frac{x^4}{12}+\\frac{16}{6!}x^6+\\color{red}{o(x^6)}\n\\end{align*}\n\\Downarrow\\frac{\\mathrm{d}}{\\mathrm{d}x}\n\\begin{align*}\n\\tan(x)\n&=x+\\frac{1}{3}x^3+\\frac{16}{5!}x^5+\\color{red}{o(x^5)} \\\\\n&=x+\\frac{1}{3}x^3+\\frac{2}{15}x^5+o(x^5)\n\\end{align*}\n\nThe above is taken from this pdf written in french, on page 18.",
+        "Answer": "No. All f(x) = o(x^n) tells you is that \\lim_{x \\to 0} f(x) / x^n = 0, f(x) can very well have enormous derivatives. Think f(x) = x^{n + 1} \\sin(1/x)"
+    },
+    {
+        "Title": "Integral with min",
         "Tags": [
             "calculus",
             "integration"
         ],
-        "QuestionLink": "https://math.stackexchange.com/questions/4918972/what-is-int-0-infty-frac-ln-x1-xx22-rmdx",
-        "Question": "What is \\int_{0}^{\\infty} \\frac {\\ln x}{{({1-x+x^2})}^2} \\rm{d}x ?\n\nI m not getting any idea for this one . Expecting from the community to share some interesting substitution ideas / tricks .\n\nMy try :\n\nLet I = \\int_{0}^{\\infty} \\frac {\\ln x}{{({1-x+x^2})}^2} \\rm{d}x .\n\nPutting x = \\frac {1}{u}, I becomes\n\n\\int_{0}^{\\infty} \\frac {-u^2\\ln u}{{({1-u+u^2})}^2} \\rm{d}u which is equivalent to \\int_{0}^{\\infty} \\frac {-x^2\\ln x}{{({1-x+x^2})}^2} \\rm{d}x which on further manipulating the two forms of it wasn't any much helpful . Also trying x = e^t substitution didn't work . So any better ideas ?",
-        "Answer": "Let x\\to 1/x\n\\begin{align}\n&\\int_{0}^{\\infty} \\frac {\\ln x}{{({1-x+x^2})}^2} dx\\\\\n=&-\\int_{0}^{\\infty} \\frac {x^2\\ln x}{{({1-x+x^2})}^2} dx\n= \\frac12\\int_{0}^{\\infty} \\frac {(1-x^2)\\ln x}{{({1-x+x^2})}^2} dx\\\\\n=&\\ \\frac12\\int_{0}^{\\infty}\\ln x \\ d\\bigg( \\frac { x}{{{1-x+x^2}}} \\bigg)\n= -\\frac12\\int_{0}^{\\infty}\\frac { 1}{{{1-x+x^2}}} dx =-\\frac{2\\pi}{3\\sqrt3}\\\\\n\\end{align}"
+        "QuestionLink": "https://math.stackexchange.com/questions/4910748/integral-with-min",
+        "Question": "While solving some problem, I have reached an intermediate step in which I need to calculate the following integral:\n\n\\int_0^1\\min (x,1-x) \\cdot x dx\n\nI'm stuck with the calculation, trying to use some kind of geometric trick here. I will be glad to have some of your ideas.",
+        "Answer": "As @hamam_Abdallah stated in his comment, there holds\n\n\\min(x,1-x) = x \\iff x \\leqslant 1/2.\n\nTherefore, you can compute your integral as follows:\n\n\\int_0^1 \\min(x,1-x) \\cdot x \\, dx = \\int_0^{1/2} x^2 \\, dx + \\int_{1/2}^1 (1-x) x\\, dx.\n\nI believe you should be able to compute the latter two integrals, but if you need more details about this last calculation please let me know."
+    },
+    {
+        "Title": "Second order ODE solution approach",
+        "Tags": [
+            "calculus",
+            "ordinary-differential-equations"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4919239/second-order-ode-solution-approach",
+        "Question": "Find a solution for the following second order ODE\n\nx''(t)+(x'(t))^2+\\sin(x(t))=0, \\; x(0)=\\pi,\\;x'(0)=0.\n\nI am familiar with the characteristics equations method or assuming y=e^{rx}, however both approaches seem unavailable for this equation.\n\nI tried simplifying the equation by assuming that we only seek a solution around the point x(0)=\\pi and therefore \\sin(x)\\approx-x, which reduces the problem to\nx''+(x')^2-x=0.\n\nFrom here I still don't see how to work around (x')^2",
+        "Answer": "The problem asks for a solution. Find one easiest, simplest solution.\n\nIf x''(t)=0 and x'(t)=0 then the equation becomes:\n\n\\sin(x(t))=0, \\; x(0)=\\pi\n\nOne solution is x(t) = \\pi. My apologies for not being very mathy, but trivial solutions aren't wrong."
+    },
+    {
+        "Title": "How to integrate \\int \\frac{x^{2}+7(\\sqrt[m]{x^{m}})+6}{\\sqrt[m]{x^{m}}+1}dx ?",
+        "Tags": [
+            "calculus",
+            "integration",
+            "indefinite-integrals"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4919230/how-to-integrate-int-fracx27-sqrtmxm6-sqrtmxm1dx",
+        "Question": "Q)How to integrate \\int \\frac{x^{2}+7(\\sqrt[m]{x^{m}})+6}{\\sqrt[m]{x^{m}}+1}dx ? m=2nn=\n\nFirst of all my approach:\n\nLet I=\\int \\frac{x^{2}+7(\\sqrt[m]{x^{m}})+6}{\\sqrt[m]{x^{m}}+1}dx\n\n1) \\sqrt[m]{x^{m}}=|x|=+x, then:\n\nI=\\int\\frac{x^{2}+7x+6}{x+1}dx\n\n\\implies I=\\int\\frac{(x+6)(x+1)}{(x+1)}dx\n\n\\implies I=\\int(x+6)dx\n\n\\implies I=\\frac{x^{2}}{2}+6x+C\n\n2) \\sqrt[m]{x^{m}}=|x|=-x, then:\n\nI=\\int\\frac{x^{2}-7x+6}{(1-x)}dx\n\n\\implies I=\\int\\frac{(x-6)(x-1)}{(1-x)}dx\n\n\\implies I=\\int(6-x)dx\n\n\\implies I=6x-\\frac{x^{2}}{2}+C_1\n\nBut my doubt is how to solve the integral in a single case by taking both the cases together? I am facing problem in solving this integral by taking both the cases together in a single case and then integrating.\n\n\\sqrt[m]{x^{m}}=|x|=+x2^{nd}\\sqrt[m]{x^{m}}=|x|=-x",
+        "Answer": "It's not entirely clear what is meant by \\sqrt[m]{x^m}.  This notation is unusual because if the intent is that \\sqrt[m]{x^m} = |x|, presumably, the question should have simply used the absolute value notation.  If the intent is that \\sqrt[m]{x^m} = x, again, the question should have been written that way.\n\nIf we assume the former--i.e. the intent is \\sqrt[m]{x^m} = |x|--then we may write for all real x\n\\frac{x^2 + 7|x| + 6}{|x| + 1} = \\frac{|x|^2 + 7|x| + 6}{|x| + 1} = \\frac{(|x| + 1)(|x| + 6)}{|x| + 1} = |x| + 6.  Cancellation is allowed because |x| + 1 > 0.\nThen integration proceeds as usual:\n\\int |x| + 6 \\, dx = \\frac{x|x|}{2} + 6x + C = x\\left(\\frac{|x|}{2} + 6 \\right) + C."
+    },
+    {
+        "Title": "How to Evaluate the Integral \\int_{0}^{\\frac{\\pi}{2}}\\frac{\\sqrt{1+\\sin(y)}\\ln(\\sin(y))}{\\cos(y)}dy?",
+        "Tags": [
+            "calculus",
+            "integration",
+            "definite-integrals",
+            "closed-form"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4919126/how-to-evaluate-the-integral-int-0-frac-pi2-frac-sqrt1-siny-ln",
+        "Question": "Question: How to Evaluate the Integral \\int_{0}^{\\frac{\\pi}{2}}\\frac{\\sqrt{1+\\sin(y)}\\ln(\\sin(y))}{\\cos(y)}dy?\n\nI'm looking for a method to evaluate it. I've attempted a substitution to simplify the expression, but I'm not sure how to proceed further. Here’s what I've done so far:\n\nI used the substitution \\sqrt{1+\\sin(y)} \\rightarrow x.\nThis transforms the integral into:\n\n-2\\int_{1}^{\\sqrt{2}}\\frac{\\ln(x^{2}-1)}{x^{2}-2}dx.\n\nI further decomposed the logarithm:\n\n-2\\int_{1}^{\\sqrt{2}}\\frac{\\ln(x+1)+\\ln(x-1)}{(x-\\sqrt{2})(x+\\sqrt{2})}dx.\n\nI'm stuck at this point.\n\nEdit;The integral was given by our professor, who mentioned it has a very beautiful closed form. I have already emailed our professor, who gave the integral to my friends and me. If I receive any updates, I'll let you know.",
+        "Answer": "You are almost at the solution. Continue with partial fraction decomposition and tou have\n\nI\\, \\sqrt 2=-\\frac{\\log (x-1)}{x-\\sqrt{2}}+\\frac{\\log(x-1)}{x+\\sqrt{2}}-\\frac{\\log\n   (x+1)}{x-\\sqrt{2}}+\\frac{\\log(x+1)}{x+\\sqrt{2}}\n\\int\\frac{\\log (x+a)}{x+b}\\,dx=\\text{Li}_2\\left(\\frac{a+x}{a-b}\\right)+\n   \\log (a+x) \\log\\left(\\frac{b+x}{b-a}\\right)"
+    },
+    {
+        "Title": "Can we say that 1^\\infty is indeterminate because we can't classify \\infty as even or odd?",
+        "Tags": [
+            "calculus",
+            "limits",
+            "infinity",
+            "indeterminate-forms"
+        ],
+        "QuestionLink": "https://math.stackexchange.com/questions/4919114/can-we-say-that-1-infty-is-indeterminate-because-we-cant-classify-infty-a",
+        "Question": "While studying indeterminate forms I like many others had used this post to understand why 1^\\infty is indeterminate. Today I thought of a new and perhaps simpler argument to explain why this is so but I couldn't find it among the answers in the post.\nMy argument is that we can write 1^x = (-1)^{2.x}\nNow if x = \\infty, then 1^\\infty = (-1)^{\\infty},\nWhich is only true if we can say infinity is even or odd which we can't say.\nSo, am I correct, or I have made some mistakes in my assumptions.",
+        "Answer": "No, your argument is not correct. The issue of 1^\\infty being an indeterminate form has nothing to do with integer exponents per se; one is instead interested in real valued exponents approaching \\infty. It also has nothing to do with changing the base to -1, which on the infinitesmal scale of limits is far, far away from 1; one is instead interested in real valued bases approaching 1.\n\nI suggest simply reading the accepted answer of the post you linked to. In brief summary, what matters are the values of the expression b^x as one lets the base b approach 1 and the exponent x approach \\infty: the limiting value is not well defined. That's what makes the expression 1^\\infty an indeterminate form."
     }
 ]
