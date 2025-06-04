@@ -1,6 +1,7 @@
 import time
 import re
 import json
+import os
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from latex_parser import parse_post_body, parse_title_mixed
@@ -10,13 +11,42 @@ class StackExchangeScraper:
         self.page = page
         self.pagesize = pagesize
         self.tag = tag
-        self.url = f"https://math.stackexchange.com/questions/tagged/{tag}?tab=newest&page={page}&pagesize={pagesize}"
+        self.base_url = f"https://math.stackexchange.com/questions/tagged/{tag}?tab=newest"
         self.options = uc.ChromeOptions()
-        self.driver = uc.Chrome(driver_executable_path="./chromedriver-mac-x64/chromedriver", options=self.options)
+        self.driver = uc.Chrome(
+            driver_executable_path="./chromedriver-mac-x64/chromedriver", 
+            options=self.options
+        )
+        self.json_path = "/Users/stevenzhu/Documents/Data/data.json"
         self.data = []
 
     def clean_text(self, text: str) -> str:
         return re.sub(r'\s+', ' ', text).strip()
+
+    def append_data_to_json(self, filepath="data.json"):
+        """
+        Append self.data to a JSON file (merging with any existing array).
+        Overwrites only the file content with updated combined list.
+        """
+        existing_data = []
+
+        if os.path.exists(filepath):
+            try:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    existing_data = json.load(f)
+                    if not isinstance(existing_data, list):
+                        print("⚠️ Warning: existing file is not a JSON list. Starting fresh.")
+                        existing_data = []
+            except Exception as e:
+                print(f"❌ Error reading existing file: {e}")
+
+        combined_data = existing_data + self.data  # Merge new data
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(combined_data, f, indent=4, ensure_ascii=False)
+        
+        print(f"💾 Saved {len(self.data)} new entries. Total is now {len(combined_data)}.\n")
+        self.data = []  # Reset internal buffer after saving
+
 
     def extract_title_tag_info(self, question_div):
         try:
@@ -77,32 +107,50 @@ class StackExchangeScraper:
             print(f"❌ Failed to fetch full question page: {e}")
             return "", ""
 
+    def scrape_page_once(self):
+        url = f"{self.base_url}&page={self.page}&pagesize={self.pagesize}"
+        print(f"🌐 Scraping page {self.page} → {url}")
+        self.driver.get(url)
+        time.sleep(13)
 
-    def scrape(self):
-        try:
-            # Phase 1: Collect metadata
-            self.driver.get(self.url)
-            time.sleep(10)
+        questions = self.driver.find_elements(By.XPATH, '//*[@id="questions"]/div')
+        print(f"🔍 Found {len(questions)} questions.")
 
-            questions = self.driver.find_elements(By.XPATH, '//*[@id="questions"]/div')
-            print(f"🔍 Found {len(questions)} questions on page {self.page}.")
+        if len(questions) == 0:
+            return False  # No results = stop crawling
 
-            for i, q in enumerate(questions):
-                info = self.extract_title_tag_info(q)
-                if info:
-                    self.data.append(info)
-                if i >= 5:  # Limit for testing
-                    break
+        for i, q in enumerate(questions):
+            info = self.extract_title_tag_info(q)
+            if info:
+                self.data.append(info)
+            # if i >= 3:  # Limit for testing
+            #     break
 
-            # Phase 2: Fetch question & answer for each entry
-            for i, entry in enumerate(self.data):
-                print(f"📥 Fetching question {i + 1}: {entry['Title']}")
-                question, answer = self.extract_question_answer(entry["QuestionLink"])
-                self.data[i]["Question"] = question
-                self.data[i]["Answer"] = answer
 
-        except Exception as e:
-            print("❌ Scraping failed:", e)
+        for i, entry in enumerate(self.data):
+            print(f"📥 Fetching question {i + 1}: {entry['Title']}")
+            question, answer = self.extract_question_answer(entry["QuestionLink"])
+            self.data[i]["Question"] = question
+            self.data[i]["Answer"] = answer
+
+        return True
+
+
+    def scrape_all_pages(self, max_pages=5):
+        pages_scraped = 0
+        while pages_scraped < max_pages:
+            success = self.scrape_page_once()
+            if not success:
+                print("🚫 No more results found. Stopping.")
+                break
+            
+            self.append_data_to_json(filepath=self.json_path)
+
+            
+            pages_scraped += 1
+            self.page += 1
+            print(f"✅ Completed page {self.page - 1}. Moving to {self.page}...\n")
+
 
     def close(self):
         self.driver.quit()
@@ -112,15 +160,13 @@ class StackExchangeScraper:
 
 
 if __name__ == "__main__":
-    scraper = StackExchangeScraper(page=66)
+    scraper = StackExchangeScraper(page=109)
 
-    scraper.scrape()
+    scraper.scrape_all_pages(max_pages=100)
 
-    data = scraper.get_data()
-    print(f"\n✅ Done! Collected {len(data)} questions.")
+    print(f"\n✅ Done! Collected ALL questions.")
 
-    with open("data.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
+    
 
     scraper.close()
 
