@@ -14,7 +14,7 @@ class StackExchangeScraper:
         self.base_url = f"https://math.stackexchange.com/questions/tagged/{tag}?tab=newest"
         self.options = uc.ChromeOptions()
         self.driver = uc.Chrome()
-        self.json_path = "/Users/Catherine/Documents/Data/data.json"
+        self.json_path = "/Users/Catherine/Calculus-data/10_65_data.json"
         self.data = []
 
     def clean_text(self, text: str) -> str:
@@ -108,7 +108,7 @@ class StackExchangeScraper:
         url = f"{self.base_url}&page={self.page}&pagesize={self.pagesize}"
         print(f"🌐 Scraping page {self.page} → {url}")
         self.driver.get(url)
-        time.sleep(13)
+        time.sleep(20)
 
         questions = self.driver.find_elements(By.XPATH, '//*[@id="questions"]/div')
         print(f"🔍 Found {len(questions)} questions.")
@@ -157,9 +157,9 @@ class StackExchangeScraper:
 
 
 if __name__ == "__main__":
-    scraper = StackExchangeScraper(page=20)
+    scraper = StackExchangeScraper(page=50)
 
-    scraper.scrape_all_pages(max_pages=100)
+    scraper.scrape_all_pages(max_pages=15)
 
     print(f"\n✅ Done! Collected ALL questions.")
 
