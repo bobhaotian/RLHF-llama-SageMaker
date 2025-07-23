@@ -1,0 +1,2822 @@
+{"prompt": "Define a chain complex."}
+{"prompt": "Define a commutative ring."}
+{"prompt": "Define a dual vector space."}
+{"prompt": "Define a projective module."}
+{"prompt": "Define a simple group."}
+{"prompt": "Define a subfield."}
+{"prompt": "Define an eigenvalue."}
+{"prompt": "Define an ideal in a ring."}
+{"prompt": "Define an isomorphism."}
+{"prompt": "Define the term irreducible polynomial."}
+{"prompt": "Define the term order of a group."}
+{"prompt": "Describe a Euclidean domain."}
+{"prompt": "Describe a Galois group."}
+{"prompt": "Describe a continuous group."}
+{"prompt": "Describe a coset."}
+{"prompt": "Describe a free group."}
+{"prompt": "Describe a module over a ring."}
+{"prompt": "Describe a monoid."}
+{"prompt": "Describe a perfect group."}
+{"prompt": "Describe a permutation representation."}
+{"prompt": "Describe a primitive root."}
+{"prompt": "Describe a semidirect product."}
+{"prompt": "Describe a skew-symmetric matrix."}
+{"prompt": "Describe a split short exact sequence."}
+{"prompt": "Describe a zero divisor."}
+{"prompt": "Describe the concept of a group action."}
+{"prompt": "Describe the concept of localization in a ring."}
+{"prompt": "Explain Zorn's Lemma."}
+{"prompt": "Explain a bilinear function."}
+{"prompt": "Explain a cyclic group."}
+{"prompt": "Explain a linear transformation."}
+{"prompt": "Explain a symmetric bilinear form."}
+{"prompt": "Explain a unit in a ring."}
+{"prompt": "Explain an annihilator in a module."}
+{"prompt": "Explain the Sylow theorems."}
+{"prompt": "Explain the concept of a Hamming code."}
+{"prompt": "Explain the concept of a lattice in algebra."}
+{"prompt": "Explain the ideal class group."}
+{"prompt": "Explain the term additive group."}
+{"prompt": "Explain the term automorphism."}
+{"prompt": "Explain the term group homomorphism."}
+{"prompt": "Explain the term quotient group."}
+{"prompt": "Explain the term subgroup."}
+{"prompt": "Explain the term tensor product."}
+{"prompt": "Explain the term vector space."}
+{"prompt": "What is a Borel subgroup?"}
+{"prompt": "What is a Cartesian product?"}
+{"prompt": "What is a Frobenius group?"}
+{"prompt": "What is a Jordan canonical form?"}
+{"prompt": "What is a Noetherian ring?"}
+{"prompt": "What is a Sylow p-subgroup?"}
+{"prompt": "What is a centralizer in a group?"}
+{"prompt": "What is a characteristic of a field?"}
+{"prompt": "What is a characteristic polynomial?"}
+{"prompt": "What is a dihedral group?"}
+{"prompt": "What is a direct product of groups?"}
+{"prompt": "What is a divisibility in a ring?"}
+{"prompt": "What is a factor group?"}
+{"prompt": "What is a field extension?"}
+{"prompt": "What is a field?"}
+{"prompt": "What is a finite field?"}
+{"prompt": "What is a generating set?"}
+{"prompt": "What is a group?"}
+{"prompt": "What is a homomorphism?"}
+{"prompt": "What is a linear group?"}
+{"prompt": "What is a matrix ring?"}
+{"prompt": "What is a maximal ideal?"}
+{"prompt": "What is a module?"}
+{"prompt": "What is a nilpotent group?"}
+{"prompt": "What is a normal subgroup?"}
+{"prompt": "What is a permutation group?"}
+{"prompt": "What is a polynomial ring?"}
+{"prompt": "What is a primitive polynomial?"}
+{"prompt": "What is a projective resolution?"}
+{"prompt": "What is a quotient ring?"}
+{"prompt": "What is a ring homomorphism?"}
+{"prompt": "What is a ring of invariants?"}
+{"prompt": "What is a ring?"}
+{"prompt": "What is a solvable group?"}
+{"prompt": "What is a spectral decomposition?"}
+{"prompt": "What is a symmetric group?"}
+{"prompt": "What is an Abelian group?"}
+{"prompt": "What is an algebra homomorphism?"}
+{"prompt": "What is an algebraic closure?"}
+{"prompt": "What is an algebraic variety?"}
+{"prompt": "What is an associative algebra?"}
+{"prompt": "What is an idempotent element?"}
+{"prompt": "What is an injective module?"}
+{"prompt": "What is an integral domain?"}
+{"prompt": "What is the Cayley-Hamilton theorem?"}
+{"prompt": "What is the center of a group?"}
+{"prompt": "What is the cohomology of a group?"}
+{"prompt": "What is the dimension of a vector space?"}
+{"prompt": "What is the kernel of a homomorphism?"}
+{"prompt": "Define a recursive algorithm."}
+{"prompt": "Define computational complexity."}
+{"prompt": "Define dynamic programming."}
+{"prompt": "Define the concept of complexity analysis."}
+{"prompt": "Define the importance of stability in sorting algorithms."}
+{"prompt": "Define the term \"hash table load factor\"."}
+{"prompt": "Define the term \"insertion sort\"."}
+{"prompt": "Define the term \"priority scheduling\"."}
+{"prompt": "Define top-down and bottom-up approaches in algorithms."}
+{"prompt": "Describe Dijkstra's algorithm."}
+{"prompt": "Describe a hash function."}
+{"prompt": "Describe a red-black tree."}
+{"prompt": "Describe the Bellman-Ford algorithm."}
+{"prompt": "Describe the concept of a power law distribution."}
+{"prompt": "Describe the concept of amortized analysis."}
+{"prompt": "Describe the concept of an optimization problem."}
+{"prompt": "Describe the concept of tail recursion."}
+{"prompt": "Describe the idea of dynamic connectivity."}
+{"prompt": "Describe the importance of Floyd-Warshall algorithm."}
+{"prompt": "Describe the purpose of prim's algorithm."}
+{"prompt": "Describe the simplex algorithm."}
+{"prompt": "Describe the use of a directed acyclic graph (DAG)."}
+{"prompt": "Describe the use of a linked list in algorithms."}
+{"prompt": "Describe what a bucket sort is."}
+{"prompt": "Describe what a disjoint-set data structure is."}
+{"prompt": "Describe what a pigeonhole principle in algorithms is."}
+{"prompt": "Explain depth-first search (DFS)."}
+{"prompt": "Explain the concept of a binary search tree."}
+{"prompt": "Explain the concept of a minimum spanning tree."}
+{"prompt": "Explain the concept of a stable matching problem."}
+{"prompt": "Explain the concept of backtracking."}
+{"prompt": "Explain the concept of breadth-first search (BFS)."}
+{"prompt": "Explain the concept of load balancing in algorithms."}
+{"prompt": "Explain the concept of local search algorithms."}
+{"prompt": "Explain the concept of the Monte Carlo method."}
+{"prompt": "Explain the concept of the traveling salesman problem."}
+{"prompt": "Explain the purpose of a priority queue."}
+{"prompt": "Explain the purpose of the KMP algorithm."}
+{"prompt": "Explain the purpose of the knapsack algorithm."}
+{"prompt": "Explain the role of the Hungarian algorithm."}
+{"prompt": "Explain the term \"binary search\"."}
+{"prompt": "Explain the term \"parallel algorithm\"."}
+{"prompt": "Explain the use of the knapsack problem."}
+{"prompt": "Explain topological sorting in graphs."}
+{"prompt": "Explain what a Fibonacci heap is."}
+{"prompt": "Explain what an interval tree is."}
+{"prompt": "What does Big O notation represent?"}
+{"prompt": "What does breadth-first search accomplish?"}
+{"prompt": "What is Kruskal's algorithm used for?"}
+{"prompt": "What is a B-tree used for?"}
+{"prompt": "What is a Hamiltonian path?"}
+{"prompt": "What is a Skip List?"}
+{"prompt": "What is a Splay tree?"}
+{"prompt": "What is a binary heap?"}
+{"prompt": "What is a divide-and-conquer strategy?"}
+{"prompt": "What is a flow network?"}
+{"prompt": "What is a greedy algorithm?"}
+{"prompt": "What is a hash table and its use case?"}
+{"prompt": "What is a heuristic function in algorithms?"}
+{"prompt": "What is a radix sort?"}
+{"prompt": "What is a random forest in algorithms?"}
+{"prompt": "What is a spanning tree?"}
+{"prompt": "What is an AVL tree?"}
+{"prompt": "What is an NP-complete problem?"}
+{"prompt": "What is an adjacency matrix in graph theory?"}
+{"prompt": "What is an approximate algorithm?"}
+{"prompt": "What is an exponential-time algorithm?"}
+{"prompt": "What is bubble sort?"}
+{"prompt": "What is memoization and why is it used?"}
+{"prompt": "What is merge sort and how does it work?"}
+{"prompt": "What is quicksort and its best use case?"}
+{"prompt": "What is the Bellman-Ford algorithm used for?"}
+{"prompt": "What is the Floyd-Warshall algorithm?"}
+{"prompt": "What is the Ford-Fulkerson algorithm?"}
+{"prompt": "What is the butterfly effect in algorithms?"}
+{"prompt": "What is the difference between a greedy algorithm and dynamic programming?"}
+{"prompt": "What is the difference between deterministic and non-deterministic algorithms?"}
+{"prompt": "What is the difference between selection sort and insertion sort?"}
+{"prompt": "What is the function of a queue in algorithms?"}
+{"prompt": "What is the function of a sorting algorithm?"}
+{"prompt": "What is the importance of graph coloring?"}
+{"prompt": "What is the purpose of a bloom filter?"}
+{"prompt": "What is the purpose of a suffix tree in algorithms?"}
+{"prompt": "What is the purpose of simulated annealing?"}
+{"prompt": "What is the purpose of the A* algorithm?"}
+{"prompt": "What is the purpose of the Ford-Fulkerson method?"}
+{"prompt": "What is the role of a heap sort?"}
+{"prompt": "What is the role of an algorithm in problem-solving?"}
+{"prompt": "What is the significance of graph traversal?"}
+{"prompt": "What is the time complexity of quicksort?"}
+{"prompt": "What is the traveling salesman problem?"}
+{"prompt": "What is the use of a graph in algorithms?"}
+{"prompt": "What is the use of a monotone chain algorithm?"}
+{"prompt": "What is the use of the Edmonds-Karp algorithm?"}
+{"prompt": "Define a Boltzmann machine."}
+{"prompt": "Define a graph neural network."}
+{"prompt": "Define a hyperparameter in machine learning."}
+{"prompt": "Define a recurrent neural network."}
+{"prompt": "Define batch normalization."}
+{"prompt": "Define collaborative filtering."}
+{"prompt": "Define real-time AI processing."}
+{"prompt": "Define reinforcement learning."}
+{"prompt": "Define reinforcement signal."}
+{"prompt": "Define robotic process automation."}
+{"prompt": "Define semi-supervised learning."}
+{"prompt": "Define the term ethical AI."}
+{"prompt": "Define the term knowledge graph."}
+{"prompt": "Define transfer reinforcement learning."}
+{"prompt": "Define underfitting in model training."}
+{"prompt": "Define unsupervised clustering."}
+{"prompt": "Define what a probabilistic graphical model is."}
+{"prompt": "Define what a random forest is."}
+{"prompt": "Describe a convolutional neural network."}
+{"prompt": "Describe a knowledge base in AI."}
+{"prompt": "Describe an artificial neural network."}
+{"prompt": "Describe dimensionality reduction."}
+{"prompt": "Describe ensemble learning in AI."}
+{"prompt": "Describe intelligent agents in AI."}
+{"prompt": "Describe latent variables in AI."}
+{"prompt": "Describe swarm intelligence."}
+{"prompt": "Describe the concept of a chatbot."}
+{"prompt": "Describe the gradient boosting algorithm."}
+{"prompt": "Describe the robotics branch of AI."}
+{"prompt": "Explain Q-learning in AI."}
+{"prompt": "Explain backpropagation."}
+{"prompt": "Explain contextual AI."}
+{"prompt": "Explain meta-learning in AI."}
+{"prompt": "Explain partially observable states in AI."}
+{"prompt": "Explain pruning in decision trees."}
+{"prompt": "Explain supervised learning."}
+{"prompt": "Explain synthetic data in AI."}
+{"prompt": "Explain the cognitive architecture in AI."}
+{"prompt": "Explain the concept of a learning rate."}
+{"prompt": "Explain the softmax function."}
+{"prompt": "Explain the term backpropagation through time."}
+{"prompt": "Explain the term facial recognition."}
+{"prompt": "Explain the term inductive reasoning in AI."}
+{"prompt": "Explain the term neural architecture search."}
+{"prompt": "Explain the vanishing gradient problem."}
+{"prompt": "Explain transfer learning."}
+{"prompt": "Explain what a generative adversarial network is."}
+{"prompt": "What is AI bias?"}
+{"prompt": "What is AlphaFold in AI?"}
+{"prompt": "What is Bayesian optimization?"}
+{"prompt": "What is Monte Carlo method in AI?"}
+{"prompt": "What is Serendipity in AI?"}
+{"prompt": "What is a Gaussian mixture model?"}
+{"prompt": "What is a Markov decision process?"}
+{"prompt": "What is a capsule network?"}
+{"prompt": "What is a decision tree?"}
+{"prompt": "What is a feature vector?"}
+{"prompt": "What is a fuzzy logic system?"}
+{"prompt": "What is a k-means algorithm?"}
+{"prompt": "What is a knowledge-based agent?"}
+{"prompt": "What is a long short-term memory network?"}
+{"prompt": "What is a neural network?"}
+{"prompt": "What is a perceptron?"}
+{"prompt": "What is a reinforcement learning environment?"}
+{"prompt": "What is a self-organizing map?"}
+{"prompt": "What is a sigmoid function in AI?"}
+{"prompt": "What is a support vector machine?"}
+{"prompt": "What is a transformer model?"}
+{"prompt": "What is an activation function?"}
+{"prompt": "What is an adversarial example?"}
+{"prompt": "What is an attention mechanism in AI?"}
+{"prompt": "What is an autoencoder?"}
+{"prompt": "What is an elaborate AI framework?"}
+{"prompt": "What is an evolutionary algorithm?"}
+{"prompt": "What is an expert system in AI?"}
+{"prompt": "What is cross-validation?"}
+{"prompt": "What is data augmentation in AI?"}
+{"prompt": "What is deep learning?"}
+{"prompt": "What is distributed AI?"}
+{"prompt": "What is dropout in neural networks?"}
+{"prompt": "What is end-to-end learning in AI?"}
+{"prompt": "What is feature extraction in AI?"}
+{"prompt": "What is gradient descent?"}
+{"prompt": "What is hyperparameter tuning?"}
+{"prompt": "What is natural language processing?"}
+{"prompt": "What is optical character recognition?"}
+{"prompt": "What is overfitting in machine learning?"}
+{"prompt": "What is pattern recognition in AI?"}
+{"prompt": "What is predictive modeling?"}
+{"prompt": "What is spectral clustering?"}
+{"prompt": "What is symbolic AI?"}
+{"prompt": "What is the Turing Test?"}
+{"prompt": "What is the difference between AI and machine learning?"}
+{"prompt": "What is the role of a data scientist in AI?"}
+{"prompt": "What is the semantic web?"}
+{"prompt": "What is unsupervised learning?"}
+{"prompt": "What is zero-shot learning?"}
+{"prompt": "Define a Jacobian matrix."}
+{"prompt": "Define a boundary value problem."}
+{"prompt": "Define a definite integral."}
+{"prompt": "Define a gradient in calculus."}
+{"prompt": "Define a one-to-one function."}
+{"prompt": "Define a parabola."}
+{"prompt": "Define a secant line."}
+{"prompt": "Define an essential discontinuity."}
+{"prompt": "Define an even function."}
+{"prompt": "Define an improper integral."}
+{"prompt": "Define an inflection point."}
+{"prompt": "Define functional analysis."}
+{"prompt": "Define pointwise limits."}
+{"prompt": "Describe Rolle's theorem."}
+{"prompt": "Describe Simpson's rule."}
+{"prompt": "Describe a Fourier series."}
+{"prompt": "Describe a Maclaurin series."}
+{"prompt": "Describe a neighborhood in calculus."}
+{"prompt": "Describe a nonlinear differential equation."}
+{"prompt": "Describe a partial differential equation."}
+{"prompt": "Describe a removable discontinuity."}
+{"prompt": "Describe a scalar field."}
+{"prompt": "Describe an asymptote."}
+{"prompt": "Describe an increasing function."}
+{"prompt": "Describe curvature in calculus."}
+{"prompt": "Describe polar coordinates."}
+{"prompt": "Describe radius of convergence."}
+{"prompt": "Describe the fundamental theorem of calculus."}
+{"prompt": "Describe the quotient rule for derivatives."}
+{"prompt": "Explain L'H\u00f4pital's rule."}
+{"prompt": "Explain a Banach space."}
+{"prompt": "Explain a Riemann integral."}
+{"prompt": "Explain a bijective function."}
+{"prompt": "Explain a continuous function."}
+{"prompt": "Explain a convergent series."}
+{"prompt": "Explain a directional derivative."}
+{"prompt": "Explain an inhomogeneous equation."}
+{"prompt": "Explain an inverse function."}
+{"prompt": "Explain conditional convergence."}
+{"prompt": "Explain eigenfunctions."}
+{"prompt": "Explain implicit differentiation."}
+{"prompt": "Explain pointwise convergence."}
+{"prompt": "Explain the concept of a derivative."}
+{"prompt": "Explain the divergence theorem."}
+{"prompt": "Explain the first derivative test."}
+{"prompt": "Explain the power rule for derivatives."}
+{"prompt": "Explain the squeeze theorem."}
+{"prompt": "What is Green's theorem?"}
+{"prompt": "What is Stokes' theorem?"}
+{"prompt": "What is a Hessian matrix?"}
+{"prompt": "What is a Hilbert space?"}
+{"prompt": "What is a Laplace transform?"}
+{"prompt": "What is a Laplace's equation?"}
+{"prompt": "What is a Riemann sum?"}
+{"prompt": "What is a Taylor series?"}
+{"prompt": "What is a bounded function?"}
+{"prompt": "What is a critical point of a function?"}
+{"prompt": "What is a decreasing function?"}
+{"prompt": "What is a differential equation?"}
+{"prompt": "What is a discontinuous function?"}
+{"prompt": "What is a divergent series?"}
+{"prompt": "What is a harmonic series?"}
+{"prompt": "What is a homogeneous equation?"}
+{"prompt": "What is a hyperbola?"}
+{"prompt": "What is a jump discontinuity?"}
+{"prompt": "What is a limit in calculus?"}
+{"prompt": "What is a limit point?"}
+{"prompt": "What is a linear differential equation?"}
+{"prompt": "What is a metric space?"}
+{"prompt": "What is a monotonic function?"}
+{"prompt": "What is a normal line?"}
+{"prompt": "What is a parametric equation?"}
+{"prompt": "What is a partial derivative?"}
+{"prompt": "What is a power series?"}
+{"prompt": "What is a rational function?"}
+{"prompt": "What is a sequence in calculus?"}
+{"prompt": "What is a series in calculus?"}
+{"prompt": "What is a tangent line?"}
+{"prompt": "What is a vector field?"}
+{"prompt": "What is absolute convergence?"}
+{"prompt": "What is an alternating series?"}
+{"prompt": "What is an eigenvalue in calculus?"}
+{"prompt": "What is an indefinite integral?"}
+{"prompt": "What is an initial value problem?"}
+{"prompt": "What is an integral in calculus?"}
+{"prompt": "What is an odd function?"}
+{"prompt": "What is an onto function?"}
+{"prompt": "What is an oscillating sequence?"}
+{"prompt": "What is arc length?"}
+{"prompt": "What is the chain rule in differentiation?"}
+{"prompt": "What is the mean value theorem?"}
+{"prompt": "What is the product rule in differentiation?"}
+{"prompt": "What is the second derivative test?"}
+{"prompt": "What is the trapezoidal rule?"}
+{"prompt": "What is uniform continuity?"}
+{"prompt": "What is uniform convergence?"}
+{"prompt": "Define Catalan numbers."}
+{"prompt": "Define Euler's totient function."}
+{"prompt": "Define a Boolean algebra."}
+{"prompt": "Define a Steiner system."}
+{"prompt": "Define a clique in a graph."}
+{"prompt": "Define a digraph."}
+{"prompt": "Define a power set."}
+{"prompt": "Define a tournament graph."}
+{"prompt": "Define an Eulerian path."}
+{"prompt": "Define an adjacency matrix."}
+{"prompt": "Define an algebraic combinatorics object."}
+{"prompt": "Define an orbifold in combinatorics."}
+{"prompt": "Define the Mobius function in combinatorics."}
+{"prompt": "Define the binomial theorem."}
+{"prompt": "Define the concept of connectivity in a graph."}
+{"prompt": "Define the knight's tour problem."}
+{"prompt": "Define the pigeonhole principle."}
+{"prompt": "Describe a binomial coefficient."}
+{"prompt": "Describe a bipartite graph."}
+{"prompt": "Describe an integer partition."}
+{"prompt": "Describe the Birkhoff polytope."}
+{"prompt": "Describe the Hall's marriage theorem."}
+{"prompt": "Describe the concept of combinatorial design."}
+{"prompt": "Describe what a brick partition is in combinatorial optimization."}
+{"prompt": "Explain Burnside's lemma."}
+{"prompt": "Explain Pascal's Triangle."}
+{"prompt": "Explain Reed\u2013Solomon error correction."}
+{"prompt": "Explain a poset (partially ordered set)."}
+{"prompt": "Explain the 4-color theorem."}
+{"prompt": "Explain the Lovasz Local Lemma."}
+{"prompt": "Explain the Tutte polynomial."}
+{"prompt": "Explain the concept of Ramsey numbers."}
+{"prompt": "Explain the concept of a Young tableau."}
+{"prompt": "Explain the concept of a combination."}
+{"prompt": "Explain the concept of a cycle in a graph."}
+{"prompt": "Explain the concept of a graph in combinatorics."}
+{"prompt": "Explain the concept of a lattice in combinatorics."}
+{"prompt": "Explain the concept of degree sequence in a graph."}
+{"prompt": "Explain the concept of geometric probability."}
+{"prompt": "Explain the concept of graph coloring."}
+{"prompt": "Explain what a matching is in a graph."}
+{"prompt": "Explain what an acyclic graph is."}
+{"prompt": "Explain what counting permutations with repetition entails."}
+{"prompt": "Explain what it means for a permutation to be cyclic."}
+{"prompt": "What does a directed graph mean?"}
+{"prompt": "What does it mean for a graph to be connected?"}
+{"prompt": "What does it mean for a graph to be planar?"}
+{"prompt": "What does it mean for a sequence to be greedy?"}
+{"prompt": "What is Chebyshev's inequality's role in combinatorics?"}
+{"prompt": "What is Enumerative Combinatorics?"}
+{"prompt": "What is a Cartesian product in set theory?"}
+{"prompt": "What is a Ferrers diagram?"}
+{"prompt": "What is a Hamiltonian cycle?"}
+{"prompt": "What is a Hasse diagram?"}
+{"prompt": "What is a Kirkman's schoolgirl problem?"}
+{"prompt": "What is a Latin square?"}
+{"prompt": "What is a Zermelo set?"}
+{"prompt": "What is a binary relation?"}
+{"prompt": "What is a chain decomposition?"}
+{"prompt": "What is a chain in a poset (partially ordered set)?"}
+{"prompt": "What is a chordal graph?"}
+{"prompt": "What is a complete graph?"}
+{"prompt": "What is a derangement?"}
+{"prompt": "What is a difference set?"}
+{"prompt": "What is a factorial, and why is it important in combinatorics?"}
+{"prompt": "What is a generating function in combinatorics?"}
+{"prompt": "What is a homomorphism between graphs?"}
+{"prompt": "What is a matroid?"}
+{"prompt": "What is a multinomial coefficient?"}
+{"prompt": "What is a partition of a set?"}
+{"prompt": "What is a perfect graph?"}
+{"prompt": "What is a perfect matching?"}
+{"prompt": "What is a permutation?"}
+{"prompt": "What is a polyomino?"}
+{"prompt": "What is a random graph?"}
+{"prompt": "What is a random walk and its applications?"}
+{"prompt": "What is a rook polynomial?"}
+{"prompt": "What is a simplicial complex?"}
+{"prompt": "What is a spanning tree?"}
+{"prompt": "What is a subset?"}
+{"prompt": "What is a sylvester number?"}
+{"prompt": "What is an alternating permutation?"}
+{"prompt": "What is an incidence matrix of a graph?"}
+{"prompt": "What is an independent set in a graph?"}
+{"prompt": "What is meant by a tree in combinatorial terms?"}
+{"prompt": "What is meant by a vertex cover?"}
+{"prompt": "What is meant by symmetric difference in sets?"}
+{"prompt": "What is the Blotto game in combinatorics?"}
+{"prompt": "What is the chromatic number of a graph?"}
+{"prompt": "What is the concept of a symmetric group?"}
+{"prompt": "What is the concept of isomorphism in graphs?"}
+{"prompt": "What is the difference between a simple graph and a multigraph?"}
+{"prompt": "What is the principle of inclusion-exclusion?"}
+{"prompt": "What is the purpose of a matching number in a graph?"}
+{"prompt": "Describe Cauchy\u2019s residue theorem."}
+{"prompt": "Describe Harnack\u2019s inequality."}
+{"prompt": "Describe Nevanlinna theory."}
+{"prompt": "Describe higher order poles."}
+{"prompt": "Describe monodromy theorem in complex analysis."}
+{"prompt": "Describe the Dirichlet problem in complex analysis."}
+{"prompt": "Describe the Perron\u2019s method in complex analysis."}
+{"prompt": "Describe the Picard\u2019s little theorem."}
+{"prompt": "Describe the Riemann mapping theorem."}
+{"prompt": "Describe the Schwarz lemma in complex analysis."}
+{"prompt": "Describe the concept of entire functions."}
+{"prompt": "Describe the concept of orthogonal trajectories."}
+{"prompt": "Describe the covering space theory in complex analysis."}
+{"prompt": "Describe the meaning of complex dynamics."}
+{"prompt": "Describe the notion of harmonic functions."}
+{"prompt": "Describe the notion of the BMO space in complex analysis."}
+{"prompt": "Describe the uniqueness theorem for holomorphic functions."}
+{"prompt": "Describe what Liouville\u2019s theorem states."}
+{"prompt": "Describe what a Laurent series is."}
+{"prompt": "Describe what a Zygmund class function is."}
+{"prompt": "Describe what a contour integral is."}
+{"prompt": "Describe what an essential singularity is."}
+{"prompt": "Describe what hyperfunctions are in complex analysis."}
+{"prompt": "Explain Bochner\u2019s theorem in complex analysis."}
+{"prompt": "Explain Gauss's Mean Value Theorem."}
+{"prompt": "Explain Mittag-Leffler\u2019s theorem."}
+{"prompt": "Explain the Poisson integral formula."}
+{"prompt": "Explain the Riemann surface."}
+{"prompt": "Explain the concept of Mobius transformation."}
+{"prompt": "Explain the concept of a holomorphic function."}
+{"prompt": "Explain the concept of a simply connected domain."}
+{"prompt": "Explain the concept of analytic arcs."}
+{"prompt": "Explain the concept of analytic continuation."}
+{"prompt": "Explain the concept of rotation indices."}
+{"prompt": "Explain the concept of the Julia set."}
+{"prompt": "Explain the idea of the inverse Z-transform in complex analysis."}
+{"prompt": "Explain the identity theorem in complex analysis."}
+{"prompt": "Explain the importance of analytic functions."}
+{"prompt": "Explain the meaning of self-similarity in complex dynamics."}
+{"prompt": "Explain the principle of maximum modulus."}
+{"prompt": "Explain the residue theorem."}
+{"prompt": "Explain what Bloch\u2019s theorem states."}
+{"prompt": "Explain what an algebraic curve is."}
+{"prompt": "Explain what categorizes a doubly periodic function."}
+{"prompt": "Explain what happens in a branch point."}
+{"prompt": "Explain what is meant by hyperbolic metric."}
+{"prompt": "Explain what the winding number is."}
+{"prompt": "What are asymptotic values in complex functions?"}
+{"prompt": "What does the Big Picard theorem state?"}
+{"prompt": "What is Alekseev-Gr\u00f6bner formula?"}
+{"prompt": "What is Cauchy principal value?"}
+{"prompt": "What is Jensen\u2019s formula?"}
+{"prompt": "What is Rouche\u2019s theorem?"}
+{"prompt": "What is Runge\u2019s theorem?"}
+{"prompt": "What is Schottky\u2019s theorem?"}
+{"prompt": "What is a Blaschke product?"}
+{"prompt": "What is a Fatou set?"}
+{"prompt": "What is a Green\u2019s function?"}
+{"prompt": "What is a Taylor series in complex analysis?"}
+{"prompt": "What is a bi-holomorphic mapping?"}
+{"prompt": "What is a bipolar co-orthogonality?"}
+{"prompt": "What is a branch cut in complex domains?"}
+{"prompt": "What is a conformal map?"}
+{"prompt": "What is a meromorphic function?"}
+{"prompt": "What is a pole in complex analysis?"}
+{"prompt": "What is a quasiconformal mapping?"}
+{"prompt": "What is a singularity in a complex plane?"}
+{"prompt": "What is an analytic function?"}
+{"prompt": "What is harmonic conjugate in complex analysis?"}
+{"prompt": "What is meant by Montel\u2019s theorem?"}
+{"prompt": "What is meant by the term analytic continuation?"}
+{"prompt": "What is potential theory in complex analysis?"}
+{"prompt": "What is simple connectivity in complex analysis?"}
+{"prompt": "What is the Borel subalgebra in complex analysis?"}
+{"prompt": "What is the Cauchy-Riemann equation?"}
+{"prompt": "What is the Koebe quarter theorem?"}
+{"prompt": "What is the Lebesgue outer immersion?"}
+{"prompt": "What is the Phragm\u00e9n-Lindel\u00f6f principle?"}
+{"prompt": "What is the Schwarz reflection principle?"}
+{"prompt": "What is the Weierstrass product theorem?"}
+{"prompt": "What is the argument principle?"}
+{"prompt": "What is the concept of a bounded analytic function?"}
+{"prompt": "What is the concept of a complex conjugate?"}
+{"prompt": "What is the concept of local maximum modulus?"}
+{"prompt": "What is the critical point in complex analysis?"}
+{"prompt": "What is the geometric interpretation of complex numbers?"}
+{"prompt": "What is the immediate basin of attraction?"}
+{"prompt": "What is the meaning of univalent functions?"}
+{"prompt": "What is the minimal surface problem?"}
+{"prompt": "What is the notion of a Carath\u00e9odory loop?"}
+{"prompt": "What is the notion of boundary values of holomorphic functions?"}
+{"prompt": "What is the open mapping theorem?"}
+{"prompt": "What is the role of a Laplace transform in complex analysis?"}
+{"prompt": "What is the significance of Cauchy\u2019s integral theorem?"}
+{"prompt": "Describe a height map."}
+{"prompt": "Describe a simple polygon."}
+{"prompt": "Describe an intersection point."}
+{"prompt": "Describe planar point location."}
+{"prompt": "Describe the concept of a dynamic convex hull."}
+{"prompt": "Describe the concept of a polygon mesh."}
+{"prompt": "Describe the concept of a separating axis theorem."}
+{"prompt": "Describe the concept of a simplicial complex."}
+{"prompt": "Describe the concept of an affine transformation."}
+{"prompt": "Describe the concept of space partitioning."}
+{"prompt": "Describe the concept of the convex hull trick."}
+{"prompt": "Explain an ear clipping method."}
+{"prompt": "Explain convex decomposition."}
+{"prompt": "Explain the Gabriel graph."}
+{"prompt": "Explain the Graham scan algorithm."}
+{"prompt": "Explain the Jordan Curve Theorem."}
+{"prompt": "Explain the concept of a Dobkin-Kirkpatrick hierarchy."}
+{"prompt": "Explain the concept of a Voronoi diagram."}
+{"prompt": "Explain the function of a parametric surface."}
+{"prompt": "Explain the function of visibility in spatial analysis."}
+{"prompt": "Explain the purpose of a flip algorithm in geometry."}
+{"prompt": "Explain the role of local feature size."}
+{"prompt": "Explain the use of a bounding box."}
+{"prompt": "Explain what an oriented matroid is."}
+{"prompt": "How does a parallel axis theorem apply in geometry?"}
+{"prompt": "How does a planar graph differ from other graphs?"}
+{"prompt": "How does a point-in-polygon test work?"}
+{"prompt": "How does a randomized incremental construction algorithm work?"}
+{"prompt": "How does a visibility polygon work?"}
+{"prompt": "How does the Bentley-Ottmann algorithm find intersections?"}
+{"prompt": "How does the rotating calipers method work?"}
+{"prompt": "How is a Brillouin zone defined?"}
+{"prompt": "How is a centroid defined in geometry?"}
+{"prompt": "How is a polar transformation applied in geometry?"}
+{"prompt": "What are B-splines in computational geometry?"}
+{"prompt": "What are Delaunay triangulations?"}
+{"prompt": "What are arrangements in geometric contexts?"}
+{"prompt": "What are arrangements of lines?"}
+{"prompt": "What are parametric equations in geometry?"}
+{"prompt": "What does degeneracy mean in computational geometry?"}
+{"prompt": "What is Barycentric coordinates?"}
+{"prompt": "What is Euler's characteristic in geometry?"}
+{"prompt": "What is a Free-space diagram?"}
+{"prompt": "What is a KD-Tree?"}
+{"prompt": "What is a Manhattan distance in geometry?"}
+{"prompt": "What is a Voronoi cell?"}
+{"prompt": "What is a convex hull?"}
+{"prompt": "What is a coordinate system?"}
+{"prompt": "What is a crossing number in graph theory?"}
+{"prompt": "What is a delaunay refinement?"}
+{"prompt": "What is a dense point set in computational geometry?"}
+{"prompt": "What is a dual graph?"}
+{"prompt": "What is a fractional cascading technique?"}
+{"prompt": "What is a geodesic distance?"}
+{"prompt": "What is a half-edge data structure?"}
+{"prompt": "What is a halfspace?"}
+{"prompt": "What is a homotopy in computational geometry?"}
+{"prompt": "What is a kernel in the context of geometry?"}
+{"prompt": "What is a lattice in computational geometry?"}
+{"prompt": "What is a medial axis?"}
+{"prompt": "What is a planarity testing algorithm?"}
+{"prompt": "What is a polygonal chain?"}
+{"prompt": "What is a polyhedron?"}
+{"prompt": "What is a pseudotriangle?"}
+{"prompt": "What is a quadtree?"}
+{"prompt": "What is a range query in the context of geometry?"}
+{"prompt": "What is a star-shaped polygon?"}
+{"prompt": "What is a straight skeleton?"}
+{"prompt": "What is a sweep line algorithm?"}
+{"prompt": "What is combinatorial geometry?"}
+{"prompt": "What is computational complexity in geometry?"}
+{"prompt": "What is constructive solid geometry (CSG)?"}
+{"prompt": "What is epsilon geometry?"}
+{"prompt": "What is epsilon in geometric algorithms?"}
+{"prompt": "What is geometric duality?"}
+{"prompt": "What is point labeling in geometric terms?"}
+{"prompt": "What is polygon offsetting?"}
+{"prompt": "What is polygon triangulation?"}
+{"prompt": "What is snap rounding?"}
+{"prompt": "What is snapping in computational geometry?"}
+{"prompt": "What is stereographic projection in geometric terms?"}
+{"prompt": "What is the Gabriel graph used for?"}
+{"prompt": "What is the concept of a Voronoi diagram's nucleus?"}
+{"prompt": "What is the concept of tesselation in geometry?"}
+{"prompt": "What is the constrained Delaunay triangulation?"}
+{"prompt": "What is the purpose of a Newton polygon?"}
+{"prompt": "What is the purpose of a trapezoidal map?"}
+{"prompt": "What is the purpose of a triangulation algorithm?"}
+{"prompt": "What is the purpose of the Sutherland\u2013Hodgman algorithm?"}
+{"prompt": "What is the role of a visibility graph?"}
+{"prompt": "What is the role of topological features in geometry?"}
+{"prompt": "What is the significance of Euler's formula in geometry?"}
+{"prompt": "What is the significance of a medial axis transform?"}
+{"prompt": "What is the significance of the Minkowski sum?"}
+{"prompt": "Define Gouraud shading."}
+{"prompt": "Define a clipping algorithm."}
+{"prompt": "Define backface culling in graphics."}
+{"prompt": "Define caustics in graphics."}
+{"prompt": "Define chromatic aberration."}
+{"prompt": "Define procedural generation in graphics."}
+{"prompt": "Define shaders in computer graphics."}
+{"prompt": "Define the concept of LOD (Level of Detail)."}
+{"prompt": "Define the concept of a polygon mesh."}
+{"prompt": "Define the term Bezier curve."}
+{"prompt": "Define the term anisotropic filtering."}
+{"prompt": "Define the term depth buffer."}
+{"prompt": "Define the term frame buffer."}
+{"prompt": "Define the term global illumination."}
+{"prompt": "Define the term multi-sampling."}
+{"prompt": "Define the term parallax mapping."}
+{"prompt": "Define the term raster graphics."}
+{"prompt": "Define the term volumetric lighting."}
+{"prompt": "Describe the concept of texture mapping."}
+{"prompt": "Explain NURBS in computer graphics."}
+{"prompt": "Explain a fragment shader."}
+{"prompt": "Explain anti-aliasing."}
+{"prompt": "Explain color space in graphics."}
+{"prompt": "Explain deferred rendering technique."}
+{"prompt": "Explain dithering in color graphics."}
+{"prompt": "Explain frame rate in graphics."}
+{"prompt": "Explain phong reflection model."}
+{"prompt": "Explain procedural shading."}
+{"prompt": "Explain shadow mapping."}
+{"prompt": "Explain specular mapping."}
+{"prompt": "Explain the concept of GPU instancing."}
+{"prompt": "Explain the concept of ambient occlusion."}
+{"prompt": "Explain the concept of vertex normal."}
+{"prompt": "Explain the term dithering."}
+{"prompt": "Explain the term motion blur."}
+{"prompt": "Explain the term procedural texture."}
+{"prompt": "Explain the use of normal maps."}
+{"prompt": "Explain what motion vectors mean."}
+{"prompt": "Explain what texture atlas means."}
+{"prompt": "What are bump maps?"}
+{"prompt": "What are point sprites?"}
+{"prompt": "What are vertex buffers?"}
+{"prompt": "What does a 3D model mean?"}
+{"prompt": "What does a frame buffer capture?"}
+{"prompt": "What does a pixel shader do?"}
+{"prompt": "What does a rendering context entail?"}
+{"prompt": "What does aliasing mean in graphics?"}
+{"prompt": "What does tessellation add to a model?"}
+{"prompt": "What does tessellation mean?"}
+{"prompt": "What does texture baking refer to?"}
+{"prompt": "What does the term rendering pipeline mean?"}
+{"prompt": "What does visual aliasing refer to?"}
+{"prompt": "What is GPU tessellation?"}
+{"prompt": "What is Phong shading?"}
+{"prompt": "What is UV mapping?"}
+{"prompt": "What is a bilinear filter?"}
+{"prompt": "What is a digital elevation model?"}
+{"prompt": "What is a digital image encding?"}
+{"prompt": "What is a graphics API?"}
+{"prompt": "What is a raster image processor?"}
+{"prompt": "What is a rendering engine?"}
+{"prompt": "What is a rendering frame?"}
+{"prompt": "What is a scene graph?"}
+{"prompt": "What is a spline in graphics?"}
+{"prompt": "What is a sprite in computer graphics?"}
+{"prompt": "What is a transform in computer graphics?"}
+{"prompt": "What is a vector graphic?"}
+{"prompt": "What is a vertex shader?"}
+{"prompt": "What is a viewport in computer graphics?"}
+{"prompt": "What is ambient lighting?"}
+{"prompt": "What is an index buffer?"}
+{"prompt": "What is anisotropic filtering?"}
+{"prompt": "What is bump mapping?"}
+{"prompt": "What is color quantization?"}
+{"prompt": "What is constructive solid geometry?"}
+{"prompt": "What is gamma correction in graphics?"}
+{"prompt": "What is material rendering?"}
+{"prompt": "What is meant by subsurface scattering?"}
+{"prompt": "What is meant by vertex animation?"}
+{"prompt": "What is rasterization?"}
+{"prompt": "What is ray tracing?"}
+{"prompt": "What is seamless texturing?"}
+{"prompt": "What is skeletal animation in graphics?"}
+{"prompt": "What is sprite batching?"}
+{"prompt": "What is surface normal in modeling?"}
+{"prompt": "What is texture filtering?"}
+{"prompt": "What is the Lambertian reflectance?"}
+{"prompt": "What is the concept of a graphics pipeline?"}
+{"prompt": "What is the concept of wireframe rendering?"}
+{"prompt": "What is the purpose of a stencil buffer?"}
+{"prompt": "What is the purpose of mipmaps?"}
+{"prompt": "What is the purpose of occlusion culling?"}
+{"prompt": "What is the purpose of rendering?"}
+{"prompt": "What is the role of alpha blending?"}
+{"prompt": "What is the z-buffer algorithm?"}
+{"prompt": "Define the concept of NAT overload."}
+{"prompt": "Define the term \"LAN."}
+{"prompt": "Define what DNS stands for and its role."}
+{"prompt": "Define what a VLAN is."}
+{"prompt": "Define what a hypervisor is in networking."}
+{"prompt": "Describe ARP in networking."}
+{"prompt": "Describe DNS spoofing."}
+{"prompt": "Describe Network Address Translation (NAT)."}
+{"prompt": "Describe a peer-to-peer network."}
+{"prompt": "Describe an autonomous system in networking."}
+{"prompt": "Describe the CSMA/CD protocol."}
+{"prompt": "Describe the OSI model and its layers."}
+{"prompt": "Describe the concept of dynamic routing."}
+{"prompt": "Describe the function of a modem."}
+{"prompt": "Describe the function of a switch."}
+{"prompt": "Describe the function of an ASN."}
+{"prompt": "Describe the term \"downlink\" in networking."}
+{"prompt": "Describe what a network topology is."}
+{"prompt": "Describe what a web server does."}
+{"prompt": "Describe what a zero-trust network is."}
+{"prompt": "Describe what an IPsec tunnel is."}
+{"prompt": "Describe what an MPLS network is."}
+{"prompt": "Explain the concept of IP addressing."}
+{"prompt": "Explain the concept of a VPN tunnel."}
+{"prompt": "Explain the concept of a proxy server."}
+{"prompt": "Explain the concept of duplex in networking."}
+{"prompt": "Explain the concept of network redundancy."}
+{"prompt": "Explain the concept of packet switching."}
+{"prompt": "Explain the concept of port forwarding."}
+{"prompt": "Explain the concept of split tunneling."}
+{"prompt": "Explain the difference between HTTP and HTTPS."}
+{"prompt": "Explain the function of an internet exchange point (IXP)."}
+{"prompt": "Explain the importance of network segmentation."}
+{"prompt": "Explain the term \"bandwidth."}
+{"prompt": "Explain the term \"network security."}
+{"prompt": "Explain the term \"throughput."}
+{"prompt": "Explain what BGP is used for."}
+{"prompt": "Explain what TCP/IP is."}
+{"prompt": "Explain what a broadcast storm is."}
+{"prompt": "Explain what a hot standby router protocol (HSRP) is."}
+{"prompt": "Explain what fiber optics is in networking."}
+{"prompt": "What does DHCP stand for and what is its purpose?"}
+{"prompt": "What does DMVPN stand for?"}
+{"prompt": "What does QoS stand for in networking?"}
+{"prompt": "What does SNMP stand for?"}
+{"prompt": "What does a firewall do?"}
+{"prompt": "What does the term \"jitter\" mean in networking?"}
+{"prompt": "What is Network Function Virtualization (NFV)?"}
+{"prompt": "What is a MAC address?"}
+{"prompt": "What is a VPN and why is it used?"}
+{"prompt": "What is a backbone network?"}
+{"prompt": "What is a broadband connection?"}
+{"prompt": "What is a cloud network?"}
+{"prompt": "What is a collision domain?"}
+{"prompt": "What is a demilitarized zone (DMZ) in networking?"}
+{"prompt": "What is a dual-stack network?"}
+{"prompt": "What is a firewall rule?"}
+{"prompt": "What is a mesh network?"}
+{"prompt": "What is a multicast transmission?"}
+{"prompt": "What is a network interface card (NIC)?"}
+{"prompt": "What is a network protocol?"}
+{"prompt": "What is a packet filter?"}
+{"prompt": "What is a packet in network communication?"}
+{"prompt": "What is a ping command used for?"}
+{"prompt": "What is a point-to-point link?"}
+{"prompt": "What is a private IP address?"}
+{"prompt": "What is a proxy ARP?"}
+{"prompt": "What is a router?"}
+{"prompt": "What is a service set identifier (SSID)?"}
+{"prompt": "What is a socket in networking?"}
+{"prompt": "What is a static IP address?"}
+{"prompt": "What is a subnet mask?"}
+{"prompt": "What is a traceroute used for?"}
+{"prompt": "What is a wireless distribution system (WDS)?"}
+{"prompt": "What is an API gateway?"}
+{"prompt": "What is an Ethernet cable?"}
+{"prompt": "What is an HTTP request?"}
+{"prompt": "What is an SSL certificate?"}
+{"prompt": "What is latency in networking?"}
+{"prompt": "What is load balancing in networking?"}
+{"prompt": "What is meant by \"packet loss\" in a network?"}
+{"prompt": "What is network congestion?"}
+{"prompt": "What is the 802.11 standard?"}
+{"prompt": "What is the concept of IP telephony?"}
+{"prompt": "What is the difference between TCP and UDP?"}
+{"prompt": "What is the function of a hub?"}
+{"prompt": "What is the purpose of ICMP?"}
+{"prompt": "What is the purpose of a WAN?"}
+{"prompt": "What is the purpose of a dynamic host configuration protocol?"}
+{"prompt": "What is the purpose of a gateway in networking?"}
+{"prompt": "What is the purpose of a syslog server?"}
+{"prompt": "What is the role of a network bridge?"}
+{"prompt": "What is the role of an access point?"}
+{"prompt": "Describe an electronic codebook (ECB) mode."}
+{"prompt": "Describe an initialization vector (IV)."}
+{"prompt": "Describe asymmetric encryption."}
+{"prompt": "Describe attack surface in cryptography."}
+{"prompt": "Describe secure multi-party computation."}
+{"prompt": "Describe the Diffie-Hellman key exchange."}
+{"prompt": "Describe the concept of a cryptographic backdoor."}
+{"prompt": "Describe the concept of a digital wallet."}
+{"prompt": "Describe the concept of cryptographic agility."}
+{"prompt": "Describe the concept of key distribution."}
+{"prompt": "Describe the concept of message integrity."}
+{"prompt": "Describe the process of encryption and decryption."}
+{"prompt": "Describe the purpose of a digital certificate."}
+{"prompt": "Describe the purpose of a timestamping service."}
+{"prompt": "Describe the purpose of cryptographic authentication."}
+{"prompt": "Describe the use of Kerberos in network security."}
+{"prompt": "Describe the use of digital cash."}
+{"prompt": "Explain public key infrastructure (PKI)."}
+{"prompt": "Explain quantum cryptography."}
+{"prompt": "Explain symmetric vs. asymmetric encryption."}
+{"prompt": "Explain the RSA key exchange process."}
+{"prompt": "Explain the concept of data confidentiality."}
+{"prompt": "Explain the concept of end-to-end encryption."}
+{"prompt": "Explain the concept of hash chaining."}
+{"prompt": "Explain the concept of nonce reuse."}
+{"prompt": "Explain the concept of perfect forward secrecy."}
+{"prompt": "Explain the concept of zero-knowledge proofs."}
+{"prompt": "Explain the difference between DES and 3DES."}
+{"prompt": "Explain the purpose of a cryptographic salt."}
+{"prompt": "Explain the purpose of the MD5 algorithm."}
+{"prompt": "Explain the use of a digital envelope."}
+{"prompt": "Explain the use of transport layer security (TLS)."}
+{"prompt": "How do digital wallets use cryptography?"}
+{"prompt": "How does Pretty Good Privacy (PGP) work?"}
+{"prompt": "How does a block cipher function?"}
+{"prompt": "How does a hash function work?"}
+{"prompt": "How does a password hashing function work?"}
+{"prompt": "How does homomorphic encryption work?"}
+{"prompt": "How does the Caesar cipher work?"}
+{"prompt": "How does the RSA algorithm work?"}
+{"prompt": "How does the Vernam cipher work?"}
+{"prompt": "How is cryptanalysis different from cryptography?"}
+{"prompt": "What are cryptographic key pairs?"}
+{"prompt": "What are elliptic curves used for in cryptography?"}
+{"prompt": "What are plaintext and ciphertext?"}
+{"prompt": "What does the term \"man-in-the-middle attack\" refer to?"}
+{"prompt": "What is a Trojan horse attack in cryptography?"}
+{"prompt": "What is a block cipher mode of operation?"}
+{"prompt": "What is a blockchain in terms of cryptography?"}
+{"prompt": "What is a brute force attack?"}
+{"prompt": "What is a certificate authority?"}
+{"prompt": "What is a chosen-plaintext attack?"}
+{"prompt": "What is a collision in hash functions?"}
+{"prompt": "What is a cryptographic nonce?"}
+{"prompt": "What is a cryptographic sponge function?"}
+{"prompt": "What is a cryptosystem?"}
+{"prompt": "What is a digital signature?"}
+{"prompt": "What is a hybrid encryption system?"}
+{"prompt": "What is a pseudorandom function generator (PRF)?"}
+{"prompt": "What is a rainbow table in the context of cryptography?"}
+{"prompt": "What is a salting attack?"}
+{"prompt": "What is a secure hash algorithm (SHA)?"}
+{"prompt": "What is a stream cipher?"}
+{"prompt": "What is ciphertext stealing (CTS)?"}
+{"prompt": "What is elliptic curve cryptography (ECC)?"}
+{"prompt": "What is forward secrecy?"}
+{"prompt": "What is frequency analysis in cryptanalysis?"}
+{"prompt": "What is meant by a key schedule?"}
+{"prompt": "What is meant by key exchange in cryptography?"}
+{"prompt": "What is message authentication code (MAC)?"}
+{"prompt": "What is padding in cryptographic algorithms?"}
+{"prompt": "What is plaintext in cryptography?"}
+{"prompt": "What is plaintext-aware encryption?"}
+{"prompt": "What is public key cryptography used for?"}
+{"prompt": "What is side-channel cryptanalysis?"}
+{"prompt": "What is symmetric key encryption?"}
+{"prompt": "What is the AES256 standard?"}
+{"prompt": "What is the Advanced Encryption Standard (AES)?"}
+{"prompt": "What is the difference between authentication and authorization in cryptography?"}
+{"prompt": "What is the function of a key escrow?"}
+{"prompt": "What is the function of a one-way function in cryptography?"}
+{"prompt": "What is the importance of certificate revocation lists (CRLs)?"}
+{"prompt": "What is the purpose of SSL/TLS in cryptography?"}
+{"prompt": "What is the purpose of a ciphertext-only attack?"}
+{"prompt": "What is the purpose of a key derivation function (KDF)?"}
+{"prompt": "What is the purpose of email encryption?"}
+{"prompt": "What is the purpose of key management in cryptography?"}
+{"prompt": "What is the purpose of transport encryption?"}
+{"prompt": "What is the role of a cryptographic protocol?"}
+{"prompt": "What is the role of a hash-based message authentication code (HMAC)?"}
+{"prompt": "What is the role of a trusted third party in cryptography?"}
+{"prompt": "What is the significance of a session key?"}
+{"prompt": "Clarify what a generalized queue is."}
+{"prompt": "Define B+ tree and its usage."}
+{"prompt": "Define a Deque data structure and its operations."}
+{"prompt": "Define a binary heap."}
+{"prompt": "Define a circular buffer."}
+{"prompt": "Define a heap data structure."}
+{"prompt": "Define a priority queue."}
+{"prompt": "Define a strongly connected component."}
+{"prompt": "Define open addressing in the context of hash tables."}
+{"prompt": "Describe Cantor\u2019s diagonal argument."}
+{"prompt": "Describe a dancer data structure."}
+{"prompt": "Describe a red-black tree."}
+{"prompt": "Describe a weak heap."}
+{"prompt": "Describe the concept of big O notation."}
+{"prompt": "Explain LPAD in the context of data structures."}
+{"prompt": "Explain a growth function in context to data structures."}
+{"prompt": "Explain an adjacency matrix."}
+{"prompt": "Explain buddy memory allocation."}
+{"prompt": "Explain the concept of a retriable data structure."}
+{"prompt": "Explain the concept of a weight-balanced tree."}
+{"prompt": "Explain the concept of an array."}
+{"prompt": "Explain the concept of sorting algorithms."}
+{"prompt": "Explain the concept of structural induction."}
+{"prompt": "Explain the difference between a complete and full binary tree."}
+{"prompt": "Explain the difference between static and dynamic arrays."}
+{"prompt": "Explain the dragon tree concept."}
+{"prompt": "Explain the purpose of a skip list."}
+{"prompt": "Explain the role of a priority search tree."}
+{"prompt": "Explain the term 'serialization' in data structures."}
+{"prompt": "Explain the use of a disjoint set."}
+{"prompt": "Explain what a circular linked list is."}
+{"prompt": "Explain what a queue is."}
+{"prompt": "Explain what a segment tree is used for."}
+{"prompt": "Explain what a splay tree does."}
+{"prompt": "How do linked stacks differ from linked lists?"}
+{"prompt": "How do you define a K-ary tree?"}
+{"prompt": "How do you distinguish between a directed and undirected graph?"}
+{"prompt": "How does a binary search work?"}
+{"prompt": "How does a breadth-first search operate?"}
+{"prompt": "How does a hash map work?"}
+{"prompt": "How does a maximal flow work?"}
+{"prompt": "How does a queue differ from a stack?"}
+{"prompt": "How does a topological sort work in data structures?"}
+{"prompt": "How is a spanning tree formed?"}
+{"prompt": "How is an implicit graph different from an explicit graph?"}
+{"prompt": "What are multilevel feedback queues?"}
+{"prompt": "What are self-organizing lists?"}
+{"prompt": "What are suffix arrays used for?"}
+{"prompt": "What are the characteristics of a hash set?"}
+{"prompt": "What distinguishes a binary search tree from a binary tree?"}
+{"prompt": "What does AVL in AVL tree stand for?"}
+{"prompt": "What does a player stack comprise?"}
+{"prompt": "What is Delta-coded data storage?"}
+{"prompt": "What is a B-tree used for?"}
+{"prompt": "What is a Cuckoo hash table?"}
+{"prompt": "What is a Fibonacci heap?"}
+{"prompt": "What is a Gaussian first derivative filter used for?"}
+{"prompt": "What is a Patricia trie?"}
+{"prompt": "What is a bidirectional search algorithm?"}
+{"prompt": "What is a binary tree?"}
+{"prompt": "What is a bloom filter and how is it used?"}
+{"prompt": "What is a completely persistent data structure?"}
+{"prompt": "What is a compressed suffix tree?"}
+{"prompt": "What is a data structure's load factor?"}
+{"prompt": "What is a decision tree?"}
+{"prompt": "What is a depth-first search?"}
+{"prompt": "What is a deque and how does it function?"}
+{"prompt": "What is a doubly linked list?"}
+{"prompt": "What is a fractional cascading technique?"}
+{"prompt": "What is a graph in data structures?"}
+{"prompt": "What is a hash function in hash tables?"}
+{"prompt": "What is a kinetic data structure?"}
+{"prompt": "What is a minimal spanning tree?"}
+{"prompt": "What is a null pointer in data structures?"}
+{"prompt": "What is a parent pointer tree?"}
+{"prompt": "What is a radix tree?"}
+{"prompt": "What is a self-balancing tree?"}
+{"prompt": "What is a sparse matrix?"}
+{"prompt": "What is a stack and how is it used?"}
+{"prompt": "What is a trie?"}
+{"prompt": "What is an interval tree?"}
+{"prompt": "What is dynamic array allocation?"}
+{"prompt": "What is heap overflow?"}
+{"prompt": "What is meant by amortized analysis in data structures?"}
+{"prompt": "What is meant by the term 'overhead' in data structures?"}
+{"prompt": "What is meant by traversal in a tree structure?"}
+{"prompt": "What is planar subdivision?"}
+{"prompt": "What is the difference between a path and a cycle in graphs?"}
+{"prompt": "What is the difference between an external and internal node?"}
+{"prompt": "What is the importance of a balanced tree?"}
+{"prompt": "What is the main function of a sentinel node?"}
+{"prompt": "What is the purpose of a graph adjacency list?"}
+{"prompt": "What is the purpose of a sentinel node?"}
+{"prompt": "What is the purpose of a transposition table?"}
+{"prompt": "Why use a quadtree?"}
+{"prompt": "Define a data redundancy."}
+{"prompt": "Define a database trigger."}
+{"prompt": "Define a hash index."}
+{"prompt": "Define a hierarchical database."}
+{"prompt": "Define a stored procedure."}
+{"prompt": "Define a transaction log."}
+{"prompt": "Define an index in a database."}
+{"prompt": "Define horizontal scaling in databases."}
+{"prompt": "Define referential integrity."}
+{"prompt": "Describe Big Data and its relation to databases."}
+{"prompt": "Describe ETL in data processing."}
+{"prompt": "Describe a NoSQL database."}
+{"prompt": "Describe a distributed database."}
+{"prompt": "Describe a foreign key."}
+{"prompt": "Describe a functional dependency in databases."}
+{"prompt": "Describe a lock in database systems."}
+{"prompt": "Describe a view in a database."}
+{"prompt": "Describe eventual consistency in databases."}
+{"prompt": "Describe the role of a database administrator (DBA)."}
+{"prompt": "Explain ACID properties."}
+{"prompt": "Explain cursor stability."}
+{"prompt": "Explain database federation."}
+{"prompt": "Explain database mirroring."}
+{"prompt": "Explain database normalization forms."}
+{"prompt": "Explain key-value store databases."}
+{"prompt": "Explain the Snowflake Schema."}
+{"prompt": "Explain the concept of a non-clustered index."}
+{"prompt": "Explain the concept of data normalization."}
+{"prompt": "Explain the concept of normalization."}
+{"prompt": "Explain the concept of sharding."}
+{"prompt": "Explain the difference between DELETE and TRUNCATE."}
+{"prompt": "Explain the entity-relationship model."}
+{"prompt": "What is CAP theorem in distributed databases?"}
+{"prompt": "What is OLAP?"}
+{"prompt": "What is OLTP?"}
+{"prompt": "What is SQL injection?"}
+{"prompt": "What is SQL?"}
+{"prompt": "What is a B-tree index?"}
+{"prompt": "What is a NULL value in databases?"}
+{"prompt": "What is a RAID in database storage?"}
+{"prompt": "What is a bitmap index?"}
+{"prompt": "What is a candidate key?"}
+{"prompt": "What is a client-server model in databases?"}
+{"prompt": "What is a clustered index?"}
+{"prompt": "What is a commitment control?"}
+{"prompt": "What is a composite key?"}
+{"prompt": "What is a connection pool?"}
+{"prompt": "What is a data integrity constraint?"}
+{"prompt": "What is a data model?"}
+{"prompt": "What is a data warehouse?"}
+{"prompt": "What is a database collation?"}
+{"prompt": "What is a database cursor?"}
+{"prompt": "What is a database instance?"}
+{"prompt": "What is a database management system (DBMS)?"}
+{"prompt": "What is a database partitioning?"}
+{"prompt": "What is a database schema?"}
+{"prompt": "What is a database server?"}
+{"prompt": "What is a database snapshot?"}
+{"prompt": "What is a deadlock in databases?"}
+{"prompt": "What is a dimension table?"}
+{"prompt": "What is a document-oriented database?"}
+{"prompt": "What is a fact table?"}
+{"prompt": "What is a foreign key constraint?"}
+{"prompt": "What is a full-text search in databases?"}
+{"prompt": "What is a graph database?"}
+{"prompt": "What is a heap table?"}
+{"prompt": "What is a join operation?"}
+{"prompt": "What is a materialized view?"}
+{"prompt": "What is a multi-model database?"}
+{"prompt": "What is a network database model?"}
+{"prompt": "What is a pivot table in databases?"}
+{"prompt": "What is a primary key?"}
+{"prompt": "What is a read replica?"}
+{"prompt": "What is a relational algebra?"}
+{"prompt": "What is a relational calculus?"}
+{"prompt": "What is a relational database?"}
+{"prompt": "What is a rollback in databases?"}
+{"prompt": "What is a self-join?"}
+{"prompt": "What is a sequence in databases?"}
+{"prompt": "What is a star schema?"}
+{"prompt": "What is a subquery?"}
+{"prompt": "What is a surrogate key?"}
+{"prompt": "What is a time-series database?"}
+{"prompt": "What is a transaction in databases?"}
+{"prompt": "What is a trigger in a database?"}
+{"prompt": "What is an ERD (Entity Relationship Diagram)?"}
+{"prompt": "What is an outer join?"}
+{"prompt": "What is data archival in databases?"}
+{"prompt": "What is data masking in databases?"}
+{"prompt": "What is database replication?"}
+{"prompt": "What is denormalization?"}
+{"prompt": "What is log shipping?"}
+{"prompt": "What is optimistic concurrency control?"}
+{"prompt": "What is pessimistic locking?"}
+{"prompt": "What is polyglot persistence?"}
+{"prompt": "What is vertical scaling?"}
+{"prompt": "Define hyperbolic PDEs."}
+{"prompt": "Describe Gibbs phenomenon in Fourier series solutions."}
+{"prompt": "Describe Laplace's equation."}
+{"prompt": "Describe a fractional differential equation."}
+{"prompt": "Describe a homogeneous differential equation."}
+{"prompt": "Describe a system of coupled differential equations."}
+{"prompt": "Describe an exact differential equation."}
+{"prompt": "Describe chaotic solutions in differential equations."}
+{"prompt": "Describe eigenfunctions."}
+{"prompt": "Describe explicit solutions in the context of differential equations."}
+{"prompt": "Describe resonance in the context of differential equations."}
+{"prompt": "Describe the Fourier transform in the context of differential equations."}
+{"prompt": "Describe the Picard-Lindel\u00f6f theorem."}
+{"prompt": "Describe the classification of PDEs based on order and linearity."}
+{"prompt": "Describe the concept of an attractor in differential equations."}
+{"prompt": "Describe the concept of linear independence in the context of solutions."}
+{"prompt": "Describe the concept of time scaling in differential equations."}
+{"prompt": "Describe the method of characteristics for solving PDEs."}
+{"prompt": "Describe the method of matched asymptotic expansions."}
+{"prompt": "Describe the method of separation of variables."}
+{"prompt": "Describe the significance of Lyapunov functions."}
+{"prompt": "Describe the significance of well-posed problems."}
+{"prompt": "Explain Bessel functions in the context of differential equations."}
+{"prompt": "Explain Runge-Kutta methods for solving differential equations."}
+{"prompt": "Explain an ordinary differential equation."}
+{"prompt": "Explain asymptotic behavior in differential equations."}
+{"prompt": "Explain bifurcation theory in differential equations."}
+{"prompt": "Explain parabolic PDEs."}
+{"prompt": "Explain the Cauchy problem in differential equations."}
+{"prompt": "Explain the Neumann boundary condition."}
+{"prompt": "Explain the Wronskian in differential equations."}
+{"prompt": "Explain the advection equation."}
+{"prompt": "Explain the concept of eigenvalues in differential equations."}
+{"prompt": "Explain the concept of singular perturbations."}
+{"prompt": "Explain the degree of a differential equation."}
+{"prompt": "Explain the meaning of a critical point."}
+{"prompt": "Explain the method of Frobenius."}
+{"prompt": "Explain the method of undetermined coefficients."}
+{"prompt": "Explain the notion of reducible and irreducible differential equations."}
+{"prompt": "Explain the role of complex numbers in solving differential equations."}
+{"prompt": "Explain the significance of initial value problems."}
+{"prompt": "Explain the significance of the phase plane in analyzing systems of differential equations."}
+{"prompt": "Explain the wave equation."}
+{"prompt": "Explain what a Bernoulli differential equation is."}
+{"prompt": "Explain what is meant by a trajectory in the phase space."}
+{"prompt": "Explain what is meant by an autonomous differential equation."}
+{"prompt": "What are Legendre polynomials?"}
+{"prompt": "What are elliptic PDEs?"}
+{"prompt": "What are nonlinear differential equations?"}
+{"prompt": "What does linearity mean in the context of differential equations?"}
+{"prompt": "What is a Green's function?"}
+{"prompt": "What is a Sturm-Liouville problem?"}
+{"prompt": "What is a boundary layer in the context of differential solutions?"}
+{"prompt": "What is a boundary value problem?"}
+{"prompt": "What is a canonical form of a differential equation?"}
+{"prompt": "What is a characteristic equation in differential equations?"}
+{"prompt": "What is a differential-algebraic equation?"}
+{"prompt": "What is a fundamental solution set for differential equations?"}
+{"prompt": "What is a limit cycle?"}
+{"prompt": "What is a linear differential operator?"}
+{"prompt": "What is a linear homogeneous recurrence relation with constant coefficients?"}
+{"prompt": "What is a partial differential equation?"}
+{"prompt": "What is a phase line in the study of differential equations?"}
+{"prompt": "What is a saddle point?"}
+{"prompt": "What is a singular solution of a differential equation?"}
+{"prompt": "What is a solution curve in differential equations?"}
+{"prompt": "What is a spatial eigenvalue problem in PDEs?"}
+{"prompt": "What is aliasing in the context of solving differential equations?"}
+{"prompt": "What is an implicit solution to a differential equation?"}
+{"prompt": "What is an infinite series solution to a differential equation?"}
+{"prompt": "What is an inhomogeneous differential equation?"}
+{"prompt": "What is an isocline in differential equations?"}
+{"prompt": "What is distinguishing between implicit and explicit functions?"}
+{"prompt": "What is meant by a delay differential equation?"}
+{"prompt": "What is meant by a fixed point in differential equations?"}
+{"prompt": "What is meant by stability in differential equations?"}
+{"prompt": "What is meant by the Dirichlet boundary condition?"}
+{"prompt": "What is meant by the characteristic curve?"}
+{"prompt": "What is meant by the order of a differential equation?"}
+{"prompt": "What is orthogonality in the context of differential solutions?"}
+{"prompt": "What is reducibility in differential equations?"}
+{"prompt": "What is the Dirac delta function?"}
+{"prompt": "What is the Laplace transform method?"}
+{"prompt": "What is the Peano existence theorem?"}
+{"prompt": "What is the Robin boundary condition?"}
+{"prompt": "What is the equilibrium in a differential system?"}
+{"prompt": "What is the harmonic oscillator in differential equations?"}
+{"prompt": "What is the heat equation?"}
+{"prompt": "What is the role of numerical methods in differential equations?"}
+{"prompt": "What is the significance of D'Alembert's solution?"}
+{"prompt": "What is the significance of perturbation methods?"}
+{"prompt": "What is variation of parameters?"}
+{"prompt": "Define a Eulerian path."}
+{"prompt": "Define a Hamiltonian path."}
+{"prompt": "Define a cycle length in graph theory."}
+{"prompt": "Define a directed graph."}
+{"prompt": "Define a distance matrix."}
+{"prompt": "Define a girth in graph theory."}
+{"prompt": "Define a graph minor."}
+{"prompt": "Define a hypergraph."}
+{"prompt": "Define a regular graph."}
+{"prompt": "Define an edge in the context of graphs."}
+{"prompt": "Define chromatic number."}
+{"prompt": "Define discrete function."}
+{"prompt": "Define graph coloring."}
+{"prompt": "Define incidence matrix."}
+{"prompt": "Define modular arithmetic in discrete mathematics."}
+{"prompt": "Define order and size of a graph."}
+{"prompt": "Define path in graph theory."}
+{"prompt": "Define reflexive relation."}
+{"prompt": "Define regular equivalence."}
+{"prompt": "Define set partitioning."}
+{"prompt": "Define symmetric difference."}
+{"prompt": "Define the K\u00f6nigsberg bridge problem."}
+{"prompt": "Define transitive closure."}
+{"prompt": "Explain Brace's theorem."}
+{"prompt": "Explain Hall's Marriage Theorem."}
+{"prompt": "Explain Heaps' algorithm."}
+{"prompt": "Explain Lexicographical order."}
+{"prompt": "Explain Ramsey's Theorem."}
+{"prompt": "Explain Zorn's Lemma."}
+{"prompt": "Explain a complete graph."}
+{"prompt": "Explain a cycle in graph theory."}
+{"prompt": "Explain a path cover."}
+{"prompt": "Explain a rooted tree."}
+{"prompt": "Explain a walk in graph theory."}
+{"prompt": "Explain a weighted graph."}
+{"prompt": "Explain an adjacency matrix."}
+{"prompt": "Explain an incidence relation."}
+{"prompt": "Explain planar graphs."}
+{"prompt": "Explain the Binomial Theorem."}
+{"prompt": "Explain the pigeonhole principle."}
+{"prompt": "Explain vertex coloring."}
+{"prompt": "Explain what a face is in planar graph theory."}
+{"prompt": "Explain what a matching is in graph theory."}
+{"prompt": "Explain what a poset is."}
+{"prompt": "Explain what a tree is."}
+{"prompt": "What is Big-O notation?"}
+{"prompt": "What is Boolean algebra?"}
+{"prompt": "What is Menger's Theorem?"}
+{"prompt": "What is Stirling's approximation?"}
+{"prompt": "What is a Petersen graph?"}
+{"prompt": "What is a Steiner tree problem?"}
+{"prompt": "What is a bipartite graph?"}
+{"prompt": "What is a bipartition in graph theory?"}
+{"prompt": "What is a clique in graph theory?"}
+{"prompt": "What is a complement graph?"}
+{"prompt": "What is a connected graph?"}
+{"prompt": "What is a countable set?"}
+{"prompt": "What is a cut edge?"}
+{"prompt": "What is a cut vertex?"}
+{"prompt": "What is a degree sequence?"}
+{"prompt": "What is a directed acyclic graph (DAG)?"}
+{"prompt": "What is a dominating set?"}
+{"prompt": "What is a forest in graph theory?"}
+{"prompt": "What is a graph homomorphism?"}
+{"prompt": "What is a graph in discrete mathematics?"}
+{"prompt": "What is a lattice in discrete mathematics?"}
+{"prompt": "What is a loop in graph theory?"}
+{"prompt": "What is a matching polynomial?"}
+{"prompt": "What is a multigraph?"}
+{"prompt": "What is a network flow?"}
+{"prompt": "What is a partial order?"}
+{"prompt": "What is a random graph?"}
+{"prompt": "What is a self-loop in graphs?"}
+{"prompt": "What is a sibling in a tree?"}
+{"prompt": "What is a simple graph?"}
+{"prompt": "What is a spanning subgraph?"}
+{"prompt": "What is a spanning tree?"}
+{"prompt": "What is a subgraph?"}
+{"prompt": "What is a tournament in graph theory?"}
+{"prompt": "What is a transversal in combinatorics?"}
+{"prompt": "What is a uniform hypergraph?"}
+{"prompt": "What is a vertex in graph theory?"}
+{"prompt": "What is an Eulerian circuit?"}
+{"prompt": "What is an antichain?"}
+{"prompt": "What is an independent set?"}
+{"prompt": "What is automorphism of a graph?"}
+{"prompt": "What is edge connectivity?"}
+{"prompt": "What is graph isomorphism?"}
+{"prompt": "What is inclusion-exclusion principle?"}
+{"prompt": "What is the Havel-Hakimi algorithm?"}
+{"prompt": "What is the adjacency list representation of a graph?"}
+{"prompt": "What is the chromatic polynomial?"}
+{"prompt": "What is the principle of duality in Boolean algebra?"}
+{"prompt": "What is transitive reduction?"}
+{"prompt": "Define 'minimization' in the context of finite automata."}
+{"prompt": "Define 'state' in the context of automata."}
+{"prompt": "Define Turing computability."}
+{"prompt": "Define a deterministic finite automaton."}
+{"prompt": "Define a language recognized by a finite automaton."}
+{"prompt": "Define a linear bounded automaton."}
+{"prompt": "Define a recursively enumerable language."}
+{"prompt": "Define a transition diagram."}
+{"prompt": "Define the concept of a 'parse tree'."}
+{"prompt": "Define the idea of production in formal grammar."}
+{"prompt": "Define the notion of left-linear grammar."}
+{"prompt": "Define the term 'concatenation' of languages."}
+{"prompt": "Define the term 'language equivalence'."}
+{"prompt": "Define what a terminal symbol is."}
+{"prompt": "Describe nondeterminism in computational models."}
+{"prompt": "Describe the concept of 'closure properties' in formal languages."}
+{"prompt": "Describe what 'complement' of a language means."}
+{"prompt": "Describe what a 'string' is in the context of formal languages."}
+{"prompt": "Describe what computational complexity is."}
+{"prompt": "Explain pushdown automata acceptance by empty stack."}
+{"prompt": "Explain pushdown automata acceptance by final state."}
+{"prompt": "Explain the Myhill-Nerode theorem."}
+{"prompt": "Explain the concept of 'intersection' in languages."}
+{"prompt": "Explain the concept of a computation history."}
+{"prompt": "Explain the concept of backtracking in parsing."}
+{"prompt": "Explain the concept of quantifiers in logic as related to automata."}
+{"prompt": "Explain the difference between lexical and syntax analysis."}
+{"prompt": "Explain the difference between restricted and unrestricted grammar."}
+{"prompt": "Explain what a binary relation is in automata."}
+{"prompt": "Explain what a context-sensitive language is."}
+{"prompt": "Explain what a deterministic context-free language is."}
+{"prompt": "Explain what a language generator is."}
+{"prompt": "Explain what a production rule is."}
+{"prompt": "Explain what a pushdown automaton is."}
+{"prompt": "Explain what a recursive language is."}
+{"prompt": "Explain what ambiguous grammar is."}
+{"prompt": "Explain what an 'accepting state' is in automata."}
+{"prompt": "Explain what an automaton is."}
+{"prompt": "Explain what halting problem is."}
+{"prompt": "Explain what regular expression equivalence is."}
+{"prompt": "What are regular languages?"}
+{"prompt": "What are regular operations?"}
+{"prompt": "What does 'alphabet' mean in formal languages?"}
+{"prompt": "What is Boolean logic in the context of automata?"}
+{"prompt": "What is a 'union' of languages?"}
+{"prompt": "What is a Chomsky hierarchy?"}
+{"prompt": "What is a Kleene star?"}
+{"prompt": "What is a Turing machine?"}
+{"prompt": "What is a context-free grammar?"}
+{"prompt": "What is a context-free language?"}
+{"prompt": "What is a decision problem in automata theory?"}
+{"prompt": "What is a derivation in formal language theory?"}
+{"prompt": "What is a derivation tree?"}
+{"prompt": "What is a finite state machine?"}
+{"prompt": "What is a formal language?"}
+{"prompt": "What is a formal proof in automata theory?"}
+{"prompt": "What is a grammar in formal languages and automata?"}
+{"prompt": "What is a language accepted by a pushdown automaton?"}
+{"prompt": "What is a language family in formal languages?"}
+{"prompt": "What is a language in terms of automata theory?"}
+{"prompt": "What is a language operation?"}
+{"prompt": "What is a language recognizer in automata?"}
+{"prompt": "What is a left-invariant relation in automata?"}
+{"prompt": "What is a leftmost derivation?"}
+{"prompt": "What is a non-deterministic finite automaton?"}
+{"prompt": "What is a non-terminal symbol?"}
+{"prompt": "What is a parse in language theory?"}
+{"prompt": "What is a partition in minimization of automata?"}
+{"prompt": "What is a postfix notation in language theory?"}
+{"prompt": "What is a prefix notation in language theory?"}
+{"prompt": "What is a pumping lemma for context-free languages?"}
+{"prompt": "What is a pumping lemma for regular languages?"}
+{"prompt": "What is a reduction in the context of languages?"}
+{"prompt": "What is a regular expression?"}
+{"prompt": "What is a right-invariant relation in automata?"}
+{"prompt": "What is a rightmost derivation?"}
+{"prompt": "What is a sequential machine in automata theory?"}
+{"prompt": "What is a start symbol in a grammar?"}
+{"prompt": "What is a subset construction?"}
+{"prompt": "What is a transition function?"}
+{"prompt": "What is a unary language?"}
+{"prompt": "What is a universal Turing machine?"}
+{"prompt": "What is a universal quantifier in logic related to automata?"}
+{"prompt": "What is an ambiguity in context-free grammar?"}
+{"prompt": "What is an epsilon transition?"}
+{"prompt": "What is an equivalence class in automata theory?"}
+{"prompt": "What is an existential quantifier in logic related to automata?"}
+{"prompt": "What is bisimulation in automata theory?"}
+{"prompt": "What is decidability in automata theory?"}
+{"prompt": "What is right-linear grammar?"}
+{"prompt": "What is syntactic sugar in grammar?"}
+{"prompt": "What is the Church-Turing thesis?"}
+{"prompt": "What is the Conway hierarchy?"}
+{"prompt": "What is the difference between DFA and NFA?"}
+{"prompt": "What is the role of a lexer in lexical analysis?"}
+{"prompt": "Define Dijkstra\u2019s algorithm."}
+{"prompt": "Define a chordal graph."}
+{"prompt": "Define a path in a graph."}
+{"prompt": "Define a star graph."}
+{"prompt": "Define a weakly connected component."}
+{"prompt": "Define adjacency matrix."}
+{"prompt": "Define de Bruijn graph."}
+{"prompt": "Define graph density."}
+{"prompt": "Define the concept of a flow network."}
+{"prompt": "Define the concept of treewidth."}
+{"prompt": "Describe Cayley graph."}
+{"prompt": "Describe Hamiltonian path."}
+{"prompt": "Describe a clique in graph theory."}
+{"prompt": "Describe a complete graph."}
+{"prompt": "Describe a k-core decomposition."}
+{"prompt": "Describe a wheel graph."}
+{"prompt": "Describe edge connectivity."}
+{"prompt": "Describe graph dual."}
+{"prompt": "Describe the Floyd-Warshall algorithm."}
+{"prompt": "Describe the minimum cut."}
+{"prompt": "Explain a graph spectrum."}
+{"prompt": "Explain a tree in graph theory."}
+{"prompt": "Explain directed acyclic graph (DAG)."}
+{"prompt": "Explain graph contraction."}
+{"prompt": "Explain map coloring in graphs."}
+{"prompt": "Explain the Ford-Fulkerson method."}
+{"prompt": "Explain the concept of a perfect graph."}
+{"prompt": "Explain the concept of a subgraph."}
+{"prompt": "Explain the concept of edge cover."}
+{"prompt": "Explain the concept of graph coloring."}
+{"prompt": "Explain the concept of homomorphism in graphs."}
+{"prompt": "Explain the degree of a vertex."}
+{"prompt": "Explain the idea of spectral graph theory."}
+{"prompt": "Explain the in-degree of a vertex."}
+{"prompt": "Explain the line graph of a complete graph."}
+{"prompt": "Explain the notion of a Petersen graph."}
+{"prompt": "Explain vertex cover in graphs."}
+{"prompt": "What defines an acyclic graph?"}
+{"prompt": "What does BFS (Breadth-First Search) entail?"}
+{"prompt": "What does DFS (Depth-First Search) mean?"}
+{"prompt": "What does Eulerian circuit mean?"}
+{"prompt": "What does a Kneser graph represent?"}
+{"prompt": "What does it mean for a graph to be undirected?"}
+{"prompt": "What is Bellman-Ford algorithm used for?"}
+{"prompt": "What is PageRank and its relation to graph theory?"}
+{"prompt": "What is a bipartite graph?"}
+{"prompt": "What is a bridge in graph theory?"}
+{"prompt": "What is a connected graph?"}
+{"prompt": "What is a cut edge?"}
+{"prompt": "What is a cut vertex?"}
+{"prompt": "What is a cycle in a graph?"}
+{"prompt": "What is a dagger in graph theory?"}
+{"prompt": "What is a directed graph (digraph)?"}
+{"prompt": "What is a face in planar graphs?"}
+{"prompt": "What is a geodesic path in graphs?"}
+{"prompt": "What is a graph embedding?"}
+{"prompt": "What is a graph in graph theory?"}
+{"prompt": "What is a graph minor?"}
+{"prompt": "What is a hypercube in graph theory?"}
+{"prompt": "What is a ladder graph?"}
+{"prompt": "What is a line graph?"}
+{"prompt": "What is a max flow-min cut theorem?"}
+{"prompt": "What is a maximal flow?"}
+{"prompt": "What is a planar graph?"}
+{"prompt": "What is a prism graph?"}
+{"prompt": "What is a random graph?"}
+{"prompt": "What is a regular graph?"}
+{"prompt": "What is a residual graph?"}
+{"prompt": "What is a social graph?"}
+{"prompt": "What is a spanning tree?"}
+{"prompt": "What is a strongly connected component?"}
+{"prompt": "What is a weighted graph?"}
+{"prompt": "What is a zero-sum game in relation to graphs?"}
+{"prompt": "What is an adjacency list?"}
+{"prompt": "What is an articulation point?"}
+{"prompt": "What is an ego network?"}
+{"prompt": "What is an incidence matrix?"}
+{"prompt": "What is an independent set in graph theory?"}
+{"prompt": "What is an outerplanar graph?"}
+{"prompt": "What is chromatic polynomial?"}
+{"prompt": "What is eigenvector centrality in graphs?"}
+{"prompt": "What is graph labeling?"}
+{"prompt": "What is graph traversal?"}
+{"prompt": "What is meant by a graph being K-partite?"}
+{"prompt": "What is network flow in graph theory?"}
+{"prompt": "What is the chromatic number of a graph?"}
+{"prompt": "What is the concept of a Moran process on graphs?"}
+{"prompt": "What is the concept of vertex connectivity?"}
+{"prompt": "What is the matching number?"}
+{"prompt": "What is the out-degree of a vertex?"}
+{"prompt": "What is the shortest path in a graph?"}
+{"prompt": "What is the significance of a graph automorphism?"}
+{"prompt": "What is the significance of graph isomorphism?"}
+{"prompt": "What is vertex transitivity in graphs?"}
+{"prompt": "Describe Cramer's Rule."}
+{"prompt": "Describe Frobenius norm."}
+{"prompt": "Describe Gauss-Jordan elimination."}
+{"prompt": "Describe a bilinear form."}
+{"prompt": "Describe a block matrix."}
+{"prompt": "Describe a canonical form."}
+{"prompt": "Describe a linear combination."}
+{"prompt": "Describe a matrix."}
+{"prompt": "Describe a nilpotent matrix."}
+{"prompt": "Describe a permutation matrix."}
+{"prompt": "Describe a similarity transformation."}
+{"prompt": "Describe a singular value decomposition."}
+{"prompt": "Describe a tensor."}
+{"prompt": "Describe an inner product space."}
+{"prompt": "Describe an orthonormal basis."}
+{"prompt": "Describe matrix addition."}
+{"prompt": "Describe matrix exponentiation."}
+{"prompt": "Describe the Cayley-Hamilton theorem."}
+{"prompt": "Describe the Ger\u0161gorin circle theorem."}
+{"prompt": "Describe the Gram-Schmidt process."}
+{"prompt": "Describe the Kronecker product."}
+{"prompt": "Describe the linear span."}
+{"prompt": "Describe the triangle inequality for vectors."}
+{"prompt": "Describe wedge product."}
+{"prompt": "Explain Sylvester's criterion."}
+{"prompt": "Explain a lower triangular matrix."}
+{"prompt": "Explain a positive definite matrix."}
+{"prompt": "Explain a rotation matrix."}
+{"prompt": "Explain a row space."}
+{"prompt": "Explain a skew-symmetric matrix."}
+{"prompt": "Explain a triangular matrix."}
+{"prompt": "Explain a unitary matrix."}
+{"prompt": "Explain cofactor expansion."}
+{"prompt": "Explain dual spaces."}
+{"prompt": "Explain eigenvectors."}
+{"prompt": "Explain matrix adjugate properties."}
+{"prompt": "Explain reduced row echelon form."}
+{"prompt": "Explain row reduction."}
+{"prompt": "Explain the QR decomposition."}
+{"prompt": "Explain the concept of a basis."}
+{"prompt": "Explain the concept of a projection."}
+{"prompt": "Explain the concept of dimension."}
+{"prompt": "Explain the concept of linear independence."}
+{"prompt": "Explain the concept of orthogonality."}
+{"prompt": "Explain the inverse of a matrix."}
+{"prompt": "Explain the matrix rank algorithm."}
+{"prompt": "Explain the null space of a matrix."}
+{"prompt": "Explain the spectral theorem."}
+{"prompt": "What is Gaussian elimination?"}
+{"prompt": "What is Schur decomposition?"}
+{"prompt": "What is a Hadamard product?"}
+{"prompt": "What is a Hermitian matrix?"}
+{"prompt": "What is a Vandermonde matrix?"}
+{"prompt": "What is a characteristic polynomial?"}
+{"prompt": "What is a column space?"}
+{"prompt": "What is a determinant?"}
+{"prompt": "What is a diagonal matrix?"}
+{"prompt": "What is a fundamental matrix solution?"}
+{"prompt": "What is a hyperplane?"}
+{"prompt": "What is a linear map?"}
+{"prompt": "What is a linear transformation?"}
+{"prompt": "What is a minor of a matrix?"}
+{"prompt": "What is a multilinear map?"}
+{"prompt": "What is a quadratic form?"}
+{"prompt": "What is a rank of a matrix?"}
+{"prompt": "What is a scalar multiplication?"}
+{"prompt": "What is a spectral radius?"}
+{"prompt": "What is a subspace?"}
+{"prompt": "What is a symmetric matrix?"}
+{"prompt": "What is a transpose of a matrix?"}
+{"prompt": "What is a unit vector?"}
+{"prompt": "What is a unitary transformation?"}
+{"prompt": "What is a vector norm?"}
+{"prompt": "What is a vector space?"}
+{"prompt": "What is an adjugate matrix?"}
+{"prompt": "What is an augmented matrix?"}
+{"prompt": "What is an automorphism in linear algebra?"}
+{"prompt": "What is an eigenvalue?"}
+{"prompt": "What is an exterior product?"}
+{"prompt": "What is an identity matrix?"}
+{"prompt": "What is an incidence matrix?"}
+{"prompt": "What is an isomorphism?"}
+{"prompt": "What is an orthogonal matrix?"}
+{"prompt": "What is an upper triangular matrix?"}
+{"prompt": "What is column echelon form?"}
+{"prompt": "What is diagonalization?"}
+{"prompt": "What is the Euclidean inner product?"}
+{"prompt": "What is the Frobenius inner product?"}
+{"prompt": "What is the Jordan canonical form?"}
+{"prompt": "What is the LU decomposition?"}
+{"prompt": "What is the Moore-Penrose pseudoinverse?"}
+{"prompt": "What is the concept of commutativity in matrices?"}
+{"prompt": "What is the determinant of a product?"}
+{"prompt": "What is the determinant's geometric interpretation?"}
+{"prompt": "What is the matrix product?"}
+{"prompt": "What is the rank-nullity theorem?"}
+{"prompt": "What is the trace of a matrix?"}
+{"prompt": "Define a hyperparameter."}
+{"prompt": "Define supervised learning."}
+{"prompt": "Define the term \"activation function."}
+{"prompt": "Define the term \"model tuning."}
+{"prompt": "Describe a Bayesian network."}
+{"prompt": "Describe a DQN in reinforcement learning."}
+{"prompt": "Describe a Markov decision process."}
+{"prompt": "Describe a decision tree."}
+{"prompt": "Describe a generative adversarial network."}
+{"prompt": "Describe a softmax function."}
+{"prompt": "Describe backpropagation in neural networks."}
+{"prompt": "Describe bagging."}
+{"prompt": "Describe hierarchical clustering."}
+{"prompt": "Describe the concept of \"data sparseness."}
+{"prompt": "Describe the k-nearest neighbors algorithm."}
+{"prompt": "Describe the term \"AdaBoost algorithm."}
+{"prompt": "Describe the term \"VAE in generative models."}
+{"prompt": "Describe the term \"content-based filtering."}
+{"prompt": "Describe the term \"ensemble learning."}
+{"prompt": "Describe the term \"model convergence."}
+{"prompt": "Describe the term \"parameter sharing."}
+{"prompt": "Describe the term \"scikit-learn\" in machine learning."}
+{"prompt": "Describe the term \"stochastic gradient descent."}
+{"prompt": "Describe the term \"tokenization\" in NLP."}
+{"prompt": "Explain ICA in machine learning."}
+{"prompt": "Explain a neural network."}
+{"prompt": "Explain cross-validation."}
+{"prompt": "Explain early stopping in training models."}
+{"prompt": "Explain feature scaling."}
+{"prompt": "Explain gradient descent."}
+{"prompt": "Explain lasso regression."}
+{"prompt": "Explain page ranking models."}
+{"prompt": "Explain reinforcement learning."}
+{"prompt": "Explain the purpose of a hold-out dataset."}
+{"prompt": "Explain the purpose of dropout layers."}
+{"prompt": "Explain the role of decision stumps."}
+{"prompt": "Explain the term \"artificial intelligence."}
+{"prompt": "Explain the term \"autonomy\" in machine learning."}
+{"prompt": "Explain the term \"data augmentation."}
+{"prompt": "Explain the term \"dropout\" in deep learning."}
+{"prompt": "Explain the term \"epoch\" in machine learning."}
+{"prompt": "Explain the term \"feature engineering."}
+{"prompt": "Explain the term \"one-hot encoding."}
+{"prompt": "Explain the term \"residual network."}
+{"prompt": "Explain transfer learning."}
+{"prompt": "Explain underfitting in machine learning."}
+{"prompt": "Explain vanilla neural networks."}
+{"prompt": "What is a BERT model in NLP?"}
+{"prompt": "What is a Gaussian mixture model?"}
+{"prompt": "What is a LSTM network?"}
+{"prompt": "What is a bias-variance tradeoff?"}
+{"prompt": "What is a classifier in machine learning?"}
+{"prompt": "What is a clustering algorithm?"}
+{"prompt": "What is a collaborative filtering algorithm?"}
+{"prompt": "What is a confusion matrix?"}
+{"prompt": "What is a convolutional neural network?"}
+{"prompt": "What is a cost function?"}
+{"prompt": "What is a data pipeline?"}
+{"prompt": "What is a decision boundary?"}
+{"prompt": "What is a feature map in CNNs?"}
+{"prompt": "What is a hybrid recommender system?"}
+{"prompt": "What is a hyperplane in SVMs?"}
+{"prompt": "What is a kernel trick in SVMs?"}
+{"prompt": "What is a learning curve?"}
+{"prompt": "What is a learning rate?"}
+{"prompt": "What is a linear discriminant analysis?"}
+{"prompt": "What is a multi-layer perceptron?"}
+{"prompt": "What is a pattern recognition system?"}
+{"prompt": "What is a perceptron?"}
+{"prompt": "What is a random forest?"}
+{"prompt": "What is a recurrent neural network?"}
+{"prompt": "What is a regression model?"}
+{"prompt": "What is a sigmoid function?"}
+{"prompt": "What is a softmax regression?"}
+{"prompt": "What is a support vector machine?"}
+{"prompt": "What is a validation set?"}
+{"prompt": "What is a word embedding?"}
+{"prompt": "What is batch normalization?"}
+{"prompt": "What is boosting in machine learning?"}
+{"prompt": "What is deep learning?"}
+{"prompt": "What is dimensionality reduction?"}
+{"prompt": "What is hyperparameter optimization?"}
+{"prompt": "What is logistic regression?"}
+{"prompt": "What is overfitting?"}
+{"prompt": "What is regularization in machine learning?"}
+{"prompt": "What is ridge regression?"}
+{"prompt": "What is semi-supervised learning?"}
+{"prompt": "What is the Curse of Dimensionality?"}
+{"prompt": "What is the difference between training and testing datasets?"}
+{"prompt": "What is the principal component analysis?"}
+{"prompt": "What is the purpose of a hidden layer?"}
+{"prompt": "What is the purpose of a loss function?"}
+{"prompt": "What is the role of an optimizer?"}
+{"prompt": "What is unsupervised learning?"}
+{"prompt": "Define a Mersenne prime."}
+{"prompt": "Define a M\u00f6bius function."}
+{"prompt": "Define a partition function."}
+{"prompt": "Define a star number."}
+{"prompt": "Define a transcendental number."}
+{"prompt": "Define an arithmetic sequence."}
+{"prompt": "Define quadratic residues."}
+{"prompt": "Define the Chebyshev function."}
+{"prompt": "Define the Greatest Common Divisor (GCD)."}
+{"prompt": "Define the aliquot sequence."}
+{"prompt": "Describe Beal's conjecture."}
+{"prompt": "Describe Euler\u2019s totient function."}
+{"prompt": "Describe a Cake number."}
+{"prompt": "Describe a Gaussian integer."}
+{"prompt": "Describe a Pell number."}
+{"prompt": "Describe a composite number."}
+{"prompt": "Describe a harmonic number."}
+{"prompt": "Describe a norm in algebraic number theory."}
+{"prompt": "Describe a perfect cube."}
+{"prompt": "Describe a prime factorization."}
+{"prompt": "Describe a twin prime."}
+{"prompt": "Describe an amicable number."}
+{"prompt": "Describe an irrational number."}
+{"prompt": "Describe the Goldbach partition."}
+{"prompt": "Describe the Lipman conjecture."}
+{"prompt": "Describe the Sieve of Eratosthenes."}
+{"prompt": "Describe the concept of valuation."}
+{"prompt": "Describe the magical constant in magic squares."}
+{"prompt": "Explain Catalan's conjecture."}
+{"prompt": "Explain Chinese Remainder Theorem."}
+{"prompt": "Explain Littlewood conjecture."}
+{"prompt": "Explain a Diophantine equation."}
+{"prompt": "Explain a Fibonacci number."}
+{"prompt": "Explain a Hardy\u2013Ramanujan number."}
+{"prompt": "Explain a Sophie Germain prime."}
+{"prompt": "Explain a coprime number."}
+{"prompt": "Explain a cyclotomic polynomial."}
+{"prompt": "Explain a deficient number."}
+{"prompt": "Explain a divisor."}
+{"prompt": "Explain a number field."}
+{"prompt": "Explain a perfect square."}
+{"prompt": "Explain a quadratic form."}
+{"prompt": "Explain a quadratic lattice."}
+{"prompt": "Explain a sum-of-divisors function."}
+{"prompt": "Explain a vampire number."}
+{"prompt": "Explain an arithmetic function."}
+{"prompt": "Explain an elliptic curve."}
+{"prompt": "Explain an integer."}
+{"prompt": "Explain modular arithmetic."}
+{"prompt": "Explain the concept of a ring."}
+{"prompt": "What are continued fractions?"}
+{"prompt": "What is Bertrand's postulate?"}
+{"prompt": "What is Fermat's Little Theorem?"}
+{"prompt": "What is Goldbach's conjecture?"}
+{"prompt": "What is Kronecker's theorem?"}
+{"prompt": "What is Waring's problem?"}
+{"prompt": "What is Wilson's Theorem?"}
+{"prompt": "What is a Carmichael number?"}
+{"prompt": "What is a Dedekind cut?"}
+{"prompt": "What is a Dirichlet character?"}
+{"prompt": "What is a Fermat number?"}
+{"prompt": "What is a Hilbert class field?"}
+{"prompt": "What is a Kaprekar number?"}
+{"prompt": "What is a Kummer ring?"}
+{"prompt": "What is a Legendre symbol?"}
+{"prompt": "What is a Leyland number?"}
+{"prompt": "What is a Lucas number?"}
+{"prompt": "What is a Pell's equation?"}
+{"prompt": "What is a Pisot-Vijayaraghavan number?"}
+{"prompt": "What is a Selberg sieve?"}
+{"prompt": "What is a Sylvester sequence?"}
+{"prompt": "What is a Turing machine in number theory?"}
+{"prompt": "What is a Zeta function?"}
+{"prompt": "What is a congruence relation?"}
+{"prompt": "What is a field in number theory?"}
+{"prompt": "What is a geometric sequence?"}
+{"prompt": "What is a multiple?"}
+{"prompt": "What is a partial fraction?"}
+{"prompt": "What is a perfect number?"}
+{"prompt": "What is a prime number?"}
+{"prompt": "What is a quadratic reciprocity?"}
+{"prompt": "What is a rational number?"}
+{"prompt": "What is a sparse number?"}
+{"prompt": "What is a square-free number?"}
+{"prompt": "What is a unit in number theory?"}
+{"prompt": "What is a zero of a function?"}
+{"prompt": "What is an abundant number?"}
+{"prompt": "What is an automorphic number?"}
+{"prompt": "What is an irrationality measure?"}
+{"prompt": "What is the Collatz conjecture?"}
+{"prompt": "What is the Euclidean algorithm?"}
+{"prompt": "What is the Least Common Multiple (LCM)?"}
+{"prompt": "What is the Pell-Lucas number?"}
+{"prompt": "What is the Ramanujan prime?"}
+{"prompt": "What is the calculation of order?"}
+{"prompt": "What is the fundamental theorem of arithmetic?"}
+{"prompt": "Define Galerkin method."}
+{"prompt": "Define Lax-Wendroff method."}
+{"prompt": "Define a condition number in numerical analysis."}
+{"prompt": "Define an eigenvalue problem."}
+{"prompt": "Define boundary value problem in numerical methods."}
+{"prompt": "Define iterative methods in numerical analysis."}
+{"prompt": "Define the Courant-Friedrichs-Lewy (CFL) condition."}
+{"prompt": "Define the boundary element method."}
+{"prompt": "Define the concept of a preconditioner."}
+{"prompt": "Define the concept of an ODE solver."}
+{"prompt": "Define the concept of orthogonalization in numerical methods."}
+{"prompt": "Define the spectral radius in numerical methods."}
+{"prompt": "Define the term \"finite difference method."}
+{"prompt": "Describe Gauss-Legendre quadrature."}
+{"prompt": "Describe Hankel matrices in numerical analysis."}
+{"prompt": "Describe the Alternating Direction Implicit (ADI) method."}
+{"prompt": "Describe the Bisection method."}
+{"prompt": "Describe the Collocation method."}
+{"prompt": "Describe the Heun's method."}
+{"prompt": "Describe the LU decomposition method."}
+{"prompt": "Describe the Monte Carlo method."}
+{"prompt": "Describe the concept of numerical stability."}
+{"prompt": "Describe the concept of truncation error."}
+{"prompt": "Describe the finite element method."}
+{"prompt": "Describe the method of least squares."}
+{"prompt": "Describe the principle of error propagation."}
+{"prompt": "Describe the purpose of stability regions for numerical methods."}
+{"prompt": "Explain Cramer's rule."}
+{"prompt": "Explain Euler's method."}
+{"prompt": "Explain Simpson's rule."}
+{"prompt": "Explain numerical differentiation."}
+{"prompt": "Explain the Fast Fourier Transform (FFT)."}
+{"prompt": "Explain the Jacobi method for solving linear equations."}
+{"prompt": "Explain the Tikhonov regularization."}
+{"prompt": "Explain the concept of convergence in numerical methods."}
+{"prompt": "Explain the concept of mesh generation in numerical methods."}
+{"prompt": "Explain the concept of pseudo-spectral methods."}
+{"prompt": "Explain the concept of round-off error."}
+{"prompt": "Explain the concept of stability in numerical analysis."}
+{"prompt": "Explain the forward difference method."}
+{"prompt": "Explain the principle of discretization."}
+{"prompt": "Explain the purpose of Gram-Schmidt process in numerical methods."}
+{"prompt": "Explain the purpose of Vandermonde matrices."}
+{"prompt": "Explain the purpose of the Hessenberg form."}
+{"prompt": "Explain the purpose of transformation matrices."}
+{"prompt": "Explain the role of pivot elements in matrix factorization."}
+{"prompt": "Explain the role of pivoting in Gaussian elimination."}
+{"prompt": "What is Chebyshev interpolation?"}
+{"prompt": "What is Cholesky decomposition?"}
+{"prompt": "What is Fourier analysis in numerical methods?"}
+{"prompt": "What is Gaussian elimination?"}
+{"prompt": "What is Hermite interpolation?"}
+{"prompt": "What is Lagrange interpolation?"}
+{"prompt": "What is Richardson extrapolation?"}
+{"prompt": "What is Romberg integration?"}
+{"prompt": "What is a Taylor series in numerical methods?"}
+{"prompt": "What is a diagonal dominance in matrices?"}
+{"prompt": "What is a fixed-point iteration method?"}
+{"prompt": "What is a floating-point representation?"}
+{"prompt": "What is a linear system of equations?"}
+{"prompt": "What is a multigrid method?"}
+{"prompt": "What is a partial differential equation?"}
+{"prompt": "What is a residual in numerical solutions?"}
+{"prompt": "What is a spline in numerical methods?"}
+{"prompt": "What is a vector norm in numerical analysis?"}
+{"prompt": "What is adaptive quadrature?"}
+{"prompt": "What is adaptive step size in numerical integration?"}
+{"prompt": "What is an ill-conditioned system?"}
+{"prompt": "What is an implicit method in numerical solutions?"}
+{"prompt": "What is backward Euler method?"}
+{"prompt": "What is computational fluid dynamics?"}
+{"prompt": "What is cubic spline interpolation?"}
+{"prompt": "What is data fitting in numerical methods?"}
+{"prompt": "What is machine epsilon?"}
+{"prompt": "What is machine precision?"}
+{"prompt": "What is multistep method in numerical analysis?"}
+{"prompt": "What is numerical integration?"}
+{"prompt": "What is numerical linear algebra?"}
+{"prompt": "What is residual minimization?"}
+{"prompt": "What is spectral method in numerical analysis?"}
+{"prompt": "What is successive over-relaxation?"}
+{"prompt": "What is the Adams-Bashforth method?"}
+{"prompt": "What is the Central Difference method?"}
+{"prompt": "What is the Gauss-Seidel method?"}
+{"prompt": "What is the Lanczos algorithm?"}
+{"prompt": "What is the Newton-Raphson method?"}
+{"prompt": "What is the Runge-Kutta method?"}
+{"prompt": "What is the concept of Richardson\u2019s deferred approach to the limit?"}
+{"prompt": "What is the purpose of a Jacobi preconditioner?"}
+{"prompt": "What is the purpose of interpolation in numerical methods?"}
+{"prompt": "What is the purpose of orthogonal polynomials in numerical analysis?"}
+{"prompt": "What is the purpose of the QR factorization?"}
+{"prompt": "What is the secant method?"}
+{"prompt": "What is the steepest descent method?"}
+{"prompt": "What is the trapezoidal method used for?"}
+{"prompt": "What is the trapezoidal rule?"}
+{"prompt": "Define a bootloader."}
+{"prompt": "Describe a dual-mode operation."}
+{"prompt": "Describe a soft real-time system."}
+{"prompt": "Describe access control lists (ACLs)."}
+{"prompt": "Describe inter-process communication (IPC)."}
+{"prompt": "Describe the concept of paging."}
+{"prompt": "Describe the concept of spooling."}
+{"prompt": "Describe the microkernel architecture."}
+{"prompt": "Describe the purpose of an interrupt."}
+{"prompt": "Describe the root directory."}
+{"prompt": "Describe virtual memory."}
+{"prompt": "Explain memory segmentation."}
+{"prompt": "Explain page replacement algorithms."}
+{"prompt": "Explain priority scheduling."}
+{"prompt": "Explain the concept of a buffer cache."}
+{"prompt": "Explain the concept of affinity scheduling."}
+{"prompt": "Explain the function of a system call."}
+{"prompt": "Explain the operation of an atomic operation."}
+{"prompt": "Explain the purpose of a swap file."}
+{"prompt": "Explain the role of a device driver."}
+{"prompt": "Explain the role of a page table."}
+{"prompt": "Explain time-sharing in operating systems."}
+{"prompt": "How do threads differ from processes?"}
+{"prompt": "How does loadable kernel modules work?"}
+{"prompt": "How does process scheduling work?"}
+{"prompt": "What is BIOS and its role in an operating system?"}
+{"prompt": "What is a TLB (Translation Lookaside Buffer)?"}
+{"prompt": "What is a block device?"}
+{"prompt": "What is a context switch?"}
+{"prompt": "What is a daemon process?"}
+{"prompt": "What is a file descriptor?"}
+{"prompt": "What is a file system?"}
+{"prompt": "What is a fork system call?"}
+{"prompt": "What is a hotfix related to OS?"}
+{"prompt": "What is a hypervisor?"}
+{"prompt": "What is a journaling file system?"}
+{"prompt": "What is a kernel in an operating system?"}
+{"prompt": "What is a kernel module?"}
+{"prompt": "What is a lightweight process?"}
+{"prompt": "What is a log-structured file system?"}
+{"prompt": "What is a monolithic kernel?"}
+{"prompt": "What is a multithreaded application?"}
+{"prompt": "What is a mutex?"}
+{"prompt": "What is a pipe in operating systems?"}
+{"prompt": "What is a process?"}
+{"prompt": "What is a race condition?"}
+{"prompt": "What is a real-time operating system?"}
+{"prompt": "What is a semaphore?"}
+{"prompt": "What is a shell in the context of operating systems?"}
+{"prompt": "What is a superuser?"}
+{"prompt": "What is a swap partition?"}
+{"prompt": "What is a system clock?"}
+{"prompt": "What is a trap in operating systems?"}
+{"prompt": "What is a virtual file system (VFS)?"}
+{"prompt": "What is a zombie process?"}
+{"prompt": "What is an embedded operating system?"}
+{"prompt": "What is an inode in a file system?"}
+{"prompt": "What is an installable file system?"}
+{"prompt": "What is an open-source operating system?"}
+{"prompt": "What is an operating system kernel panic?"}
+{"prompt": "What is an orphan process?"}
+{"prompt": "What is deadlock in operating systems?"}
+{"prompt": "What is demand forking?"}
+{"prompt": "What is demand paging?"}
+{"prompt": "What is device management in operating systems?"}
+{"prompt": "What is direct memory access (DMA)?"}
+{"prompt": "What is disk fragmentation and defragmentation?"}
+{"prompt": "What is dual booting?"}
+{"prompt": "What is escalated privilege?"}
+{"prompt": "What is garbage collection in operating systems?"}
+{"prompt": "What is latency and how is it managed in OS?"}
+{"prompt": "What is load balancing in operating systems?"}
+{"prompt": "What is local procedure call (LPC)?"}
+{"prompt": "What is memory-mapped I/O?"}
+{"prompt": "What is multitasking in operating systems?"}
+{"prompt": "What is process synchronization?"}
+{"prompt": "What is round-robin scheduling?"}
+{"prompt": "What is the Master Boot Record (MBR)?"}
+{"prompt": "What is the NTFS file system?"}
+{"prompt": "What is the difference between RAM and ROM in the context of OS?"}
+{"prompt": "What is the difference between preemptive and non-preemptive scheduling?"}
+{"prompt": "What is the difference between user mode and kernel mode?"}
+{"prompt": "What is the function of a boot sector?"}
+{"prompt": "What is the function of a task scheduler?"}
+{"prompt": "What is the function of the operating system loader?"}
+{"prompt": "What is the role of a shell script?"}
+{"prompt": "What is thrashing in the context of operating systems?"}
+{"prompt": "What is virtual machine manager?"}
+{"prompt": "What is virtual memory swapping?"}
+{"prompt": "Define a penalty method in optimization."}
+{"prompt": "Define adaptive memory algorithms."}
+{"prompt": "Define friction in optimization terms."}
+{"prompt": "Define local minima."}
+{"prompt": "Define quadratic programming."}
+{"prompt": "Define separable programming."}
+{"prompt": "Define unconstrained optimization."}
+{"prompt": "Describe a feasible region."}
+{"prompt": "Describe active learning in optimization."}
+{"prompt": "Describe constraint satisfaction problems."}
+{"prompt": "Describe convex optimization."}
+{"prompt": "Describe direct search methods."}
+{"prompt": "Describe implicit enumeration."}
+{"prompt": "Describe the concept of slack variables."}
+{"prompt": "Describe the method of Lagrangian relaxation."}
+{"prompt": "Explain ant colony optimization."}
+{"prompt": "Explain chance-constrained optimization."}
+{"prompt": "Explain integer programming."}
+{"prompt": "Explain multi-objective optimization."}
+{"prompt": "Explain quadratic penalty method."}
+{"prompt": "Explain tabu search."}
+{"prompt": "Explain the concept of dynamic programming."}
+{"prompt": "Explain the concept of variable elimination."}
+{"prompt": "Explain the purpose of branch and bound."}
+{"prompt": "Explain the term \"gradient descent."}
+{"prompt": "Explain what a Lagrange multiplier is."}
+{"prompt": "Explain what a gradient is."}
+{"prompt": "Explain what a scale parameter is."}
+{"prompt": "Explain zero-sum games in optimization."}
+{"prompt": "What are Karush-Kuhn-Tucker conditions?"}
+{"prompt": "What are conjugate gradient methods?"}
+{"prompt": "What are evolutionary algorithms?"}
+{"prompt": "What are network flow problems?"}
+{"prompt": "What are objective functions?"}
+{"prompt": "What are penalty functions?"}
+{"prompt": "What are saddle point conditions?"}
+{"prompt": "What are trust region methods?"}
+{"prompt": "What does \"best-response dynamics\" mean?"}
+{"prompt": "What does \"convex relaxation\" mean?"}
+{"prompt": "What does \"piecewise linear\" mean?"}
+{"prompt": "What does \"second-order condition\" mean?"}
+{"prompt": "What is Broyden\u2013Fletcher\u2013Goldfarb\u2013Shanno algorithm?"}
+{"prompt": "What is Levenberg-Marquardt algorithm?"}
+{"prompt": "What is Newton's method?"}
+{"prompt": "What is Wolfe's dual method?"}
+{"prompt": "What is a Hessian matrix?"}
+{"prompt": "What is a constraint in optimization?"}
+{"prompt": "What is a cost function?"}
+{"prompt": "What is a cut in optimization?"}
+{"prompt": "What is a decision variable?"}
+{"prompt": "What is a descent direction?"}
+{"prompt": "What is a dynamic model in optimization?"}
+{"prompt": "What is a genetic algorithm?"}
+{"prompt": "What is a heuristic algorithm?"}
+{"prompt": "What is a line search method?"}
+{"prompt": "What is a mesh adaptive search?"}
+{"prompt": "What is a non-linear optimization problem?"}
+{"prompt": "What is a penalty approach?"}
+{"prompt": "What is a primal problem?"}
+{"prompt": "What is a saddle point in optimization?"}
+{"prompt": "What is a search space?"}
+{"prompt": "What is a semi-definite program?"}
+{"prompt": "What is a subgradient method?"}
+{"prompt": "What is a surrogate model?"}
+{"prompt": "What is a trust region?"}
+{"prompt": "What is an active set method?"}
+{"prompt": "What is an infeasible solution?"}
+{"prompt": "What is bilevel optimization?"}
+{"prompt": "What is cross-entropy method?"}
+{"prompt": "What is distributed optimization?"}
+{"prompt": "What is duality in optimization?"}
+{"prompt": "What is iterative optimization?"}
+{"prompt": "What is linear programming?"}
+{"prompt": "What is meant by combinatorial optimization?"}
+{"prompt": "What is meant by convergence criteria?"}
+{"prompt": "What is meant by global optimum?"}
+{"prompt": "What is meant by multiple objectives?"}
+{"prompt": "What is meant by robust optimization?"}
+{"prompt": "What is network simplex algorithm?"}
+{"prompt": "What is portfolio optimization?"}
+{"prompt": "What is proximal gradient method?"}
+{"prompt": "What is quadratic assignment problem?"}
+{"prompt": "What is reinforcement learning in optimization?"}
+{"prompt": "What is simulated annealing?"}
+{"prompt": "What is stochastic optimization?"}
+{"prompt": "What is structural optimization?"}
+{"prompt": "What is the basin of attraction?"}
+{"prompt": "What is the difference between hard and soft constraints?"}
+{"prompt": "What is the role of dual variables?"}
+{"prompt": "What is the role of sensitivity analysis?"}
+{"prompt": "What is the simplex method?"}
+{"prompt": "What is the traveling salesman problem?"}
+{"prompt": "Why is gradient ascent used?"}
+{"prompt": "Why is the interior point method used?"}
+{"prompt": "Why use particle swarm optimization?"}
+{"prompt": "Define Load Balancing in parallel computing."}
+{"prompt": "Define coarse-grained parallelism."}
+{"prompt": "Define hyper-threading technology."}
+{"prompt": "Define pipelining in parallel processing."}
+{"prompt": "Define the term fork-join parallelism."}
+{"prompt": "Define the term inter-process communication."}
+{"prompt": "Define the term lock-free parallel computing."}
+{"prompt": "Define the term multi-core processor."}
+{"prompt": "Define the term node in the context of parallel computing."}
+{"prompt": "Define the term warp in parallel computing."}
+{"prompt": "Define weak scaling in parallel computing."}
+{"prompt": "Describe the concept of a parallel algorithm."}
+{"prompt": "Describe the concept of parallel overhead."}
+{"prompt": "Describe the term hybrid parallel programming."}
+{"prompt": "Describe what OpenMP is used for."}
+{"prompt": "Describe what a GPU is."}
+{"prompt": "Explain distributed memory architecture."}
+{"prompt": "Explain task scheduling in parallel computing."}
+{"prompt": "Explain the concept of parallel reduction."}
+{"prompt": "Explain the concept of thread pool."}
+{"prompt": "Explain the meaning of contention in parallel computing."}
+{"prompt": "Explain the term data parallelism."}
+{"prompt": "Explain the term fork-join model."}
+{"prompt": "Explain the term granularity in the context of parallel computing."}
+{"prompt": "Explain the term idle time in parallel processing."}
+{"prompt": "Explain the term parallel decomposition."}
+{"prompt": "Explain what a data race is."}
+{"prompt": "Explain what a memory model is."}
+{"prompt": "Explain what a parallel programming model is."}
+{"prompt": "Explain what a supercomputer cluster is."}
+{"prompt": "Explain what an execution environment is."}
+{"prompt": "Explain what an execution unit is."}
+{"prompt": "Explain what heterogeneous computing means."}
+{"prompt": "Explain what load distribution means."}
+{"prompt": "Explain what task parallelism means."}
+{"prompt": "What are threads in the context of parallel computing?"}
+{"prompt": "What does CUDA stand for, and what is its use?"}
+{"prompt": "What does MPI stand for and what is its purpose?"}
+{"prompt": "What does vectorization mean in the context of parallel computing?"}
+{"prompt": "What is Amdahl's Law?"}
+{"prompt": "What is Flynn\u2019s taxonomy?"}
+{"prompt": "What is Out-of-Order Execution in parallel processing?"}
+{"prompt": "What is SIMD?"}
+{"prompt": "What is a barrier synchronization?"}
+{"prompt": "What is a bottleneck in parallel processing?"}
+{"prompt": "What is a critical section?"}
+{"prompt": "What is a deadlock in parallel computing?"}
+{"prompt": "What is a many-core processor?"}
+{"prompt": "What is a memory barrier?"}
+{"prompt": "What is a non-blocking algorithm?"}
+{"prompt": "What is a parallel random access machine (PRAM)?"}
+{"prompt": "What is a parallel workload?"}
+{"prompt": "What is a race condition?"}
+{"prompt": "What is a synchronization primitive?"}
+{"prompt": "What is a vector processor?"}
+{"prompt": "What is an atomic operation?"}
+{"prompt": "What is an embarrassingly parallel problem?"}
+{"prompt": "What is cache locality, and why is it important?"}
+{"prompt": "What is collective communication?"}
+{"prompt": "What is dynamic parallelism?"}
+{"prompt": "What is false sharing?"}
+{"prompt": "What is fine-grained parallelism?"}
+{"prompt": "What is latency hiding?"}
+{"prompt": "What is meant by affinity scheduling in parallel computing?"}
+{"prompt": "What is meant by task dependency in parallel computing?"}
+{"prompt": "What is memory consistency?"}
+{"prompt": "What is parallel profiling?"}
+{"prompt": "What is parallel scalability?"}
+{"prompt": "What is prefetching in the context of parallel computing?"}
+{"prompt": "What is race detection?"}
+{"prompt": "What is row / column-wise decomposition?"}
+{"prompt": "What is shared memory parallelism?"}
+{"prompt": "What is shared versus distributed cache architecture?"}
+{"prompt": "What is speculative execution in parallel processing?"}
+{"prompt": "What is speculative parallelism?"}
+{"prompt": "What is stride in parallel computing?"}
+{"prompt": "What is synchronization in parallel computing?"}
+{"prompt": "What is synchronization overhead?"}
+{"prompt": "What is the difference between SPMD and MIMD?"}
+{"prompt": "What is the difference between shared memory and distributed memory systems?"}
+{"prompt": "What is the difference between tightly coupled and loosely coupled systems?"}
+{"prompt": "What is the impact of network latency in parallel systems?"}
+{"prompt": "What is the purpose of a mutex?"}
+{"prompt": "What is the purpose of a parallel virtual machine (PVM)?"}
+{"prompt": "What is the purpose of a semaphore?"}
+{"prompt": "What is the purpose of cache coherence?"}
+{"prompt": "What is the role of a compiler in parallel computing?"}
+{"prompt": "What is the role of a scheduler in parallel computing?"}
+{"prompt": "What is the role of memory affinity in parallel computing?"}
+{"prompt": "What is the use of a task graph in parallel computing?"}
+{"prompt": "What is vector processing?"}
+{"prompt": "What is work stealing in parallel processing?"}
+{"prompt": "Describe It\u00f4's lemma."}
+{"prompt": "Describe Jensen's inequality."}
+{"prompt": "Describe a beta distribution."}
+{"prompt": "Describe a null hypothesis."}
+{"prompt": "Describe a probability density function."}
+{"prompt": "Describe co-integrated time series."}
+{"prompt": "Describe covariance in probability theory."}
+{"prompt": "Describe importance sampling."}
+{"prompt": "Describe maximum likelihood estimation."}
+{"prompt": "Describe stochastic volatility."}
+{"prompt": "Describe the central limit theorem."}
+{"prompt": "Describe the concept of a Markov blanket."}
+{"prompt": "Describe the concept of a martingale."}
+{"prompt": "Describe the difference between discrete and continuous variables."}
+{"prompt": "Describe the ergodic theorem."}
+{"prompt": "Describe the gambler's ruin problem."}
+{"prompt": "Describe the law of total probability."}
+{"prompt": "Describe the negative binomial distribution."}
+{"prompt": "Describe the uniform distribution."}
+{"prompt": "Describe what a t-distribution is."}
+{"prompt": "Explain a confidence interval in probability."}
+{"prompt": "Explain autocorrelation in time series."}
+{"prompt": "Explain standard deviation in the context of probability."}
+{"prompt": "Explain the Bernstein inequality."}
+{"prompt": "Explain the Weibull distribution."}
+{"prompt": "Explain the concept of a Markov chain."}
+{"prompt": "Explain the concept of a continuous random variable."}
+{"prompt": "Explain the concept of a prior distribution."}
+{"prompt": "Explain the concept of entropy in probability theory."}
+{"prompt": "Explain the concept of expected value."}
+{"prompt": "Explain the concept of hypothesis testing."}
+{"prompt": "Explain the concept of joint entropy."}
+{"prompt": "Explain the concept of mutually exclusive events."}
+{"prompt": "Explain the concept of probability distribution."}
+{"prompt": "Explain the concept of risk-neutral measure."}
+{"prompt": "Explain the concept of sampling in probability."}
+{"prompt": "Explain the concept of stratified sampling."}
+{"prompt": "Explain the law of large numbers."}
+{"prompt": "Explain what a Gaussian process is."}
+{"prompt": "Explain what a Type I error is."}
+{"prompt": "Explain what a conditional probability is."}
+{"prompt": "Explain what a moment generating function is."}
+{"prompt": "What does it mean for events to be independent?"}
+{"prompt": "What is Bayes' Theorem?"}
+{"prompt": "What is Chebyshev's inequality?"}
+{"prompt": "What is Monte Carlo simulation?"}
+{"prompt": "What is a Bernoulli process?"}
+{"prompt": "What is a Brownian motion?"}
+{"prompt": "What is a F-distribution?"}
+{"prompt": "What is a L\u00e9vy process?"}
+{"prompt": "What is a Markov process?"}
+{"prompt": "What is a Poisson distribution?"}
+{"prompt": "What is a Type II error?"}
+{"prompt": "What is a binomial distribution?"}
+{"prompt": "What is a chi-square distribution?"}
+{"prompt": "What is a correlation coefficient?"}
+{"prompt": "What is a cumulative distribution function?"}
+{"prompt": "What is a discrete random variable?"}
+{"prompt": "What is a hidden Markov model?"}
+{"prompt": "What is a hypergeometric distribution?"}
+{"prompt": "What is a joint probability distribution?"}
+{"prompt": "What is a likelihood function?"}
+{"prompt": "What is a multivariate distribution?"}
+{"prompt": "What is a normal distribution?"}
+{"prompt": "What is a p-value in probability?"}
+{"prompt": "What is a posterior distribution?"}
+{"prompt": "What is a probability generating function?"}
+{"prompt": "What is a probability mass function?"}
+{"prompt": "What is a random variable?"}
+{"prompt": "What is a random walk?"}
+{"prompt": "What is a sample space?"}
+{"prompt": "What is a sigma-algebra in probability?"}
+{"prompt": "What is a stationary process?"}
+{"prompt": "What is a stochastic process?"}
+{"prompt": "What is a stopping time?"}
+{"prompt": "What is a time series in probability theory?"}
+{"prompt": "What is an alternative hypothesis?"}
+{"prompt": "What is an event in probability theory?"}
+{"prompt": "What is characteristic function in probability theory?"}
+{"prompt": "What is conditional entropy?"}
+{"prompt": "What is heteroscedasticity?"}
+{"prompt": "What is meant by stationarity in stochastic processes?"}
+{"prompt": "What is rejection sampling?"}
+{"prompt": "What is stationarity in time series?"}
+{"prompt": "What is the Black-Scholes model?"}
+{"prompt": "What is the Dirichlet distribution?"}
+{"prompt": "What is the Gamma distribution?"}
+{"prompt": "What is the Radon-Nikodym derivative?"}
+{"prompt": "What is the bootstrap method in statistics?"}
+{"prompt": "What is the difference between a population and a sample?"}
+{"prompt": "What is the exponential distribution?"}
+{"prompt": "What is the method of moments in statistics?"}
+{"prompt": "What is the principle of maximum entropy?"}
+{"prompt": "What is variance in probability theory?"}
+{"prompt": "Define a Cauchy sequence."}
+{"prompt": "Define a Dirac delta function."}
+{"prompt": "Define a limit superior."}
+{"prompt": "Define a smooth function in real analysis."}
+{"prompt": "Define a subsequence of a sequence."}
+{"prompt": "Define an infimum in real analysis."}
+{"prompt": "Define pointwise convergence of a sequence of functions."}
+{"prompt": "Define the concept of a tangent line in real analysis."}
+{"prompt": "Define the concept of an interval in real numbers."}
+{"prompt": "Define the derivative of a function."}
+{"prompt": "Define the term \"function\" in real analysis."}
+{"prompt": "Define the term \"real number."}
+{"prompt": "Define the term countable set."}
+{"prompt": "Define what a simple function is."}
+{"prompt": "Describe Fatou\u2019s Lemma."}
+{"prompt": "Describe an open set."}
+{"prompt": "Describe an unbounded set."}
+{"prompt": "Describe the Cantor set."}
+{"prompt": "Describe the Completeness Axiom."}
+{"prompt": "Describe the concept of continuity."}
+{"prompt": "Describe what a Banach space is."}
+{"prompt": "Describe what a Fourier transform is."}
+{"prompt": "Describe what a power series is."}
+{"prompt": "Describe what a sigma-algebra is."}
+{"prompt": "Describe what an accumulation point is."}
+{"prompt": "Explain sequence convergence in metric spaces."}
+{"prompt": "Explain the Bolzano-Weierstrass Theorem."}
+{"prompt": "Explain the Mean Value Theorem."}
+{"prompt": "Explain the concept of a measure zero set."}
+{"prompt": "Explain the concept of a metric space."}
+{"prompt": "Explain the concept of an absolute value function."}
+{"prompt": "Explain the concept of lower semicontinuity."}
+{"prompt": "Explain the concept of the Lp space."}
+{"prompt": "Explain the notion of a limit of a function."}
+{"prompt": "Explain the notion of uniform boundedness in real analysis."}
+{"prompt": "Explain what a linear functional is."}
+{"prompt": "Explain what a neighborhood is in real analysis."}
+{"prompt": "Explain what a rational number is."}
+{"prompt": "Explain what is meant by a \"dense\" set."}
+{"prompt": "Explain what it means for a function to be Lipschitz continuous."}
+{"prompt": "Explain what the Fundamental Theorem of Calculus is."}
+{"prompt": "What does homeomorphism mean?"}
+{"prompt": "What does it mean for a function to be bounded on an interval?"}
+{"prompt": "What does it mean for a function to be differentiable?"}
+{"prompt": "What does it mean for a sequence to converge?"}
+{"prompt": "What does it mean for a series to converge absolutely?"}
+{"prompt": "What does it mean for a series to converge conditionally?"}
+{"prompt": "What does it mean for convergence to be uniform on sets?"}
+{"prompt": "What does the monotone convergence theorem state?"}
+{"prompt": "What is a Fourier series?"}
+{"prompt": "What is a Hausdorff space?"}
+{"prompt": "What is a Hilbert space in real analysis?"}
+{"prompt": "What is a Lebesgue integral?"}
+{"prompt": "What is a bounded function?"}
+{"prompt": "What is a closed set in real analysis?"}
+{"prompt": "What is a compact set?"}
+{"prompt": "What is a convex function?"}
+{"prompt": "What is a dense subset in real analysis?"}
+{"prompt": "What is a directional derivative?"}
+{"prompt": "What is a limit inferior?"}
+{"prompt": "What is a limit point?"}
+{"prompt": "What is a measurable function?"}
+{"prompt": "What is a modulated sequence?"}
+{"prompt": "What is a monotone sequence?"}
+{"prompt": "What is a nested interval?"}
+{"prompt": "What is a partition in the context of Riemann integration?"}
+{"prompt": "What is a positive measure set?"}
+{"prompt": "What is a real-valued function?"}
+{"prompt": "What is a sigma-finite measure?"}
+{"prompt": "What is a topological space?"}
+{"prompt": "What is a total variation of a function?"}
+{"prompt": "What is a uniform continuous function?"}
+{"prompt": "What is an asymptotic notation?"}
+{"prompt": "What is an irrational number?"}
+{"prompt": "What is mathematical induction used for in real analysis?"}
+{"prompt": "What is the Arzel\u00e0-Ascoli Theorem?"}
+{"prompt": "What is the Baire Category Theorem?"}
+{"prompt": "What is the Dirichlet function?"}
+{"prompt": "What is the Heine-Borel Theorem?"}
+{"prompt": "What is the Intermediate Value Theorem?"}
+{"prompt": "What is the Riemann integral?"}
+{"prompt": "What is the Riesz Representation Theorem?"}
+{"prompt": "What is the Stone-Weierstrass Theorem?"}
+{"prompt": "What is the Weierstrass Approximation Theorem?"}
+{"prompt": "What is the concept of a supremum?"}
+{"prompt": "What is the concept of oscillation?"}
+{"prompt": "What is the difference between a pointwise limit and a uniform limit?"}
+{"prompt": "What is the difference between countable and uncountable sets?"}
+{"prompt": "What is the difference between pointwise and uniform convergence?"}
+{"prompt": "What is the epsilon-delta definition of a limit?"}
+{"prompt": "What is the purpose of a step function?"}
+{"prompt": "What is the triangle inequality?"}
+{"prompt": "What is uniform convergence?"}
+{"prompt": "Define a bijection."}
+{"prompt": "Define a minimal element."}
+{"prompt": "Define a monoid in set theory context."}
+{"prompt": "Define a neighborhood in set theory."}
+{"prompt": "Define a superordinate set."}
+{"prompt": "Define an auxiliary set."}
+{"prompt": "Define an equivalence relation."}
+{"prompt": "Define an ultrafilter on a set."}
+{"prompt": "Define the complement of a set."}
+{"prompt": "Define the concept of a limitation of size."}
+{"prompt": "Define the concept of cofinality."}
+{"prompt": "Define the range of a function."}
+{"prompt": "Define the term \"cardinality\"."}
+{"prompt": "Describe a Polish space in set theory."}
+{"prompt": "Describe a Venn diagram."}
+{"prompt": "Describe a dependent choice axiom."}
+{"prompt": "Describe a direct product of sets."}
+{"prompt": "Describe a filter in set theory."}
+{"prompt": "Describe a finite set."}
+{"prompt": "Describe a function in terms of set theory."}
+{"prompt": "Describe a function's inverse relation."}
+{"prompt": "Describe a power set."}
+{"prompt": "Describe a singleton set."}
+{"prompt": "Describe a structure in the context of set theory."}
+{"prompt": "Describe an ordinal number."}
+{"prompt": "Describe the Russell\u2019s paradox."}
+{"prompt": "Describe the concept of a sigma-algebra."}
+{"prompt": "Describe the foundational crisis of set theory."}
+{"prompt": "Describe what is meant by the term \"sigma-finite\"."}
+{"prompt": "Explain Zermelo-Fraenkel set theory."}
+{"prompt": "Explain a Cartesian product."}
+{"prompt": "Explain a preimage of a set under a function."}
+{"prompt": "Explain a surjection."}
+{"prompt": "Explain an uncountable set."}
+{"prompt": "Explain the Banach-Tarski paradox."}
+{"prompt": "Explain the Cantor-Bernstein-Schr\u00f6der theorem."}
+{"prompt": "Explain the Kaplansky density theorem."}
+{"prompt": "Explain the concept of a Dedekind cut."}
+{"prompt": "Explain the concept of a fuzzy set."}
+{"prompt": "Explain the concept of a limit point."}
+{"prompt": "Explain the concept of chain completeness."}
+{"prompt": "Explain the difference between a field and a sigma-field."}
+{"prompt": "Explain the difference between a relation and a function."}
+{"prompt": "Explain the intersection of sets."}
+{"prompt": "Explain the principle of well-ordering."}
+{"prompt": "Explain what a hyperreal number is."}
+{"prompt": "Explain what an open set is."}
+{"prompt": "What does it mean for a set to be closed?"}
+{"prompt": "What does it mean for a set to be dense?"}
+{"prompt": "What does it mean for sets to be disjoint?"}
+{"prompt": "What is a Grothendieck universe?"}
+{"prompt": "What is a Ramsey number?"}
+{"prompt": "What is a bijective correspondence?"}
+{"prompt": "What is a countable set?"}
+{"prompt": "What is a cover of a set?"}
+{"prompt": "What is a domain of a function?"}
+{"prompt": "What is a lattice in set theory?"}
+{"prompt": "What is a mathematical relation?"}
+{"prompt": "What is a maximal element?"}
+{"prompt": "What is a measurable cardinal?"}
+{"prompt": "What is a measure in set theory?"}
+{"prompt": "What is a membership table?"}
+{"prompt": "What is a morphism in category theory?"}
+{"prompt": "What is a null set?"}
+{"prompt": "What is a partial order?"}
+{"prompt": "What is a partition of a set?"}
+{"prompt": "What is a projection in relation to sets?"}
+{"prompt": "What is a proper subset?"}
+{"prompt": "What is a restriction of a function?"}
+{"prompt": "What is a sigma-ring?"}
+{"prompt": "What is a strict order?"}
+{"prompt": "What is a subset?"}
+{"prompt": "What is a symmetric difference?"}
+{"prompt": "What is a transitive set?"}
+{"prompt": "What is a union of sets?"}
+{"prompt": "What is a universal set?"}
+{"prompt": "What is an accessibility rank?"}
+{"prompt": "What is an amalgamation property?"}
+{"prompt": "What is an antisymmetric relation?"}
+{"prompt": "What is an ideal in the context of sets?"}
+{"prompt": "What is an image of a set under a function?"}
+{"prompt": "What is an inclusive definition?"}
+{"prompt": "What is an index set?"}
+{"prompt": "What is an infinite set?"}
+{"prompt": "What is an injection?"}
+{"prompt": "What is an interval in set theory?"}
+{"prompt": "What is an ordered pair?"}
+{"prompt": "What is an upper bound of a set?"}
+{"prompt": "What is ascending chain condition?"}
+{"prompt": "What is the Axiom of Choice?"}
+{"prompt": "What is the Cantor set?"}
+{"prompt": "What is the Empty Set Axiom?"}
+{"prompt": "What is the notion of inner regularity?"}
+{"prompt": "What is the opposite category?"}
+{"prompt": "What is the principle of extensionality?"}
+{"prompt": "What is the set-theoretic difference?"}
+{"prompt": "Define 'middleware' in software development."}
+{"prompt": "Define 'object-oriented programming'."}
+{"prompt": "Define 'software abstraction'."}
+{"prompt": "Describe 'client-server architecture'."}
+{"prompt": "Describe 'continuous deployment'."}
+{"prompt": "Describe 'continuous improvement'."}
+{"prompt": "Describe 'error handling'."}
+{"prompt": "Describe 'fault tolerance'."}
+{"prompt": "Describe 'inheritance' in programming."}
+{"prompt": "Describe 'loose coupling'."}
+{"prompt": "Describe 'multithreading'."}
+{"prompt": "Describe 'versioning' in API design."}
+{"prompt": "Describe a 'singleton pattern'."}
+{"prompt": "Describe a continuous integration system."}
+{"prompt": "Describe the concept of 'data migration'."}
+{"prompt": "Describe the concept of 'edge computing'."}
+{"prompt": "Describe the concept of agile development."}
+{"prompt": "Describe the term 'code smell'."}
+{"prompt": "Describe the term 'polymorphism'."}
+{"prompt": "Describe the term 'test-driven development'."}
+{"prompt": "Describe what 'refactoring' involves."}
+{"prompt": "Explain 'deep learning' in software."}
+{"prompt": "Explain 'dependency injection'."}
+{"prompt": "Explain 'dynamic typing'."}
+{"prompt": "Explain 'event-driven programming'."}
+{"prompt": "Explain 'memory management'."}
+{"prompt": "Explain 'orthogonality' in software design."}
+{"prompt": "Explain 'synchronous' and 'asynchronous' operations."}
+{"prompt": "Explain the concept of 'code modularity'."}
+{"prompt": "Explain the concept of a 'feedback loop'."}
+{"prompt": "Explain the concept of a 'use case'."}
+{"prompt": "Explain the concept of pair programming."}
+{"prompt": "Explain the difference between 'compiling' and 'interpreting'."}
+{"prompt": "Explain the role of 'cache' in software applications."}
+{"prompt": "Explain the term 'API gateway'."}
+{"prompt": "Explain the term 'backend'."}
+{"prompt": "Explain the term 'data redundancy'."}
+{"prompt": "Explain the term 'hotfix'."}
+{"prompt": "Explain the term 'technical debt'."}
+{"prompt": "Explain what a design pattern is."}
+{"prompt": "What does 'API' stand for?"}
+{"prompt": "What does 'CRUD' stand for?"}
+{"prompt": "What does 'DRY principle' stand for in coding?"}
+{"prompt": "What does 'code review' mean?"}
+{"prompt": "What does 'cross-platform' mean?"}
+{"prompt": "What does 'legacy code' mean?"}
+{"prompt": "What does 'portability' mean in software engineering?"}
+{"prompt": "What does 'refactoring' mean in software engineering?"}
+{"prompt": "What does 'scalability' mean in software engineering?"}
+{"prompt": "What does 'source code' refer to?"}
+{"prompt": "What does 'stateless' mean in software architecture?"}
+{"prompt": "What does 'version control' refer to?"}
+{"prompt": "What is 'UML' in software design?"}
+{"prompt": "What is 'YAGNI principle' in development?"}
+{"prompt": "What is 'binary search'?"}
+{"prompt": "What is 'code optimization'?"}
+{"prompt": "What is 'data encapsulation'?"}
+{"prompt": "What is 'data integrity'?"}
+{"prompt": "What is 'information hiding'?"}
+{"prompt": "What is 'latency' in computer systems?"}
+{"prompt": "What is 'load balancing'?"}
+{"prompt": "What is 'parallel processing'?"}
+{"prompt": "What is 'sandboxing' in software security?"}
+{"prompt": "What is 'sprint planning'?"}
+{"prompt": "What is 'system architecture'?"}
+{"prompt": "What is DevOps?"}
+{"prompt": "What is a 'bug tracker'?"}
+{"prompt": "What is a 'build tool'?"}
+{"prompt": "What is a 'checksum'?"}
+{"prompt": "What is a 'dependency graph'?"}
+{"prompt": "What is a 'mock object' in testing?"}
+{"prompt": "What is a 'service-oriented architecture (SOA)'?"}
+{"prompt": "What is a 'web service'?"}
+{"prompt": "What is a RESTful API?"}
+{"prompt": "What is a code repository?"}
+{"prompt": "What is a constructor in object-oriented programming?"}
+{"prompt": "What is a deployment pipeline?"}
+{"prompt": "What is a framework in software development?"}
+{"prompt": "What is a frontend in web development?"}
+{"prompt": "What is a microservice architecture?"}
+{"prompt": "What is a relational database?"}
+{"prompt": "What is a software library?"}
+{"prompt": "What is a user story in agile?"}
+{"prompt": "What is a virtual machine?"}
+{"prompt": "What is an 'abstract class'?"}
+{"prompt": "What is an algorithm?"}
+{"prompt": "What is an integrated development environment (IDE)?"}
+{"prompt": "What is cloud computing in software terms?"}
+{"prompt": "What is machine learning in the context of software development?"}
+{"prompt": "What is regression testing?"}
+{"prompt": "What is the purpose of 'mocking' in testing?"}
+{"prompt": "What is the purpose of unit testing?"}
+{"prompt": "What is the role of a scrum master?"}
+{"prompt": "What is the software development life cycle (SDLC)?"}
+{"prompt": "Define Mahalanobis distance."}
+{"prompt": "Define a standard deviation."}
+{"prompt": "Define skewness in a dataset."}
+{"prompt": "Define the term \"autoregressive model."}
+{"prompt": "Define the term \"loss function."}
+{"prompt": "Define the term \"null distribution."}
+{"prompt": "Define the term \"outlier."}
+{"prompt": "Define the term \"stationarity\" in time series."}
+{"prompt": "Define what a quantitative variable is."}
+{"prompt": "Define what a random variable is."}
+{"prompt": "Describe the Poisson distribution."}
+{"prompt": "Describe the concept of relative risk."}
+{"prompt": "Describe the meaning of kurtosis."}
+{"prompt": "Describe what LASSO regression does."}
+{"prompt": "Describe what a density function estimates."}
+{"prompt": "Describe what a scatter plot shows."}
+{"prompt": "Describe what a z-score represents."}
+{"prompt": "Explain the concept of Bayesian statistics."}
+{"prompt": "Explain the concept of a null hypothesis."}
+{"prompt": "Explain the concept of cross-validation."}
+{"prompt": "Explain the concept of imputing missing data."}
+{"prompt": "Explain the concept of statistical significance."}
+{"prompt": "Explain the difference between parametric and non-parametric tests."}
+{"prompt": "Explain the idea of a survival function."}
+{"prompt": "Explain the term \"normal distribution."}
+{"prompt": "Explain the term \"regression analysis."}
+{"prompt": "Explain the term \"stationary process."}
+{"prompt": "Explain what a Pareto chart is used for."}
+{"prompt": "Explain what a contingency table is used for."}
+{"prompt": "Explain what an empirical distribution function is."}
+{"prompt": "Explain what convergence in distribution means."}
+{"prompt": "Explain what hierarchical clustering is."}
+{"prompt": "Explain what the ROC curve shows."}
+{"prompt": "How do you define a confidence interval?"}
+{"prompt": "What does \"hyperparameter tuning\" mean?"}
+{"prompt": "What does a correlation coefficient indicate?"}
+{"prompt": "What does a t-test measure?"}
+{"prompt": "What does statistical power mean?"}
+{"prompt": "What does the term \"censored data\" mean?"}
+{"prompt": "What does the term \"data dredging\" mean?"}
+{"prompt": "What does the term \"effect size\" mean?"}
+{"prompt": "What does the term \"interaction effect\" mean?"}
+{"prompt": "What does the term \"likelihood function\" mean?"}
+{"prompt": "What does the term \"multicollinearity\" mean?"}
+{"prompt": "What does the term \"percentile\" refer to?"}
+{"prompt": "What does the term \"survivorship bias\" indicate?"}
+{"prompt": "What is Simpson's paradox?"}
+{"prompt": "What is a Dirichlet distribution?"}
+{"prompt": "What is a Mann-Whitney U test?"}
+{"prompt": "What is a Markov chain?"}
+{"prompt": "What is a bootstrap method?"}
+{"prompt": "What is a chi-square test?"}
+{"prompt": "What is a dummy variable?"}
+{"prompt": "What is a factorial design in experiments?"}
+{"prompt": "What is a hierarchical model?"}
+{"prompt": "What is a jackknife resampling technique?"}
+{"prompt": "What is a latent variable?"}
+{"prompt": "What is a moving average?"}
+{"prompt": "What is a p-value?"}
+{"prompt": "What is a penalized likelihood?"}
+{"prompt": "What is a power analysis?"}
+{"prompt": "What is a profile likelihood?"}
+{"prompt": "What is a qualitative variable?"}
+{"prompt": "What is a rank correlation test?"}
+{"prompt": "What is a residual in regression analysis?"}
+{"prompt": "What is a stopping rule?"}
+{"prompt": "What is a stratified sample?"}
+{"prompt": "What is a time series analysis?"}
+{"prompt": "What is a type I error in hypothesis testing?"}
+{"prompt": "What is a type II error in hypothesis testing?"}
+{"prompt": "What is an ANOVA test?"}
+{"prompt": "What is meant by the term \"heteroscedasticity\"?"}
+{"prompt": "What is meant by the term \"overfitting\" in models?"}
+{"prompt": "What is meant by the term \"range\" in data?"}
+{"prompt": "What is sampling bias?"}
+{"prompt": "What is sequential analysis?"}
+{"prompt": "What is the F-distribution in statistical testing?"}
+{"prompt": "What is the Gini coefficient?"}
+{"prompt": "What is the Wilcoxon signed-rank test?"}
+{"prompt": "What is the benefit of using a linear model?"}
+{"prompt": "What is the central limit theorem?"}
+{"prompt": "What is the concept of a prior distribution in Bayesian analysis?"}
+{"prompt": "What is the difference between covariance and correlation?"}
+{"prompt": "What is the difference between population and sample?"}
+{"prompt": "What is the logit model?"}
+{"prompt": "What is the purpose of Akaike information criterion (AIC)?"}
+{"prompt": "What is the purpose of a scatterplot matrix?"}
+{"prompt": "What is the purpose of using a boxplot?"}
+{"prompt": "What is the purpose of using a histogram?"}
+{"prompt": "What is the variance inflation factor?"}
+{"prompt": "Describe a Moore machine."}
+{"prompt": "Describe a Register machine."}
+{"prompt": "Describe a backtracking algorithm."}
+{"prompt": "Describe a decision problem."}
+{"prompt": "Describe a finite automaton."}
+{"prompt": "Describe a homomorphism in formal languages."}
+{"prompt": "Describe a non-deterministic finite automaton (NFA)."}
+{"prompt": "Describe a pushdown automaton."}
+{"prompt": "Describe a universal Turing machine."}
+{"prompt": "Describe closure properties of regular languages."}
+{"prompt": "Describe how a stack influences computation."}
+{"prompt": "Describe prefix automata in computation."}
+{"prompt": "Describe the FOL (First-Order Logic) in computation theory."}
+{"prompt": "Describe the Kleene star operator."}
+{"prompt": "Describe the Myhill-Nerode theorem."}
+{"prompt": "Describe the concept of time complexity."}
+{"prompt": "Describe the determinization of an automaton."}
+{"prompt": "Describe the diagonalization principle."}
+{"prompt": "Describe the difference between DFA and NFA."}
+{"prompt": "Describe the notion of bisimulation."}
+{"prompt": "Describe the significance of a parse tree."}
+{"prompt": "Describe what a configuration is in terms of Turing machines."}
+{"prompt": "Describe what is meant by a prefix-free language."}
+{"prompt": "Describe what it means for a problem to be NP-complete."}
+{"prompt": "Explain a context-free language."}
+{"prompt": "Explain a subrecursive hierarchy."}
+{"prompt": "Explain ambiguity in context-free grammars."}
+{"prompt": "Explain any undecidability in the Post Correspondence Problem."}
+{"prompt": "Explain commutativity in concurrent computing."}
+{"prompt": "Explain computational complexity classes."}
+{"prompt": "Explain convex linear combinations in relation to automaton."}
+{"prompt": "Explain safety properties in formal verification."}
+{"prompt": "Explain starvation in concurrent computing."}
+{"prompt": "Explain the Pigeonhole Principle in computation."}
+{"prompt": "Explain the concept of decidability."}
+{"prompt": "Explain the concept of equivalence in automata."}
+{"prompt": "Explain the concept of informed search strategies."}
+{"prompt": "Explain the concept of polynomial time."}
+{"prompt": "Explain the convergence of an iterative process in automata."}
+{"prompt": "Explain the halting problem."}
+{"prompt": "Explain the importance of reducibility."}
+{"prompt": "Explain the pumping lemma for regular languages."}
+{"prompt": "Explain the role of lambda calculus in computation theory."}
+{"prompt": "Explain the role of tableau in computation theory."}
+{"prompt": "Explain the unary notation and its usage."}
+{"prompt": "Explain what a language is in computational theory."}
+{"prompt": "Explain zero-knowledge proofs."}
+{"prompt": "What is Cantor\u2019s Theorem?"}
+{"prompt": "What is Rice\u2019s theorem?"}
+{"prompt": "What is XML used for in computation?"}
+{"prompt": "What is a Boolean circuit?"}
+{"prompt": "What is a Cellular Automaton?"}
+{"prompt": "What is a Chomsky hierarchy?"}
+{"prompt": "What is a Mealy machine?"}
+{"prompt": "What is a P vs NP problem?"}
+{"prompt": "What is a Petri net in computation?"}
+{"prompt": "What is a Turing machine?"}
+{"prompt": "What is a Turing-recognizable language?"}
+{"prompt": "What is a cipher in theoretical computation?"}
+{"prompt": "What is a context-free grammar?"}
+{"prompt": "What is a context-sensitive grammar?"}
+{"prompt": "What is a decidable problem?"}
+{"prompt": "What is a deterministic finite automaton (DFA)?"}
+{"prompt": "What is a heap in computation?"}
+{"prompt": "What is a linear bounded automaton?"}
+{"prompt": "What is a minimal state automaton?"}
+{"prompt": "What is a probabilistic Turing machine?"}
+{"prompt": "What is a pushdown automaton used for?"}
+{"prompt": "What is a random access machine?"}
+{"prompt": "What is a recursive enumeration?"}
+{"prompt": "What is a recursive language?"}
+{"prompt": "What is a recursively enumerable language?"}
+{"prompt": "What is a reduction from one problem to another?"}
+{"prompt": "What is a regular language?"}
+{"prompt": "What is a spectrum of a theory in computation?"}
+{"prompt": "What is a succinct representation in automata?"}
+{"prompt": "What is a synchronous product in automata?"}
+{"prompt": "What is a trace in concurrent computations?"}
+{"prompt": "What is an NP-hard problem?"}
+{"prompt": "What is an infinite tape in Turing machines?"}
+{"prompt": "What is an oracle machine?"}
+{"prompt": "What is meant by language equivalence?"}
+{"prompt": "What is mutual exclusion in computation theory?"}
+{"prompt": "What is the Busy Beaver problem?"}
+{"prompt": "What is the Church-Turing thesis?"}
+{"prompt": "What is the difference between syntax and semantics in computation?"}
+{"prompt": "What is the language inclusion problem?"}
+{"prompt": "What is the polynomial hierarchy?"}
+{"prompt": "What is the role of formal languages in computation theory?"}
+{"prompt": "What is the role of graph theory in computations?"}
+{"prompt": "What is the significance of Cook-Levin theorem?"}
+{"prompt": "What is the significance of G\u00f6del numbering?"}
+{"prompt": "What is the undecidability of a language problem?"}
+{"prompt": "What is underspecification in computation?"}
+{"prompt": "Define a weak topology."}
+{"prompt": "Define an Alexandroff extension."}
+{"prompt": "Define an embedding in topology."}
+{"prompt": "Define the concept of a strong deformation retract."}
+{"prompt": "Define what an accumulation point is."}
+{"prompt": "Define what is meant by a covering dimension."}
+{"prompt": "Define what is meant by a covering map."}
+{"prompt": "Describe a CW complex."}
+{"prompt": "Describe a Klein bottle."}
+{"prompt": "Describe a T1 space in topology."}
+{"prompt": "Describe a cohomology."}
+{"prompt": "Describe a continuous mapping."}
+{"prompt": "Describe a convergence in topology."}
+{"prompt": "Describe a homeomorphism in topology."}
+{"prompt": "Describe a hyperspace topology."}
+{"prompt": "Describe a lower semi-continuous function."}
+{"prompt": "Describe a morphism in topology."}
+{"prompt": "Describe a neighborhood in topology."}
+{"prompt": "Describe a product in homotopy theory."}
+{"prompt": "Describe a product topology."}
+{"prompt": "Describe a regularly open set."}
+{"prompt": "Describe a separation axiom."}
+{"prompt": "Describe a sequence topology."}
+{"prompt": "Describe a topological invariant."}
+{"prompt": "Describe the Stone-\u010cech compactification."}
+{"prompt": "Explain a path-connected space."}
+{"prompt": "Explain the concept of a M\u00f6bius strip."}
+{"prompt": "Explain the concept of an open set."}
+{"prompt": "Explain the concept of the Vietoris topology."}
+{"prompt": "Explain the notion of a separable space."}
+{"prompt": "Explain the notion of compactness."}
+{"prompt": "Explain the term \"isometry."}
+{"prompt": "Explain the term \"tangent space."}
+{"prompt": "Explain what a covering space is."}
+{"prompt": "Explain what a deformation retract is."}
+{"prompt": "Explain what a fiber bundle is."}
+{"prompt": "Explain what a genus is in topology."}
+{"prompt": "Explain what a network is in topology."}
+{"prompt": "Explain what a paracompact space is."}
+{"prompt": "Explain what a refinement is in topology."}
+{"prompt": "Explain what a topological dual is."}
+{"prompt": "Explain what is meant by a pushout."}
+{"prompt": "Explain what is meant by a topological sum."}
+{"prompt": "Explain what is meant by an indeterminate form in topology."}
+{"prompt": "How do we define a basis in topology?"}
+{"prompt": "What is Euler characteristic?"}
+{"prompt": "What is a Borel set in topology?"}
+{"prompt": "What is a Frechet space?"}
+{"prompt": "What is a Hausdorff space?"}
+{"prompt": "What is a Stone space?"}
+{"prompt": "What is a Urysohn's lemma?"}
+{"prompt": "What is a closed map?"}
+{"prompt": "What is a closed set in topology?"}
+{"prompt": "What is a compact-open topology?"}
+{"prompt": "What is a component in topology?"}
+{"prompt": "What is a connected space in topology?"}
+{"prompt": "What is a continuous function in topology?"}
+{"prompt": "What is a contraction mapping?"}
+{"prompt": "What is a countability axiom?"}
+{"prompt": "What is a dimension function in topology?"}
+{"prompt": "What is a discrete space?"}
+{"prompt": "What is a fibre in topology?"}
+{"prompt": "What is a fixed point in topology?"}
+{"prompt": "What is a homeotopy?"}
+{"prompt": "What is a homology group?"}
+{"prompt": "What is a homotopy equivalence?"}
+{"prompt": "What is a limit point?"}
+{"prompt": "What is a local homeomorphism?"}
+{"prompt": "What is a manifold in topology?"}
+{"prompt": "What is a metric space?"}
+{"prompt": "What is a noetherian space?"}
+{"prompt": "What is a point-set topology?"}
+{"prompt": "What is a pullback in topology?"}
+{"prompt": "What is a quotient map?"}
+{"prompt": "What is a quotient topology?"}
+{"prompt": "What is a regular space?"}
+{"prompt": "What is a regularly closed set?"}
+{"prompt": "What is a retract in topology?"}
+{"prompt": "What is a simplicial complex?"}
+{"prompt": "What is a skeletally connected space?"}
+{"prompt": "What is a spectral sequence?"}
+{"prompt": "What is a subbasis in topology?"}
+{"prompt": "What is a topological space?"}
+{"prompt": "What is a torus in topology?"}
+{"prompt": "What is a uniform space?"}
+{"prompt": "What is a universal cover?"}
+{"prompt": "What is a wedge sum in topology?"}
+{"prompt": "What is an inductive limit in topology?"}
+{"prompt": "What is an orientable space?"}
+{"prompt": "What is hyperconnected space?"}
+{"prompt": "What is isotopy in topology?"}
+{"prompt": "What is the Tychonoff theorem?"}
+{"prompt": "What is the fundamental group?"}
