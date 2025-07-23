@@ -1,0 +1,13 @@
+#trl==0.19.1 
+#trl>=0.8.9           # ships RewardTrainer, PPOTrainer
+# latest TRL from GitHub main
+-e git+https://github.com/huggingface/trl.git@main#egg=trl
+#accelerate==1.9.0   # optional: latest is fine
+#peft                # LoRA support
+datasets            # JSONL loader
+huggingface-hub
+bitsandbytes>=0.42.0
+s3fs>=2024.12.0,<2025.0
+#peft==0.10.0
+peft>=0.11 
+#accelerate==0.28.0
